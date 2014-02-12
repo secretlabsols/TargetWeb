@@ -1,0 +1,11 @@
+﻿.EnterCopyInvoiceButton {
+    background-repeat:no-repeat; 
+    background-position:5px 50%;  
+    text-indent:28px;
+}
+.EnterCopyInvoiceButtonNew {
+    background-image:url(new16.gif);
+}
+.EnterCopyInvoiceButtonCopy {
+    background-image:url(copy16.gif);
+}

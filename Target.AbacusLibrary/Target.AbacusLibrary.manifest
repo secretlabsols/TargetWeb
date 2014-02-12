@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+
+<assemblyIdentity name="Target.AbacusLibrary" version="1.0.0.166" type="win32" processorArchitecture="x86"/>
+
+<description>Built with: Side-by-Side Manifest Maker, Command Line (4.0.0.4650) (x64)</description>
+<description>Copyright: (c) Maze Computer Communications, Inc.  All rights reserved.</description>
+<description>Licensee: Target Systems &amp; Programming Ltd; Station Court; Hampton in Arden; United Kingdom</description>
+<description>License: 10 user license</description>
+
+<file name="AbacusLibrary.dll">
+ <comClass
+     clsid="{2D67BA5C-047B-4A1D-8E5D-B9CCB965F5C6}"
+     description="AbacusFunctions.General"
+     tlbid="{10CD26FF-1CBA-4A3D-912E-1342908FBEF1}"
+     threadingModel="apartment"
+     progid="AbacusFunctions.General"/>
+ <comClass
+     clsid="{80131C46-9BD2-453D-BDA0-1EECD8090FE3}"
+     description="AbacusFunctions.LibraryFunctions"
+     tlbid="{10CD26FF-1CBA-4A3D-912E-1342908FBEF1}"
+     threadingModel="apartment"
+     progid="AbacusFunctions.LibraryFunctions"/>
+ <comClass
+     clsid="{9D772AC6-3CD1-4328-A485-9514941AB142}"
+     description="AbacusFunctions.AbacusGlobalData"
+     tlbid="{10CD26FF-1CBA-4A3D-912E-1342908FBEF1}"
+     threadingModel="apartment"
+     progid="AbacusFunctions.AbacusGlobalData"/>
+ <typelib
+     tlbid="{10CD26FF-1CBA-4A3D-912E-1342908FBEF1}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<comInterfaceExternalProxyStub 
+     iid="{76807E53-1B97-474C-A8DB-F8666993CA79}"
+     name="LibraryFunctions"
+     tlbid="{10CD26FF-1CBA-4A3D-912E-1342908FBEF1}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{9B3BBF39-D198-4515-BD36-81531A408E0B}"
+     name="General"
+     tlbid="{10CD26FF-1CBA-4A3D-912E-1342908FBEF1}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{E52D7E94-053C-41B5-8314-8C43E0BABEBD}"
+     name="AbacusGlobalData"
+     tlbid="{10CD26FF-1CBA-4A3D-912E-1342908FBEF1}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+
+</assembly>

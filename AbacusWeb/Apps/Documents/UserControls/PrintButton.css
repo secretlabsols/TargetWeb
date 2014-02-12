@@ -1,0 +1,11 @@
+﻿.PrintButton {
+    background-repeat:no-repeat; 
+    background-position:5px 50%;  
+    text-indent:28px;
+}
+.PrintButtonNow {
+    background-image:url(now16.png);
+}
+.PrintButtonLater {
+    background-image:url(later16.png);
+}

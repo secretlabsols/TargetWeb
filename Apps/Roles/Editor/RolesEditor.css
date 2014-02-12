@@ -1,0 +1,28 @@
+﻿.RolesEditor .x-grid-row div:hover
+{
+    cursor: pointer;
+}
+
+.RolesEditor .imgAccept 
+{
+    background-image:url(../../../Images/accept.png);
+    background-repeat: no-repeat;
+}
+
+.RolesEditor .imgDelete 
+{
+    background-image:url(../../../Images/DeleteBlocked.png);
+    background-repeat: no-repeat;   
+}
+
+.RolesEditor .imgDeleteAll 
+{
+    background-image:url(../../../Images/deleteAll.png);
+    background-repeat: no-repeat;   
+}
+
+.RolesEditor .imgInformation 
+{
+    background-image:url(../../../Images/Information.png);
+    background-repeat: no-repeat;   
+}

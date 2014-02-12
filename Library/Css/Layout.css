@@ -1,0 +1,83 @@
+/* Layout only stylesheet. Any colours, fonts, etc should go in Skin.css or the site-specific derivative */
+/* standard tags */
+html, body { margin: 0px; padding: 0px;	}
+caption { text-align: left; }
+/* fieldset { padding: 0px 0.75em 0.75em 0.75em; } */
+form { margin: 0px; }
+hr { border-top-width: 1px; height: 1px; }
+img { border-width: 0px; }
+
+
+textarea { margin: 0px; overflow: auto; }
+
+/* id-ed tag classes */
+#skipNav { position: absolute; top: -1000px; left: -1000px; }
+#divModal {
+	position: absolute;	top: 0px; left: 0px; width: 100%; height: 100%; display: none;
+	display: none;
+}
+
+/* custom, tag-specific classes */
+div.clearer { clear: both; }
+div.contentWrapper { padding: 0.30em; }
+label.inline { display: inline; float: none; }
+button.link { background: none; border: none; text-align:left; overflow:visible; width:auto; }
+
+/* tree view */
+div.treeView { padding: 0.38em; }
+div.treeView img.nodeConnector { vertical-align: top; }
+div.treeView img.nodeImage { vertical-align: top; padding-right: 0.38em; }
+/* list table
+img.sortarrow { padding-left: 0.38em; }
+table.listTable { border-width: 0px; margin-top: 0.50em; margin-bottom: 0.50em; }
+table.listTable th { text-align: left; white-space: nowrap; }
+table.listTable td { border-bottom-width: 1px; white-space: nowrap; } */
+/* file upload */
+input.uploadBox { width: 100%; }
+div.fileUploadProgress { padding: 0.75em; }
+/* checked list box */
+div.checkedListBoxContainer { float: left; text-align: right; }
+div.checkedListBox { text-align: left; border-width: 1px; overflow: auto; margin: 0.15em 0em 0.15em 0em; }
+div.checkedListBox label { display: inline; float: none; top: -0.1em; }
+a.checkedListBoxLink { padding: 0em 0.40em 0em 0.40em; }
+/* dual list */
+fieldset.dualList { float: left; }
+div.dualListBtns { float: left; vertical-align: middle; text-align: center; padding: 1em; }
+div.dualListBtns div { margin-top: 1em; }
+/* custom dialogs */
+div.dialogBox { position: absolute; top:142px !important; }
+
+div.dialogBox #titleText { float: left; }
+div.dialogBox #closeLink { float: right; }
+div.dialogBox #dialogContent { padding: 1em 2em 0em 2em; border-left-width: 2px; border-right-width: 2px; }
+div.dialogBox #dialogButtons { padding: 1em; text-align: center; border-left-width: 2px; border-right-width: 2px; border-bottom-width: 2px; }
+div.dialogBox #dialogButtons input { margin-left: 0.25em; width: 5em; }
+/* progress bar */
+div.progressBarContainer { border-width: 1px; text-align: left;	padding: 1px; }
+div.progressBarFill { overflow: hidden;	text-align: center;	width: 0em; height: 1.2em; }
+div.progressBarText { text-align: center; margin-top: -1.2em; }
+/* stepped progress bar */
+span.steppedProgress { float:left;margin-top:0.30em; margin-left:0.5em; }
+div.steppedProgress { float:left;width:35px;height:10px;border-top-width:1px;border-bottom-width:1px;background-color:#ffffff; }
+img.steppedProgress { float:left; }
+/* collapsible panel */
+span.colPanel img.himg { vertical-align: bottom; margin-right: 0.50em; }
+span.colPanel div.con { padding:10px; }
+span.colPanel fieldset.fs { margin:0.75em; padding:0px;overflow: hidden; }
+span.colPanel fieldset.fsh { display:none; }
+
+/* StdButtons
+fieldset.stdButtons { float:left; padding:0.25em; margin-left:0.25em; margin-bottom:1em; }
+fieldset.stdButtons .stdButtonSearch { float:left; }
+input.stdButton { float:left; width:4.5em; margin-right:0.25em; } */
+/* processing modal div */
+div.procModalDiv { position:absolute; background-color:#FFFFFF; border:outset 0.30em silver; padding:1em; }
+div.procModalDiv img { margin-right:1em; }
+
+/* custom, tag-generic classes */
+.clickable { cursor: pointer; }
+.hidden { display: none; }
+
+/* AjaxToolkit Style Overrides */
+.ajax__tab_header { white-space:normal!important; }
+.ajax__calendar_title { width:auto; }

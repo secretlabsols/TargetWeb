@@ -1,0 +1,22 @@
+.textboxClearer {
+    text-indent: -1000em;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    position: absolute; 
+    top: 2px;    
+}
+
+.textboxClearerSoft {
+    background-image: url(Images/CrossFaded.png);
+}
+
+.textboxClearerHard {
+    background-image: url(Images/Cross.png);
+}
+
+.textboxClearerContainer {
+    position: relative;
+    display: inline-block;
+}

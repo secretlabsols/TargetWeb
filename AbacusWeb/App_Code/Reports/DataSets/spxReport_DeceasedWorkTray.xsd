@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="spxReport_DeceasedWorkTray" targetNamespace="http://tempuri.org/spxReport_DeceasedWorkTray.xsd" xmlns:mstns="http://tempuri.org/spxReport_DeceasedWorkTray.xsd" xmlns="http://tempuri.org/spxReport_DeceasedWorkTray.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="spxReport_DeceasedWorkTray" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="spxReport_DeceasedWorkTray" msprop:Generator_UserDSName="spxReport_DeceasedWorkTray">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DeceasedCases" msprop:Generator_TableClassName="DeceasedCasesDataTable" msprop:Generator_TableVarName="tableDeceasedCases" msprop:Generator_TablePropName="DeceasedCases" msprop:Generator_RowDeletingName="DeceasedCasesRowDeleting" msprop:Generator_UserTableName="DeceasedCases" msprop:Generator_RowChangingName="DeceasedCasesRowChanging" msprop:Generator_RowEvHandlerName="DeceasedCasesRowChangeEventHandler" msprop:Generator_RowDeletedName="DeceasedCasesRowDeleted" msprop:Generator_RowEvArgName="DeceasedCasesRowChangeEvent" msprop:Generator_RowChangedName="DeceasedCasesRowChanged" msprop:Generator_RowClassName="DeceasedCasesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SUReference" msprop:Generator_ColumnVarNameInTable="columnSUReference" msprop:Generator_ColumnPropNameInRow="SUReference" msprop:Generator_ColumnPropNameInTable="SUReferenceColumn" msprop:Generator_UserColumnName="SUReference" type="xs:string" minOccurs="0" />
+              <xs:element name="SUName" msprop:Generator_ColumnVarNameInTable="columnSUName" msprop:Generator_ColumnPropNameInRow="SUName" msprop:Generator_ColumnPropNameInTable="SUNameColumn" msprop:Generator_UserColumnName="SUName" type="xs:string" minOccurs="0" />
+              <xs:element name="DeceasedDate" msprop:Generator_ColumnVarNameInTable="columnDeceasedDate" msprop:Generator_ColumnPropNameInRow="DeceasedDate" msprop:Generator_ColumnPropNameInTable="DeceasedDateColumn" msprop:Generator_UserColumnName="DeceasedDate" type="xs:string" minOccurs="0" />
+              <xs:element name="DeathRecorded" msprop:Generator_ColumnVarNameInTable="columnDeathRecorded" msprop:Generator_ColumnPropNameInRow="DeathRecorded" msprop:Generator_ColumnPropNameInTable="DeathRecordedColumn" msprop:Generator_UserColumnName="DeathRecorded" type="xs:string" minOccurs="0" />
+              <xs:element name="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" msprop:Generator_UserColumnName="Status" type="xs:string" minOccurs="0" />
+              <xs:element name="StatusDate" msprop:Generator_ColumnVarNameInTable="columnStatusDate" msprop:Generator_ColumnPropNameInRow="StatusDate" msprop:Generator_ColumnPropNameInTable="StatusDateColumn" msprop:Generator_UserColumnName="StatusDate" type="xs:string" minOccurs="0" />
+              <xs:element name="StatusBy" msprop:Generator_ColumnVarNameInTable="columnStatusBy" msprop:Generator_ColumnPropNameInRow="StatusBy" msprop:Generator_ColumnPropNameInTable="StatusByColumn" msprop:Generator_UserColumnName="StatusBy" type="xs:string" minOccurs="0" />
+              <xs:element name="SubStatus" msprop:Generator_ColumnVarNameInTable="columnSubStatus" msprop:Generator_ColumnPropNameInRow="SubStatus" msprop:Generator_ColumnPropNameInTable="SubStatusColumn" msprop:Generator_UserColumnName="SubStatus" type="xs:string" minOccurs="0" />
+              <xs:element name="SubStatusBy" msprop:Generator_ColumnVarNameInTable="columnSubStatusBy" msprop:Generator_ColumnPropNameInRow="SubStatusBy" msprop:Generator_ColumnPropNameInTable="SubStatusByColumn" msprop:Generator_UserColumnName="SubStatusBy" type="xs:string" minOccurs="0" />
+              <xs:element name="SubStatusDate" msprop:Generator_ColumnVarNameInTable="columnSubStatusDate" msprop:Generator_ColumnPropNameInRow="SubStatusDate" msprop:Generator_ColumnPropNameInTable="SubStatusDateColumn" msprop:Generator_UserColumnName="SubStatusDate" type="xs:string" minOccurs="0" />
+              <xs:element name="AssignedTo" msprop:Generator_ColumnVarNameInTable="columnAssignedTo" msprop:Generator_ColumnPropNameInRow="AssignedTo" msprop:Generator_ColumnPropNameInTable="AssignedToColumn" msprop:Generator_UserColumnName="AssignedTo" type="xs:string" minOccurs="0" />
+              <xs:element name="NonResBilledUpTo" msprop:Generator_ColumnVarNameInTable="columnNonResBilledUpTo" msprop:Generator_ColumnPropNameInRow="NonResBilledUpTo" msprop:Generator_ColumnPropNameInTable="NonResBilledUpToColumn" msprop:Generator_UserColumnName="NonResBilledUpTo" type="xs:string" minOccurs="0" />
+              <xs:element name="ResBilledUpTo" msprop:Generator_ColumnVarNameInTable="columnResBilledUpTo" msprop:Generator_ColumnPropNameInRow="ResBilledUpTo" msprop:Generator_ColumnPropNameInTable="ResBilledUpToColumn" msprop:Generator_UserColumnName="ResBilledUpTo" type="xs:string" minOccurs="0" />
+              <xs:element name="SDSBilledUpto" msprop:Generator_ColumnVarNameInTable="columnSDSBilledUpto" msprop:Generator_ColumnPropNameInRow="SDSBilledUpto" msprop:Generator_ColumnPropNameInTable="SDSBilledUptoColumn" msprop:Generator_UserColumnName="SDSBilledUpto" type="xs:string" minOccurs="0" />
+              <xs:element name="AccountBalance" msprop:Generator_ColumnVarNameInTable="columnAccountBalance" msprop:Generator_ColumnPropNameInRow="AccountBalance" msprop:Generator_ColumnPropNameInTable="AccountBalanceColumn" msprop:Generator_UserColumnName="AccountBalance" type="xs:string" minOccurs="0" />
+              <xs:element name="CreatedBy" msprop:Generator_ColumnVarNameInTable="columnCreatedBy" msprop:Generator_ColumnPropNameInRow="CreatedBy" msprop:Generator_ColumnPropNameInTable="CreatedByColumn" msprop:Generator_UserColumnName="CreatedBy" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Statusses" msprop:Generator_TableClassName="StatussesDataTable" msprop:Generator_TableVarName="tableStatusses" msprop:Generator_TablePropName="Statusses" msprop:Generator_RowDeletingName="StatussesRowDeleting" msprop:Generator_UserTableName="Statusses" msprop:Generator_RowChangingName="StatussesRowChanging" msprop:Generator_RowEvHandlerName="StatussesRowChangeEventHandler" msprop:Generator_RowDeletedName="StatussesRowDeleted" msprop:Generator_RowEvArgName="StatussesRowChangeEvent" msprop:Generator_RowChangedName="StatussesRowChanged" msprop:Generator_RowClassName="StatussesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ClientID" msdata:Caption="EDSOExceptionID" msprop:Generator_ColumnVarNameInTable="columnClientID" msprop:Generator_ColumnPropNameInRow="ClientID" msprop:Generator_ColumnPropNameInTable="ClientIDColumn" msprop:Generator_UserColumnName="ClientID" type="xs:string" minOccurs="0" />
+              <xs:element name="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:string" minOccurs="0" />
+              <xs:element name="ProcessID" msprop:Generator_ColumnVarNameInTable="columnProcessID" msprop:Generator_ColumnPropNameInRow="ProcessID" msprop:Generator_ColumnPropNameInTable="ProcessIDColumn" msprop:Generator_UserColumnName="ProcessID" type="xs:string" minOccurs="0" />
+              <xs:element name="ProcessItemRef" msprop:Generator_ColumnVarNameInTable="columnProcessItemRef" msprop:Generator_ColumnPropNameInRow="ProcessItemRef" msprop:Generator_ColumnPropNameInTable="ProcessItemRefColumn" msprop:Generator_UserColumnName="ProcessItemRef" type="xs:string" minOccurs="0" />
+              <xs:element name="ChangedOn" msprop:Generator_ColumnVarNameInTable="columnChangedOn" msprop:Generator_ColumnPropNameInRow="ChangedOn" msprop:Generator_ColumnPropNameInTable="ChangedOnColumn" msprop:Generator_UserColumnName="ChangedOn" type="xs:string" minOccurs="0" />
+              <xs:element name="ChangedBy" msprop:Generator_ColumnVarNameInTable="columnChangedBy" msprop:Generator_ColumnPropNameInRow="ChangedBy" msprop:Generator_ColumnPropNameInTable="ChangedByColumn" msprop:Generator_UserColumnName="ChangedBy" type="xs:string" minOccurs="0" />
+              <xs:element name="ProcessStatusID" msprop:Generator_ColumnVarNameInTable="columnProcessStatusID" msprop:Generator_ColumnPropNameInRow="ProcessStatusID" msprop:Generator_ColumnPropNameInTable="ProcessStatusIDColumn" msprop:Generator_UserColumnName="ProcessStatusID" type="xs:string" minOccurs="0" />
+              <xs:element name="ProcessStatusDescription" msprop:Generator_ColumnVarNameInTable="columnProcessStatusDescription" msprop:Generator_ColumnPropNameInRow="ProcessStatusDescription" msprop:Generator_ColumnPropNameInTable="ProcessStatusDescriptionColumn" msprop:Generator_UserColumnName="ProcessStatusDescription" type="xs:string" minOccurs="0" />
+              <xs:element name="ProcessSubStatusID" msprop:Generator_ColumnVarNameInTable="columnProcessSubStatusID" msprop:Generator_ColumnPropNameInRow="ProcessSubStatusID" msprop:Generator_ColumnPropNameInTable="ProcessSubStatusIDColumn" msprop:Generator_UserColumnName="ProcessSubStatusID" type="xs:string" minOccurs="0" />
+              <xs:element name="ProcessSubStatusDescription" msprop:Generator_ColumnVarNameInTable="columnProcessSubStatusDescription" msprop:Generator_ColumnPropNameInRow="ProcessSubStatusDescription" msprop:Generator_ColumnPropNameInTable="ProcessSubStatusDescriptionColumn" msprop:Generator_UserColumnName="ProcessSubStatusDescription" type="xs:string" minOccurs="0" />
+              <xs:element name="AssignedTo" msprop:Generator_ColumnVarNameInTable="columnAssignedTo" msprop:Generator_ColumnPropNameInRow="AssignedTo" msprop:Generator_ColumnPropNameInTable="AssignedToColumn" msprop:Generator_UserColumnName="AssignedTo" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,77 @@
+﻿.Menu 
+{
+    background-color: #FFFFFF;
+    border: solid 1px #999;
+    display: block;
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif; 
+    font-size: 11px;
+    z-index: 99999;
+} 
+
+.Menu .MenuSearcherContainer 
+{
+    background-color: #E6E9ED;
+    padding: 1%;
+    width : 98%;
+}
+    
+ .Menu .MenuItems
+ {
+     list-style-type : none;
+     max-height : 200px;
+     overflow-y: auto;
+     overflow-x: hidden;
+     padding : 1px 0px 1px 0px;
+ }
+ 
+ .Menu .MenuItems ul
+ {
+     margin : 0px 0px 0px 0px;
+     padding : 0px 0px 0px 0px;     
+ }
+ 
+ .Menu .MenuItem
+ {
+    border-top: solid 1px #999;
+    display : block;
+    height: 25px;   
+    overflow: hidden;
+    padding : 10px 1% 0px 1%; 
+    vertical-align : middle;
+    white-space: nowrap;
+    width: 98%;                      
+ }
+ 
+ .Menu .MenuItem:Hover
+ {
+    background-color: #fffea6;    
+    border-top: solid 1px #1D4088;
+    cursor: pointer;             
+ }
+ 
+ .Menu .MenuSearcher 
+ {
+    border: solid 1px #999;
+    width: 98%;   
+ }
+ 
+ .Menu .MenuItemsNone {
+    border-top: solid 1px #999;
+    padding : 5px 1% 1% 1%;
+ }
+ 
+ .Menu .MenuItemAttended
+ {
+    background-image : url(Imgs/Tick.png); 
+    background-repeat : no-repeat; 
+    background-position : 1% 50%;  
+    text-indent : 8%; 
+ }
+ 
+ .Menu .MenuItemNotAttended
+ {
+    background-image: url(Imgs/Cross.png);   
+    background-repeat : no-repeat;
+    background-position : 1% 50%;    
+    text-indent : 8%;   
+ }

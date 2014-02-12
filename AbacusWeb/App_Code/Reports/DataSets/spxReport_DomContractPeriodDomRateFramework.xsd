@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="spxReport_DomContractPeriodDomRateFramework" targetNamespace="http://tempuri.org/spxDomContractPeriodDomRateFramework.xsd" xmlns:mstns="http://tempuri.org/spxDomContractPeriodDomRateFramework.xsd" xmlns="http://tempuri.org/spxDomContractPeriodDomRateFramework.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection ConnectionStringObject="Data Source=MIKEVO-XP\SQL2005;Initial Catalog=LIVE_LIV;User ID=AbacusUser;Password=rack" IsAppSettingsProperty="false" Modifier="Assembly" Name="mikevo-xp\sql2005.LIVE_LIV.dbo" ParameterPrefix="@" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="spxReport_DomContractPeriodDomRateFramework" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="spxReport_DomContractPeriodDomRateFramework" msprop:Generator_DataSetName="spxReport_DomContractPeriodDomRateFramework" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ContractPeriod" msprop:Generator_UserTableName="ContractPeriod" msprop:Generator_RowDeletedName="ContractPeriodRowDeleted" msprop:Generator_RowChangedName="ContractPeriodRowChanged" msprop:Generator_RowClassName="ContractPeriodRow" msprop:Generator_RowChangingName="ContractPeriodRowChanging" msprop:Generator_RowEvArgName="ContractPeriodRowChangeEvent" msprop:Generator_RowEvHandlerName="ContractPeriodRowChangeEventHandler" msprop:Generator_TableClassName="ContractPeriodDataTable" msprop:Generator_TableVarName="tableContractPeriod" msprop:Generator_RowDeletingName="ContractPeriodRowDeleting" msprop:Generator_TablePropName="ContractPeriod">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ProviderName" msprop:Generator_UserColumnName="ProviderName" msprop:Generator_ColumnPropNameInRow="ProviderName" msprop:Generator_ColumnVarNameInTable="columnProviderName" msprop:Generator_ColumnPropNameInTable="ProviderNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ContractTitle" msprop:Generator_UserColumnName="ContractTitle" msprop:Generator_ColumnPropNameInRow="ContractTitle" msprop:Generator_ColumnVarNameInTable="columnContractTitle" msprop:Generator_ColumnPropNameInTable="ContractTitleColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ContractNumber" msprop:Generator_UserColumnName="ContractNumber" msprop:Generator_ColumnPropNameInRow="ContractNumber" msprop:Generator_ColumnVarNameInTable="columnContractNumber" msprop:Generator_ColumnPropNameInTable="ContractNumberColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PeriodDateFrom" msprop:Generator_UserColumnName="PeriodDateFrom" msprop:Generator_ColumnPropNameInRow="PeriodDateFrom" msprop:Generator_ColumnVarNameInTable="columnPeriodDateFrom" msprop:Generator_ColumnPropNameInTable="PeriodDateFromColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PeriodDateTo" msprop:Generator_UserColumnName="PeriodDateTo" msprop:Generator_ColumnPropNameInRow="PeriodDateTo" msprop:Generator_ColumnVarNameInTable="columnPeriodDateTo" msprop:Generator_ColumnPropNameInTable="PeriodDateToColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="BankHolidayCover" msprop:Generator_UserColumnName="BankHolidayCover" msprop:Generator_ColumnPropNameInRow="BankHolidayCover" msprop:Generator_ColumnVarNameInTable="columnBankHolidayCover" msprop:Generator_ColumnPropNameInTable="BankHolidayCoverColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="AllowProviderUnitCostOverride" msprop:Generator_UserColumnName="AllowProviderUnitCostOverride" msprop:Generator_ColumnPropNameInRow="AllowProviderUnitCostOverride" msprop:Generator_ColumnVarNameInTable="columnAllowProviderUnitCostOverride" msprop:Generator_ColumnPropNameInTable="AllowProviderUnitCostOverrideColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="RateFramework" msprop:Generator_UserColumnName="RateFramework" msprop:Generator_ColumnPropNameInRow="RateFramework" msprop:Generator_ColumnVarNameInTable="columnRateFramework" msprop:Generator_ColumnPropNameInTable="RateFrameworkColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ProviderRef" msprop:Generator_UserColumnName="ProviderRef" msprop:Generator_ColumnPropNameInRow="ProviderRef" msprop:Generator_ColumnVarNameInTable="columnProviderRef" msprop:Generator_ColumnPropNameInTable="ProviderRefColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CreditorRef" msprop:Generator_UserColumnName="CreditorRef" msprop:Generator_ColumnVarNameInTable="columnCreditorRef" msprop:Generator_ColumnPropNameInRow="CreditorRef" msprop:Generator_ColumnPropNameInTable="CreditorRefColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FrameworkType" msprop:Generator_UserColumnName="FrameworkType" msprop:Generator_ColumnPropNameInRow="FrameworkType" msprop:Generator_ColumnVarNameInTable="columnFrameworkType" msprop:Generator_ColumnPropNameInTable="FrameworkTypeColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="RateFramework" msprop:Generator_UserTableName="RateFramework" msprop:Generator_RowDeletedName="RateFrameworkRowDeleted" msprop:Generator_RowChangedName="RateFrameworkRowChanged" msprop:Generator_RowClassName="RateFrameworkRow" msprop:Generator_RowChangingName="RateFrameworkRowChanging" msprop:Generator_RowEvArgName="RateFrameworkRowChangeEvent" msprop:Generator_RowEvHandlerName="RateFrameworkRowChangeEventHandler" msprop:Generator_TableClassName="RateFrameworkDataTable" msprop:Generator_TableVarName="tableRateFramework" msprop:Generator_RowDeletingName="RateFrameworkRowDeleting" msprop:Generator_TablePropName="RateFramework">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RateCategory" msprop:Generator_UserColumnName="RateCategory" msprop:Generator_ColumnPropNameInRow="RateCategory" msprop:Generator_ColumnVarNameInTable="columnRateCategory" msprop:Generator_ColumnPropNameInTable="RateCategoryColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ServiceType" msprop:Generator_UserColumnName="ServiceType" msprop:Generator_ColumnPropNameInRow="ServiceType" msprop:Generator_ColumnVarNameInTable="columnServiceType" msprop:Generator_ColumnPropNameInTable="ServiceTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DayCategory" msprop:Generator_UserColumnName="DayCategory" msprop:Generator_ColumnPropNameInRow="DayCategory" msprop:Generator_ColumnVarNameInTable="columnDayCategory" msprop:Generator_ColumnPropNameInTable="DayCategoryColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TimeBand" msprop:Generator_UserColumnName="TimeBand" msprop:Generator_ColumnPropNameInRow="TimeBand" msprop:Generator_ColumnVarNameInTable="columnTimeBand" msprop:Generator_ColumnPropNameInTable="TimeBandColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="UnitsDescription" msprop:Generator_UserColumnName="UnitsDescription" msprop:Generator_ColumnPropNameInRow="UnitsDescription" msprop:Generator_ColumnVarNameInTable="columnUnitsDescription" msprop:Generator_ColumnPropNameInTable="UnitsDescriptionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="UnitCost" msprop:Generator_UserColumnName="UnitCost" msprop:Generator_ColumnPropNameInRow="UnitCost" msprop:Generator_ColumnVarNameInTable="columnUnitCost" msprop:Generator_ColumnPropNameInTable="UnitCostColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DomiciliaryService" msprop:Generator_UserColumnName="DomiciliaryService" msprop:Generator_ColumnPropNameInRow="DomiciliaryService" msprop:Generator_ColumnVarNameInTable="columnDomiciliaryService" msprop:Generator_ColumnPropNameInTable="DomiciliaryServiceColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ServiceLocation" msprop:Generator_UserColumnName="ServiceLocation" msprop:Generator_ColumnPropNameInRow="ServiceLocation" msprop:Generator_ColumnVarNameInTable="columnServiceLocation" msprop:Generator_ColumnPropNameInTable="ServiceLocationColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="RegisterAbbreviation" msprop:Generator_UserColumnName="RegisterAbbreviation" msprop:Generator_ColumnPropNameInRow="RegisterAbbreviation" msprop:Generator_ColumnVarNameInTable="columnRegisterAbbreviation" msprop:Generator_ColumnPropNameInTable="RegisterAbbreviationColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ServiceTypes" msprop:Generator_UserTableName="ServiceTypes" msprop:Generator_RowDeletedName="ServiceTypesRowDeleted" msprop:Generator_RowChangedName="ServiceTypesRowChanged" msprop:Generator_RowClassName="ServiceTypesRow" msprop:Generator_RowChangingName="ServiceTypesRowChanging" msprop:Generator_RowEvArgName="ServiceTypesRowChangeEvent" msprop:Generator_RowEvHandlerName="ServiceTypesRowChangeEventHandler" msprop:Generator_TableClassName="ServiceTypesDataTable" msprop:Generator_TableVarName="tableServiceTypes" msprop:Generator_RowDeletingName="ServiceTypesRowDeleting" msprop:Generator_TablePropName="ServiceTypes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ServiceType" msprop:Generator_UserColumnName="ServiceType" msprop:Generator_ColumnPropNameInRow="ServiceType" msprop:Generator_ColumnVarNameInTable="columnServiceType" msprop:Generator_ColumnPropNameInTable="ServiceTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MinimumDuration" msprop:Generator_UserColumnName="MinimumDuration" msprop:Generator_ColumnPropNameInRow="MinimumDuration" msprop:Generator_ColumnVarNameInTable="columnMinimumDuration" msprop:Generator_ColumnPropNameInTable="MinimumDurationColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

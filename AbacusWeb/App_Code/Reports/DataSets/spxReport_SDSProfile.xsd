@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="spxReport_SDSProfile" targetNamespace="http://tempuri.org/spxReport_SDSProfile.xsd" xmlns:mstns="http://tempuri.org/spxReport_SDSProfile.xsd" xmlns="http://tempuri.org/spxReport_SDSProfile.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="spxReport_SDSProfile" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="spxReport_SDSProfile" msprop:Generator_DataSetName="spxReport_SDSProfile" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Detail" msprop:Generator_UserTableName="Detail" msprop:Generator_RowDeletedName="DetailRowDeleted" msprop:Generator_RowChangedName="DetailRowChanged" msprop:Generator_RowClassName="DetailRow" msprop:Generator_RowChangingName="DetailRowChanging" msprop:Generator_RowEvArgName="DetailRowChangeEvent" msprop:Generator_RowEvHandlerName="DetailRowChangeEventHandler" msprop:Generator_TableClassName="DetailDataTable" msprop:Generator_TableVarName="tableDetail" msprop:Generator_RowDeletingName="DetailRowDeleting" msprop:Generator_TablePropName="Detail">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Reference" msprop:Generator_UserColumnName="Reference" msprop:Generator_ColumnVarNameInTable="columnReference" msprop:Generator_ColumnPropNameInRow="Reference" msprop:Generator_ColumnPropNameInTable="ReferenceColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BirthDate" msprop:Generator_UserColumnName="BirthDate" msprop:Generator_ColumnVarNameInTable="columnBirthDate" msprop:Generator_ColumnPropNameInRow="BirthDate" msprop:Generator_ColumnPropNameInTable="BirthDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Address" msprop:Generator_UserColumnName="Address" msprop:Generator_ColumnVarNameInTable="columnAddress" msprop:Generator_ColumnPropNameInRow="Address" msprop:Generator_ColumnPropNameInTable="AddressColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DebtorNumber" msprop:Generator_UserColumnName="DebtorNumber" msprop:Generator_ColumnVarNameInTable="columnDebtorNumber" msprop:Generator_ColumnPropNameInRow="DebtorNumber" msprop:Generator_ColumnPropNameInTable="DebtorNumberColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CreditorReference" msprop:Generator_UserColumnName="CreditorReference" msprop:Generator_ColumnVarNameInTable="columnCreditorReference" msprop:Generator_ColumnPropNameInRow="CreditorReference" msprop:Generator_ColumnPropNameInTable="CreditorReferenceColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SDSCareFrom" msprop:Generator_UserColumnName="SDSCareFrom" msprop:Generator_ColumnVarNameInTable="columnSDSCareFrom" msprop:Generator_ColumnPropNameInRow="SDSCareFrom" msprop:Generator_ColumnPropNameInTable="SDSCareFromColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="SDSCareTo" msprop:Generator_UserColumnName="SDSCareTo" msprop:Generator_ColumnVarNameInTable="columnSDSCareTo" msprop:Generator_ColumnPropNameInRow="SDSCareTo" msprop:Generator_ColumnPropNameInTable="SDSCareToColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="NonSDSCareFrom" msprop:Generator_UserColumnName="NonSDSCareFrom" msprop:Generator_ColumnVarNameInTable="columnNonSDSCareFrom" msprop:Generator_ColumnPropNameInRow="NonSDSCareFrom" msprop:Generator_ColumnPropNameInTable="NonSDSCareFromColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="NonSDSCareTo" msprop:Generator_UserColumnName="NonSDSCareTo" msprop:Generator_ColumnVarNameInTable="columnNonSDSCareTo" msprop:Generator_ColumnPropNameInRow="NonSDSCareTo" msprop:Generator_ColumnPropNameInTable="NonSDSCareToColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PermanentResCareFrom" msprop:Generator_UserColumnName="PermanentResCareFrom" msprop:Generator_ColumnVarNameInTable="columnPermanentResCareFrom" msprop:Generator_ColumnPropNameInRow="PermanentResCareFrom" msprop:Generator_ColumnPropNameInTable="PermanentResCareFromColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PermanentResCareTo" msprop:Generator_UserColumnName="PermanentResCareTo" msprop:Generator_ColumnVarNameInTable="columnPermanentResCareTo" msprop:Generator_ColumnPropNameInRow="PermanentResCareTo" msprop:Generator_ColumnPropNameInTable="PermanentResCareToColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SDSStatus" msprop:Generator_UserColumnName="SDSStatus" msprop:Generator_ColumnVarNameInTable="columnSDSStatus" msprop:Generator_ColumnPropNameInRow="SDSStatus" msprop:Generator_ColumnPropNameInTable="SDSStatusColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

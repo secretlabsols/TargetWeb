@@ -1,0 +1,480 @@
+﻿
+ #customDate Label
+{
+    padding-top: 5px !important;
+}
+
+#customDate input
+{
+    margin-top: 6px !important;
+}
+
+#customDate img
+{
+    vertical-align: text-bottom;
+    margin-top: 1px;
+}
+
+#customDate .textboxClearerHard {
+   margin-top: 6px;
+}
+
+#customDate .textboxClearerSoft {
+   margin-top: 6px;
+}
+
+
+
+#pageLoading { background-color: #ff0000; color: #ffffff; margin-top:120px; }
+
+.con
+{
+	background-color: #DFEAED !important;
+}
+
+label.SenchaBold
+{
+   font-weight: bold !important;
+}
+
+
+
+/*****************************************************************************************
+SENCHA SECTION 
+******************************************************************************************/
+
+/* Sencha Action Panel */ 
+
+.ActionPanels .AcceptImage
+{
+	background-image:url(Standard/Accept.png);
+	background-repeat: no-repeat;   
+}
+
+.ActionPanels .AddImage
+{
+	background-image:url(Standard/add.png);
+	background-repeat: no-repeat;   
+}
+
+.ActionPanels .AuditLogImage
+{
+	background-image:url(Standard/application_lightning.png);
+	background-repeat: no-repeat;   
+}
+
+.ActionPanels .BlockedImage
+{
+	background-image:url(Standard/DeleteBlocked.png);
+	background-repeat: no-repeat;   
+}
+
+.ActionPanels .CopyImage
+{
+	background-image:url(Standard/CopySmall.png);
+	background-repeat: no-repeat;   
+}
+
+.ActionPanels .FindWithSelectorImage
+{
+	background-image:url(Standard/application_form_magnify.png);
+	background-repeat: no-repeat;   
+}
+
+.ActionPanels .PayAuthoriseImage
+{
+	background-image:url(Standard/MoneyAdd.png);
+	background-repeat: no-repeat;   
+}
+
+.ActionPanels .PayImage
+{
+	background-image:url(Standard/Money.png);
+	background-repeat: no-repeat;   
+}
+
+.ActionPanels .PaySuspendImage
+{
+	background-image:url(Standard/MoneyDelete.png);
+	background-repeat: no-repeat;   
+}
+
+.ActionPanels .ReportImage
+{
+	background-image:url(Standard/ReportGo.png);
+	background-repeat: no-repeat;   
+}
+
+.ActionPanels .StampImage
+{
+	background-image:url(Standard/Stamp.png);
+	background-repeat: no-repeat;   
+}
+
+.ActionPanels .ViewImage
+{
+	background-image:url(Standard/PageGo.png);
+	background-repeat: no-repeat;   
+}
+
+.ActionPanels .SortOrderImage
+{
+	background-image:url(Standard/SortHS.png);
+	background-repeat: no-repeat;   
+}
+
+.ActionPanels .EnhancedRatesImage
+{
+	background-image:url(Standard/EnhancedRates.png);
+	background-repeat: no-repeat;   
+}
+
+.ActionPanels .InclusionsImage
+{
+	background-image:url(Standard/pencil_add.png);
+	background-repeat: no-repeat;   
+}
+
+.ActionPanels .PreclusionsImage
+{
+	background-image:url(Standard/pencil_delete.png);
+	background-repeat: no-repeat;   
+}
+
+.ActionPanels .ExportCsvImage
+{
+	background-image:url(Standard/csv.png);
+	background-repeat: no-repeat;
+}
+
+.ActionPanels .ExportExcelImage
+{
+	background-image:url(Standard/xls16.png);
+	background-repeat: no-repeat;
+}
+
+.ActionPanels .ExportPdfImage
+{
+	background-image:url(Standard/pdf16.png);
+	background-repeat: no-repeat;
+}
+
+.ActionPanels .PreviewImage
+{
+	background-image:url(Standard/preview16.png);
+	background-repeat: no-repeat;
+}
+.ActionPanels .TerminateContract
+{
+	background-image:url(Standard/table_row_delete.png);
+	background-repeat: no-repeat;   
+}
+.ActionPanels .NotifyImage
+{
+	background-image:url(Standard/bell.png);
+	background-repeat: no-repeat;
+}
+.ActionPanels .ReinstateContract
+{
+	background-image:url(Standard/table_refresh.png);
+	background-repeat: no-repeat;   
+}
+
+.ActionPanels .SaveImage
+{
+	background-image:url(Standard/disk.png);
+	background-repeat: no-repeat;   
+}
+.ActionPanels .CreateBatchImage
+{
+	background-image:url(Standard/table_multiple.png);
+	background-repeat: no-repeat;   
+}
+
+.ActionPanels .IncludeCreditorPayment
+{
+	background-image:url(Standard/pencil_add.png);
+	background-repeat: no-repeat;   
+}
+
+.ActionPanels .ExcludeCreditorPayment
+{
+	background-image:url(Standard/pencil_delete.png);
+	background-repeat: no-repeat;   
+}
+
+.ActionPanels .AuthoriseCreditorPayment
+{
+	background-image:url(Standard/coins_add.png);
+	background-repeat: no-repeat;   
+}
+
+.ActionPanels .SuspendCreditorPayment
+{
+	background-image:url(Standard/table_error.png);
+	background-repeat: no-repeat;   
+}
+
+.ActionPanels .NotesCreditorPayment
+{
+	background-image:url(Standard/comment_add.png);
+	background-repeat: no-repeat;   
+}
+
+.ActionPanels .Delete
+{
+	background-image:url(Standard/DataTableDelete.png);
+	background-repeat: no-repeat;
+}
+
+.ActionPanels .Edit
+{
+	background-image:url(Standard/DataTableEdit.png);
+	background-repeat: no-repeat;
+}
+
+.ActionPanels .WorldGo
+{
+	background-image:url(Standard/world_go.png);
+	background-repeat: no-repeat;
+}
+
+.ActionPanels .ToggleImage
+{
+	background-image:url(Standard/arrow_switch.png);
+	background-repeat: no-repeat;   
+}
+
+.ActionPanels .CogEdit
+{
+	background-image:url(Standard/cog_edit.png);
+	background-repeat: no-repeat;   
+}
+
+.ActionPanels .PrintEdit
+{
+	background-image:url(Standard/Print.png);
+	background-repeat: no-repeat;   
+}
+
+
+
+/*******************************************************
+Selector Section 
+********************************************************/
+
+.Selectors { }
+
+.Selectors .Filterable .x-column-header-text 
+{
+	font-style: normal;
+	padding-left: 20px;
+	background-image:url(Standard/Filter.png);
+	background-repeat: no-repeat;  
+}
+
+.Selectors .x-column-header
+{
+    background-repeat: repeat !important;
+}
+
+.Selectors .x-menu-item-icon
+{
+	background-image:url(Standard/DataTable.png); 
+	background-repeat: no-repeat;
+}
+
+.Selectors .x-grid-row div:hover
+{
+	cursor: pointer;
+}
+
+.Selectors .x-grid-row-selected div
+{
+	background-color: #f9f3cd;   
+}
+
+.Selectors .imgDataTable
+{
+	background-image:url(Standard/DataTable.png);
+	background-repeat: no-repeat;
+}
+
+.Selectors .imgDataTableEdit
+{
+	background-image:url(Standard/DataTableEdit.png);
+	background-repeat: no-repeat;
+}
+
+.Selectors .imgDataTableDefault
+{
+	background-image:url(Standard/Star.png);
+	background-repeat: no-repeat;
+}
+
+.Selectors .imgDataTableCreate
+{
+	background-image:url(Standard/DataTableCreate.png);
+	background-repeat: no-repeat;
+}
+
+.Selectors .imgDataTableDelete
+{
+	background-image:url(Standard/DataTableDelete.png);
+	background-repeat: no-repeat;
+}
+
+.Selectors .imgDelete
+{
+	background-image:url(Standard/Delete.png);
+	background-repeat: no-repeat;
+}
+
+.Selectors .imgAdd
+{
+	background-image:url(Standard/Add.png);
+	background-repeat: no-repeat;
+}
+
+.Selectors .imgFiltered
+{
+	background-image:url(Standard/Filter.png);
+	background-repeat: no-repeat;
+}
+
+.Selectors .imgFilterRemove
+{
+	background-image:url(Standard/FilterRemove.png);
+	background-repeat: no-repeat;
+}
+
+.Selectors .imgSave
+{
+	background-image:url(Standard/Disk.png);
+	background-repeat: no-repeat;
+}
+
+.Selectors .imgExport
+{
+	background-image:url(Standard/xls16.png);
+	background-repeat: no-repeat;
+}
+
+.Selectors .imgUndo
+{
+	background-image:url(Standard/arrow_undo.png);
+	background-repeat: no-repeat;   
+}
+
+.Selectors .imgInfo
+{
+	background-image:url(Standard/information.png);
+	background-repeat: no-repeat;   
+}
+
+.Selectors .imgExclamation
+{
+	background-image:url(Standard/exclamation.png); 
+	background-repeat: no-repeat;
+}
+
+.Selectors .imgAccept
+{
+	background-image:url(Standard/accept.png); 
+	background-repeat: no-repeat;
+}
+
+.Selectors .imgMe
+{
+	background-image:url(Standard/user_go.png); 
+	background-repeat: no-repeat;
+}
+
+.Selectors .GenericCreditorPayment-SuspensionReasonBitWiseIndicator 
+{
+	height: 14px; 
+	width: 14px; 
+	clear: none; 
+	float: left; 
+	margin: 0px 3px 0px 0px;
+}
+
+.InPlaceSelector .x-form-text
+{
+	cursor: pointer;
+}
+
+.InPlaceSelector .BtnClear 
+{
+	background-image:url(Standard/TableDelete.png);
+	background-repeat: no-repeat;
+}
+
+.InPlaceSelector .BtnSelect 
+{
+	background-image:url(Standard/TableGo.png);
+	background-repeat: no-repeat;
+}
+
+.Selectors .imgColumns
+{
+	background-image:url(Standard/Columns.gif);
+	background-repeat: no-repeat;
+}
+
+
+/*******************************************************
+Selector Section  Ends
+********************************************************/
+
+
+/* Clear Button */
+
+.ext-ux-clearbutton {
+	width: 12px;
+	height: 12px;
+	background-image: url(Standard/clear-text-icon.gif);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	-moz-user-focus: ignore; /* https://developer.mozilla.org/en/CSS/-moz-user-focus */
+	cursor: pointer;
+	position: absolute; 
+	overflow:  hidden; /* IE 6 :-( */
+	margin-top: 4px;
+	background-color: white;
+} 
+
+.ext-ux-clearbutton-mouse-over-input {
+	background-position: 0 -12px;
+}
+
+.ext-ux-clearbutton-mouse-over-button {
+	background-position: 0 -24px;
+}
+
+
+.ext-ux-clearbutton-mouse-down {
+	background-position: 0 -36px;
+}
+
+.ext-ux-clearbutton-on {
+	opacity: 1;
+	visibility: visible;
+	transition: opacity .35s linear;
+	-webkit-transition: opacity .35s linear;
+	-moz-transition: opacity .35s linear;
+	-o-transition: opacity .35s linear;
+	-ms-transition: opacity .35s linear;
+	-khtml-transition: opacity .35s linear;
+}
+
+.ext-ux-clearbutton-off {
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity .35s linear, visibility .0s linear .35s;
+	-webkit-transition: opacity .35s linear, visibility .0s linear .35s;
+	-moz-transition: opacity .35s linear, visibility .0s linear .35s;
+	-o-transition: opacity .35s linear, visibility .0s linear .35s;
+	-ms-transition: opacity .35s linear, visibility .0s linear .35s;
+	-khtml-transition: opacity .35s linear, visibility .0s linear .35s;
+}

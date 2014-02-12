@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+
+<assemblyIdentity name="abacus.exe" version="1.0.0.166" type="win32" processorArchitecture="x86"/>
+
+<description>Built with: Side-by-Side Manifest Maker, Command Line (4.0.0.4650) (x64)</description>
+<description>Copyright: (c) Maze Computer Communications, Inc.  All rights reserved.</description>
+<description>Licensee: Target Systems &amp; Programming Ltd; Station Court; Hampton in Arden; United Kingdom</description>
+<description>License: 10 user license</description>
+
+<trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+ <security>
+  <requestedPrivileges>
+   <requestedExecutionLevel level="asInvoker" uiAccess="false"/>
+  </requestedPrivileges>
+ </security>
+</trustInfo>
+
+<dependency>
+ <dependentAssembly>
+  <assemblyIdentity name="Target.AbacusClasses" version="1.0.0.166" type="win32" processorArchitecture="x86"/>
+ </dependentAssembly>
+</dependency>
+
+<dependency>
+ <dependentAssembly>
+  <assemblyIdentity name="Target.AbacusClientServer" version="1.0.0.166" type="win32" processorArchitecture="x86"/>
+ </dependentAssembly>
+</dependency>
+
+<dependency>
+ <dependentAssembly>
+  <assemblyIdentity name="Target.AbacusLibrary" version="1.0.0.166" type="win32" processorArchitecture="x86"/>
+ </dependentAssembly>
+</dependency>
+
+</assembly>

@@ -1,0 +1,38 @@
+﻿.tooltipContent {
+    max-height: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.tooltipTable {
+
+}
+
+.tooltipTable tr {
+    text-align: left;
+    vertical-align: text-top;
+    border-bottom: solid 1px #6487DB;
+}
+
+.tooltipTable td {
+    border-bottom: solid 1px #6487DB;
+}
+
+.tooltipName {
+    font-weight: bold;
+    padding-right: 15px;
+    border-right: solid 1px #6487DB;
+    width: 40%;
+}
+
+.tooltipValue {
+    padding-left: 15px;
+    width: 60%;
+}
+
+.ui-tooltip, .qtip{
+	max-width: 600px;
+	min-width: 50px;
+	font-size: 0.9em;
+	font-family: Verdana, Arial, sans-serif;	
+}

@@ -1,0 +1,11 @@
+
+@media print {
+	div.header { display:none; }
+	#divNotif { margin:0em; }
+} 
+@media screen {
+	div.header { padding-top:1em; }
+	#divNotif { margin:1em; }
+}
+div.section { padding-left:2em; }
+li { margin-bottom:1em; }

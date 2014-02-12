@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+
+<assemblyIdentity name="Target.AbacusClientServer" version="1.0.0.166" type="win32" processorArchitecture="x86"/>
+
+<description>Built with: Side-by-Side Manifest Maker, Command Line (4.0.0.4650) (x64)</description>
+<description>Copyright: (c) Maze Computer Communications, Inc.  All rights reserved.</description>
+<description>Licensee: Target Systems &amp; Programming Ltd; Station Court; Hampton in Arden; United Kingdom</description>
+<description>License: 10 user license</description>
+
+<dependency>
+ <dependentAssembly>
+  <assemblyIdentity name="Target.AbacusClasses" version="1.0.0.166" type="win32" processorArchitecture="x86"/>
+ </dependentAssembly>
+</dependency>
+
+<dependency>
+ <dependentAssembly>
+  <assemblyIdentity name="Target.AbacusLibrary" version="1.0.0.166" type="win32" processorArchitecture="x86"/>
+ </dependentAssembly>
+</dependency>
+
+<file name="ABACUSClientServer.dll">
+ <comClass
+     clsid="{02971150-AB79-4CC3-BA55-3EE94C3D905A}"
+     description="ABACUSClientServer.DPCreditorsInterface"
+     tlbid="{73A2694E-A32F-4250-968B-2F7909456C60}"
+     threadingModel="apartment"
+     progid="ABACUSClientServer.DPCreditorsInterface"/>
+ <comClass
+     clsid="{119FC954-2668-41B0-A288-12A7073C84C8}"
+     description="ABACUSClientServer.Client"
+     tlbid="{73A2694E-A32F-4250-968B-2F7909456C60}"
+     threadingModel="apartment"
+     progid="ABACUSClientServer.Client"/>
+ <comClass
+     clsid="{3B1B1302-CBE9-474D-9F7B-DD092B84867E}"
+     description="ABACUSClientServer.SubmitTransactions"
+     tlbid="{73A2694E-A32F-4250-968B-2F7909456C60}"
+     threadingModel="apartment"
+     progid="ABACUSClientServer.SubmitTransactions"/>
+ <comClass
+     clsid="{41AA5D6D-3494-4A0C-97F4-24BC320556D7}"
+     description="ABACUSClientServer.DebtorInterface"
+     tlbid="{73A2694E-A32F-4250-968B-2F7909456C60}"
+     threadingModel="apartment"
+     progid="ABACUSClientServer.DebtorInterface"/>
+ <comClass
+     clsid="{6E46F580-8AC1-46FB-9658-2C560A800DC0}"
+     description="ABACUSClientServer.Establishment"
+     tlbid="{73A2694E-A32F-4250-968B-2F7909456C60}"
+     threadingModel="apartment"
+     progid="ABACUSClientServer.Establishment"/>
+ <comClass
+     clsid="{7206D4A9-6E02-4AB3-B95C-EBB395752135}"
+     description="ABACUSClientServer.PHPCreditorInterface"
+     tlbid="{73A2694E-A32F-4250-968B-2F7909456C60}"
+     threadingModel="apartment"
+     progid="ABACUSClientServer.PHPCreditorInterface"/>
+ <comClass
+     clsid="{7354A5EF-0AB6-4785-891C-63963B3C0A0F}"
+     description="ABACUSClientServer.Assessment"
+     tlbid="{73A2694E-A32F-4250-968B-2F7909456C60}"
+     threadingModel="apartment"
+     progid="ABACUSClientServer.Assessment"/>
+ <comClass
+     clsid="{CE7050EF-78D1-4FC1-8F9C-FEE84D51CA97}"
+     description="ABACUSClientServer.PublishRemittance"
+     tlbid="{73A2694E-A32F-4250-968B-2F7909456C60}"
+     threadingModel="apartment"
+     progid="ABACUSClientServer.PublishRemittance"/>
+ <comClass
+     clsid="{DB533C5D-7C2F-4B5C-ABE7-69398F242ADB}"
+     description="ABACUSClientServer.General"
+     tlbid="{73A2694E-A32F-4250-968B-2F7909456C60}"
+     threadingModel="apartment"
+     progid="ABACUSClientServer.General"/>
+ <comClass
+     clsid="{FE0486F5-5E3C-4EEF-B2BF-9D94A8F8B0FC}"
+     description="ABACUSClientServer.XMLTransformations"
+     tlbid="{73A2694E-A32F-4250-968B-2F7909456C60}"
+     threadingModel="apartment"
+     progid="ABACUSClientServer.XMLTransformations"/>
+ <typelib
+     tlbid="{73A2694E-A32F-4250-968B-2F7909456C60}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<comInterfaceExternalProxyStub 
+     iid="{0862BB4D-CCDB-40AD-9898-B98591FD1EA2}"
+     name="SubmitTransactions"
+     tlbid="{73A2694E-A32F-4250-968B-2F7909456C60}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{08C8A86B-8E28-44B5-89B1-1014A5882396}"
+     name="DPCreditorsInterface"
+     tlbid="{73A2694E-A32F-4250-968B-2F7909456C60}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{16A2121E-BDF8-483B-B9FC-FEB3EE30FF4A}"
+     name="XMLTransformations"
+     tlbid="{73A2694E-A32F-4250-968B-2F7909456C60}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{4119EF9E-9A88-45B8-AADF-CEA8CC45B6C4}"
+     name="Assessment"
+     tlbid="{73A2694E-A32F-4250-968B-2F7909456C60}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{677DBD0C-67B0-43C5-848F-F4C92E3BFF5B}"
+     name="PHPCreditorInterface"
+     tlbid="{73A2694E-A32F-4250-968B-2F7909456C60}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{8017A2A3-4827-4BDD-8C7A-625C5F29E61E}"
+     name="DebtorInterface"
+     tlbid="{73A2694E-A32F-4250-968B-2F7909456C60}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{80A43FFE-BD3A-4BD4-B359-6B4D24C02858}"
+     name="PublishRemittance"
+     tlbid="{73A2694E-A32F-4250-968B-2F7909456C60}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{92697424-2FAD-4707-9E8F-CF527BC32A7E}"
+     name="General"
+     tlbid="{73A2694E-A32F-4250-968B-2F7909456C60}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{D11BC4BC-8C15-478C-812C-28675F9B6912}"
+     name="Establishment"
+     tlbid="{73A2694E-A32F-4250-968B-2F7909456C60}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{D3E2961F-1DA5-4252-B609-A951CC3F8B4A}"
+     name="Client"
+     tlbid="{73A2694E-A32F-4250-968B-2F7909456C60}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+
+</assembly>

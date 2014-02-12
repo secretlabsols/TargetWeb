@@ -1,0 +1,478 @@
+﻿
+/* CORE SKIN.CSS OVERRIDES */
+
+/* standard tags */
+html, body
+{
+    font-family: lucida grande, verdana, Geneva, Helvetica, sans-serif;
+}
+
+textarea
+{
+    font-family: verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+legend
+{
+    color: #004fa3;
+    font-weight: bold;
+}
+
+/* MASTER PAGE SKIN.CSS OVERRIDES */
+
+/* id-ed tag classes */
+#headerContainer
+{
+    background-color: #ffffff;
+    margin-bottom:3px;
+}
+
+    
+#headerLeft  
+{
+       /* background: url(HeaderBgLeft.png) repeat-xy left; 
+        background-color: #FFFFFF;*/
+        
+}
+
+#headerRight  
+{
+         /* background: url(HeaderBgRight.png) repeat-xy right; 
+        background-color: #000000; */
+}
+
+/* header container contains top left and right div   Ends */
+
+.headerLogo  
+{
+    float:left;
+    padding-top:5px;
+    padding-left:5px;
+    padding-bottom:3px;
+ 
+}
+
+.companyLogo  
+{
+    float:right; 
+     padding-top:5px;
+      padding-right:5px;
+}
+
+.footerStrip
+{
+    background-color: #2D892C;
+    border-top: solid 1px #2D892C;
+    border-bottom: solid 1px #2D892C;
+}
+
+.footerStrip a
+{
+    background-color: #ffffff;
+}
+
+
+#subHeaderContainer
+{
+    background-color: #2D892C;
+    color: #ffffff;
+    border-top: solid 1px #2D892C;
+    border-bottom: solid 1px #2D892C;
+}
+
+#subHeaderPageTitle
+{
+    background-color: #2D892C;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.35em;
+}
+
+#textSizeContainer a
+{
+    color: #ffffff;
+}
+
+#textSizeContainer a:hover
+{
+    color: #000000;
+}
+
+#footerContainer
+{
+    background-color: #ffffff;
+    color: #5B5B5B;
+    border-width: 0px;
+    border-top: 1px dotted silver;
+}
+
+
+
+div.dialogBox #dialogTitle 
+{
+    height: 1.25em;
+    padding: 0.5em;
+    border-top-width: 2px; 
+    border-left-width: 2px; 
+    border-bottom-width: 1px; 
+    border-right-width: 2px;
+    background-color: #2d892c;
+    color: white;
+    font-weight: bold;
+    border-style: outset;
+    border-color: #2d892c;
+}
+
+div.dialogBox #dialogContent {
+    background-color: white;
+    color: black;
+    border-left-style: outset;
+    border-left-color: #2d892c;
+    border-right-style: outset;
+    border-right-color: #2d892c;
+}
+
+div.dialogBox #dialogButtons {
+    background-color: white;
+    color: black;
+    border-left-style: outset;
+    border-left-color: #2d892c;
+    border-right-style: outset;
+    border-right-color: #2d892c;
+    border-bottom-style: outset;
+    border-bottom-color: #2d892c;
+}
+
+/* menu styles */
+ul.nav, ul.nav ul
+{
+    background: #e6f3f7;
+    border-width: 0px;
+}
+ul.nav li a
+{
+    border-width: 0px;
+    color: #000000;
+    font-weight: bold;
+    width: 11.45em;
+    border-bottom: 1px dotted silver;
+}
+ul.nav li a:hover
+{
+    border-width: 0px;
+    background-color: #C8E1BF;
+    color: #000000;
+    font-weight: bold;
+    width: 11.45em;
+    border-bottom: 1px solid #C8E1BF;
+}
+
+/* end of menu styles */
+
+div.menuContainer ul#newNav li div.subnav
+{
+    background-color: white;
+    border-top-color: #48b847 !important;
+    border-bottom-color: #48b847 !important;
+    border-left-color: silver;
+    border-right-color: silver;
+}
+
+div.menuContainer ul#newNav
+{
+    background-color: white;
+    border-top-color: white !important;
+}
+
+
+
+/* list table scroll  */
+.tablescroll thead th
+{
+    background: url(ListTableHeaderBg.png) repeat-x top !important;
+    background-color: #2d892c !important;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.tablescroll tbody td
+{
+    border-bottom-style: solid;
+    border-bottom-color: #2d892c !important;
+    border-bottom-width: 1px;
+    white-space: nowrap;
+}
+
+
+/* hyper link inside list table th*/
+table.listTable th {  background: #2d892c; color: #ffffff;	font-weight: bold; }
+table.listTable th a { background-color: transparent; color: #ffffff; text-decoration: none; font-weight: bold; }
+table.listTable th a:hover { background-color: transparent; color: #ffffff; text-decoration: underline; }
+table.listTable th a:focus { border-style: none; }
+table.listTable td { border-bottom-style: solid; border-bottom-color: #2d892c; color:Black; border-width:1px; }
+/* hyper link inside list table td */
+table.listTable td a { background-color: transparent; color: #2d892c; text-decoration: underline; }
+table.listTable td a:hover { background-color: transparent; color: #2d892c; text-decoration: underline; }
+table.listTable td a:focus { border-style: none; }
+
+
+
+fieldset.stdButtons { float:left; padding:0.25em; margin-left:0.25em; margin-bottom:1em; }
+fieldset.stdButtons .stdButtonSearch { float:left; }
+input.stdButton { float:left; width:4.5em; margin-right:0.25em; }
+
+
+/* JQuery tab header and pop up header */
+.ui-widget-header
+{
+    border: 1px solid #2d892c !important;
+    background: #2d892c  !important;
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+/**/
+.ui-widget-content .ui-state-default 
+{
+    border-style:ridge;
+    border-color: #2d892c;
+    background: #2d892c;
+    font-weight: normal;
+    color: #ffffff;
+} 
+
+
+.ui-widget-header .ui-state-default
+{
+    border: 1px solid #FFFFFF;
+    background: #2d892c;
+    font-weight: normal;
+    color: #ffffff;
+} 
+
+/* when mouse move over jQuery button and tabs */
+.ui-widget-header .ui-state-hover
+{
+    border: 1px solid #36A736;
+    background: #36A736;
+    font-weight: normal;
+    color: #ffffff;
+} 
+
+ /* When tab is selected */ 
+ .ui-widget-header .ui-state-active 
+{
+    border: 1px solid #FFFFFF;
+    background: #247124;
+    font-weight: normal;
+    color: #2d892c;
+}
+
+ .ui-widget-header .ui-state-active .ui-tabs .ui-tabs-nav li a
+{
+    border: 1px solid #247124;    /* dark green */
+    background: #247124;
+    font-weight: normal;
+    color: black;
+}
+   
+ /* div borders in jquery Panels */ 
+.ui-widget-content {
+    border: 1px solid #2d892c;
+    color: #222222;
+}
+
+
+hr
+{
+    background-color: white !important;
+    color: #2d892c !important;
+    border-color: #2d892c !important;
+    border-style: solid !important;
+    border-top-width: 1px !important;
+    height: 1px !important;
+}
+
+
+/* filter icon */
+.Filter
+{
+    background-image: url('Filter.png') !important;
+}
+
+
+
+.qNoNote {
+    background-image: url('info18_grey.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: 3.5px 50%
+}
+
+.qPrivateNote {
+    background-image: url('info18_blue.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: 3.5px 50%
+}
+
+.qInvoiceNote {
+    background-image: url('info18_amber.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: 3.5px 50%
+}
+
+.esUnread {
+    background-image: url('BookUnread.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: 20% 50%;
+}
+
+.esRead {
+    background-image: url('BookRead.png');
+    background-repeat: no-repeat;
+    background-position: 20% 50%;
+}
+
+.esSaved {
+    background-image: url('Saved.png');
+    background-repeat: no-repeat;
+    background-position: 20% 50%;
+}
+
+.deleteInvoiceLine {
+    background-image: url('Cross.png');
+    background-repeat: no-repeat;
+    background-position: 3px 3px;
+    width: 20px;
+}
+
+.deleteInvoiceLine:Hover {
+    cursor: pointer;    
+}
+
+.notDelivered {
+    background-image: url('EditTable.png');
+    background-repeat: no-repeat;
+    background-position: 2px 50%;
+    text-indent: 20px;
+    color: #0034B2;
+    font-weight: bold;
+}
+
+.notDelivered:Hover {
+    background-color: #fffea6;
+    cursor: pointer;
+    text-decoration: underline;    
+}
+
+.val {
+    color: Red;
+}
+
+
+/* custom, tag-specific classes */
+div.testSystem { text-transform:uppercase; font-size:1.75em; font-weight:bold; color:#FF0000; border-style:solid; border-color:#FF0000; }
+a.title { background-color: #FFFFFF; font-weight: bold; text-decoration: underline; color: #0034b2; }
+a.title:hover {	background-color: #FFFFFF; font-weight: bold; text-decoration: underline; color: #FF3300; }
+div.footerContent { font-size: 0.8em; }
+div.timeoutVisible { background-color: transparent; color: #FF0000; font-size: smaller; font-weight: bold; }
+p.footnote { font-size: 0.7em; }
+span.selectorWizardTitle { color:#5B5B5B;font-weight:bold;font-size:1.1em; }
+
+/*#footerContainer { background-color: #c8c8c8; color: #5B5B5B; border-width:1px; border-top-style: solid; border-top-color: #6487DB; border-bottom-style: solid; border-bottom-color: #6487DB; }*/
+#fontS { font-size: 0.95em; margin-right:3px; }
+#fontM { font-size: 1.20em; margin-right:3px; }
+#fontL { font-size: 1.45em; margin-right:3px; }
+#fontXL { font-size: 1.60em; margin-right:3px;} 
+
+/* new menu styles */
+@media screen {
+    div.menuContainer ul#newNav {
+        background-color:#ffffff;
+        border-top-color:#ffffff;
+    }
+    div.menuContainer ul#newNav li.topLevel a.topLevel {
+        background-color:transparent;
+        border-left-color:#ffffff;
+        border-right-color:#ffffff;
+    }
+    div.menuContainer ul#newNav li div.subnav {
+	    background-color:#ffffff;
+	    border-top-color:#ffffff;
+	    border-bottom-color:#f87a14;
+	    border-left-color:silver;
+	    border-right-color:silver;
+    }
+    div.menuContainer ul#newNav ul.subnavContent li a {
+        text-decoration:none;
+        background-color:transparent;
+        color:#5B5B5B;
+    }
+    div.menuContainer ul#newNav ul.subnavContent li a:hover {
+        text-decoration:underline;
+    }
+    div.menuContainer ul#newNav ul.subnavContent li dl dt {
+        background-color:#EEEEEE;  
+        font-weight:bold;
+        color: #5B5B5B;    
+    }
+
+    div.menuContainer ul#newNav ul.subnavContent li dl dd a {
+        font-weight:normal;
+    }
+}
+/* end of new menu styles */
+
+
+/* jQuery Tooltip  */
+
+.TooltipInformation {       
+    background-image: url('help18.png');
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    display: block;
+    height: 18px;
+    width: 18px;  
+}
+
+.TooltipInformation:Hover {
+    cursor: pointer;
+}
+
+.tooltipTable td {
+    border-bottom: solid 1px #2d892c;
+}
+
+.tooltipName 
+{
+    font-weight: bold;
+    padding-right: 15px;
+    border-right: solid 1px #2d892c;
+    width: 40%;
+}
+/* jQuery Tooltip  Ends */
+
+.testSystem  
+{
+    text-transform:uppercase; 
+    font-size:1.5em; 
+    font-weight:bold; 
+    color:#FF0000; 
+    border-style:solid; 
+    border-color:#FF0000;    
+}
+
+#testSystemPanel
+{ 
+    height:25px;
+}
+
+
+/*  check box label bold*/    
+label { display: inline-block;
+		font-weight: normal !important; }

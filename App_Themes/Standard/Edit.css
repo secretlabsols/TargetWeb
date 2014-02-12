@@ -1,0 +1,58 @@
+﻿
+#fundingButton:focus {
+    outline: none;
+}
+
+#container {
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+
+#container #fundingButton{
+    width:3em;
+    height:100%;
+    float: left;
+}
+
+.panel {
+    display: none;
+}
+
+a.trig{
+    text-decoration: none;
+    color:#fff;
+    background:url(ChangeFundingDetailButton.png) no-repeat;
+    display: block;
+}
+
+#fundingButton:hover{
+    background:url(ChangeFundingDetailButtonHover.png);
+}
+
+.svcType
+{
+    list-style: none;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+
+.svcType li
+{
+    font-size: 14px;
+    width: 95%;
+    padding: 5px;
+    margin: 1px;
+    background-color: #6487DB;
+    color: #ffffff;
+}
+
+.scvTypeDefault
+{
+    background: url(accept.png) no-repeat center right;
+    
+}
+

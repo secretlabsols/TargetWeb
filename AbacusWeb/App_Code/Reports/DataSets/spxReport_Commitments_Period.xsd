@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="spxReport_Commitments_Period" targetNamespace="http://tempuri.org/spxReport_Commitments_Period.xsd" xmlns:mstns="http://tempuri.org/spxReport_Commitments_Period.xsd" xmlns="http://tempuri.org/spxReport_Commitments_Period.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="spxReport_Commitments_Period" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="spxReport_Commitments_Period" msprop:Generator_UserDSName="spxReport_Commitments_Period">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Range" msprop:Generator_TableClassName="RangeDataTable" msprop:Generator_TableVarName="tableRange" msprop:Generator_RowChangedName="RangeRowChanged" msprop:Generator_TablePropName="Range" msprop:Generator_RowDeletingName="RangeRowDeleting" msprop:Generator_RowChangingName="RangeRowChanging" msprop:Generator_RowEvHandlerName="RangeRowChangeEventHandler" msprop:Generator_RowDeletedName="RangeRowDeleted" msprop:Generator_RowClassName="RangeRow" msprop:Generator_UserTableName="Range" msprop:Generator_RowEvArgName="RangeRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SequenceNumber" msprop:Generator_ColumnVarNameInTable="columnSequenceNumber" msprop:Generator_ColumnPropNameInRow="SequenceNumber" msprop:Generator_ColumnPropNameInTable="SequenceNumberColumn" msprop:Generator_UserColumnName="SequenceNumber" type="xs:int" minOccurs="0" />
+              <xs:element name="CalendarWeekNumber" msprop:Generator_ColumnVarNameInTable="columnCalendarWeekNumber" msprop:Generator_ColumnPropNameInRow="CalendarWeekNumber" msprop:Generator_ColumnPropNameInTable="CalendarWeekNumberColumn" msprop:Generator_UserColumnName="CalendarWeekNumber" type="xs:int" minOccurs="0" />
+              <xs:element name="FrequencyWeekNumber" msprop:Generator_ColumnVarNameInTable="columnFrequencyWeekNumber" msprop:Generator_ColumnPropNameInRow="FrequencyWeekNumber" msprop:Generator_ColumnPropNameInTable="FrequencyWeekNumberColumn" msprop:Generator_UserColumnName="FrequencyWeekNumber" type="xs:int" minOccurs="0" />
+              <xs:element name="PeriodStarts" msprop:Generator_ColumnVarNameInTable="columnPeriodStarts" msprop:Generator_ColumnPropNameInRow="PeriodStarts" msprop:Generator_ColumnPropNameInTable="PeriodStartsColumn" msprop:Generator_UserColumnName="PeriodStarts" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PeriodEnds" msprop:Generator_ColumnVarNameInTable="columnPeriodEnds" msprop:Generator_ColumnPropNameInRow="PeriodEnds" msprop:Generator_ColumnPropNameInTable="PeriodEndsColumn" msprop:Generator_UserColumnName="PeriodEnds" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PeriodDurationDays" msprop:Generator_ColumnVarNameInTable="columnPeriodDurationDays" msprop:Generator_ColumnPropNameInRow="PeriodDurationDays" msprop:Generator_ColumnPropNameInTable="PeriodDurationDaysColumn" msprop:Generator_UserColumnName="PeriodDurationDays" type="xs:int" minOccurs="0" />
+              <xs:element name="PeriodStartDay" msprop:Generator_ColumnVarNameInTable="columnPeriodStartDay" msprop:Generator_ColumnPropNameInRow="PeriodStartDay" msprop:Generator_ColumnPropNameInTable="PeriodStartDayColumn" msprop:Generator_UserColumnName="PeriodStartDay" type="xs:int" minOccurs="0" />
+              <xs:element name="PeriodEndDay" msprop:Generator_ColumnVarNameInTable="columnPeriodEndDay" msprop:Generator_ColumnPropNameInRow="PeriodEndDay" msprop:Generator_ColumnPropNameInTable="PeriodEndDayColumn" msprop:Generator_UserColumnName="PeriodEndDay" type="xs:int" minOccurs="0" />
+              <xs:element name="PeriodStartDayName" msprop:Generator_ColumnVarNameInTable="columnPeriodStartDayName" msprop:Generator_ColumnPropNameInRow="PeriodStartDayName" msprop:Generator_ColumnPropNameInTable="PeriodStartDayNameColumn" msprop:Generator_UserColumnName="PeriodStartDayName" type="xs:string" minOccurs="0" />
+              <xs:element name="PeriodEndDayName" msprop:Generator_ColumnVarNameInTable="columnPeriodEndDayName" msprop:Generator_ColumnPropNameInRow="PeriodEndDayName" msprop:Generator_ColumnPropNameInTable="PeriodEndDayNameColumn" msprop:Generator_UserColumnName="PeriodEndDayName" type="xs:string" minOccurs="0" />
+              <xs:element name="PeriodMonthName" msprop:Generator_ColumnVarNameInTable="columnPeriodMonthName" msprop:Generator_ColumnPropNameInRow="PeriodMonthName" msprop:Generator_ColumnPropNameInTable="PeriodMonthNameColumn" msprop:Generator_UserColumnName="PeriodMonthName" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Data" msprop:Generator_TableClassName="DataDataTable" msprop:Generator_TableVarName="tableData" msprop:Generator_RowChangedName="DataRowChanged" msprop:Generator_TablePropName="Data" msprop:Generator_RowDeletingName="DataRowDeleting" msprop:Generator_RowChangingName="DataRowChanging" msprop:Generator_RowEvHandlerName="DataRowChangeEventHandler" msprop:Generator_RowDeletedName="DataRowDeleted" msprop:Generator_RowClassName="DataRow" msprop:Generator_UserTableName="Data" msprop:Generator_RowEvArgName="DataRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CommitmentReportPivotByPeriodId" msprop:Generator_ColumnVarNameInTable="columnCommitmentReportPivotByPeriodId" msprop:Generator_ColumnPropNameInRow="CommitmentReportPivotByPeriodId" msprop:Generator_ColumnPropNameInTable="CommitmentReportPivotByPeriodIdColumn" msprop:Generator_UserColumnName="CommitmentReportPivotByPeriodId" type="xs:int" />
+              <xs:element name="CommitmentReportId" msprop:Generator_ColumnVarNameInTable="columnCommitmentReportId" msprop:Generator_ColumnPropNameInRow="CommitmentReportId" msprop:Generator_ColumnPropNameInTable="CommitmentReportIdColumn" msprop:Generator_UserColumnName="CommitmentReportId" type="xs:int" />
+              <xs:element name="FinanceCode" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnFinanceCode" msprop:Generator_ColumnPropNameInRow="FinanceCode" msprop:Generator_ColumnPropNameInTable="FinanceCodeColumn" msprop:Generator_UserColumnName="FinanceCode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="35" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ContractId" msprop:Generator_ColumnVarNameInTable="columnContractId" msprop:Generator_ColumnPropNameInRow="ContractId" msprop:Generator_ColumnPropNameInTable="ContractIdColumn" msprop:Generator_UserColumnName="ContractId" type="xs:int" />
+              <xs:element name="ContractTitle" msprop:Generator_ColumnVarNameInTable="columnContractTitle" msprop:Generator_ColumnPropNameInRow="ContractTitle" msprop:Generator_ColumnPropNameInTable="ContractTitleColumn" msprop:Generator_UserColumnName="ContractTitle">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ContractNumber" msprop:Generator_ColumnVarNameInTable="columnContractNumber" msprop:Generator_ColumnPropNameInRow="ContractNumber" msprop:Generator_ColumnPropNameInTable="ContractNumberColumn" msprop:Generator_UserColumnName="ContractNumber" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ContractProviderUniqueReference" msprop:Generator_ColumnVarNameInTable="columnContractProviderUniqueReference" msprop:Generator_ColumnPropNameInRow="ContractProviderUniqueReference" msprop:Generator_ColumnPropNameInTable="ContractProviderUniqueReferenceColumn" msprop:Generator_UserColumnName="ContractProviderUniqueReference" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ContractType" msprop:Generator_ColumnVarNameInTable="columnContractType" msprop:Generator_ColumnPropNameInRow="ContractType" msprop:Generator_ColumnPropNameInTable="ContractTypeColumn" msprop:Generator_UserColumnName="ContractType" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ProviderId" msprop:Generator_ColumnVarNameInTable="columnProviderId" msprop:Generator_ColumnPropNameInRow="ProviderId" msprop:Generator_ColumnPropNameInTable="ProviderIdColumn" msprop:Generator_UserColumnName="ProviderId" type="xs:int" />
+              <xs:element name="ProviderName" msprop:Generator_ColumnVarNameInTable="columnProviderName" msprop:Generator_ColumnPropNameInRow="ProviderName" msprop:Generator_ColumnPropNameInTable="ProviderNameColumn" msprop:Generator_UserColumnName="ProviderName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ProviderCreditorReference" msprop:Generator_ColumnVarNameInTable="columnProviderCreditorReference" msprop:Generator_ColumnPropNameInRow="ProviderCreditorReference" msprop:Generator_ColumnPropNameInTable="ProviderCreditorReferenceColumn" msprop:Generator_UserColumnName="ProviderCreditorReference" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RateCategoryId" msprop:Generator_ColumnVarNameInTable="columnRateCategoryId" msprop:Generator_ColumnPropNameInRow="RateCategoryId" msprop:Generator_ColumnPropNameInTable="RateCategoryIdColumn" msprop:Generator_UserColumnName="RateCategoryId" type="xs:int" />
+              <xs:element name="RateCategory" msprop:Generator_ColumnVarNameInTable="columnRateCategory" msprop:Generator_ColumnPropNameInRow="RateCategory" msprop:Generator_ColumnPropNameInTable="RateCategoryColumn" msprop:Generator_UserColumnName="RateCategory">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RateCategoryUnitsOfService" msprop:Generator_ColumnVarNameInTable="columnRateCategoryUnitsOfService" msprop:Generator_ColumnPropNameInRow="RateCategoryUnitsOfService" msprop:Generator_ColumnPropNameInTable="RateCategoryUnitsOfServiceColumn" msprop:Generator_UserColumnName="RateCategoryUnitsOfService" type="xs:string" minOccurs="0" />
+              <xs:element name="ServiceOrderId" msprop:Generator_ColumnVarNameInTable="columnServiceOrderId" msprop:Generator_ColumnPropNameInRow="ServiceOrderId" msprop:Generator_ColumnPropNameInTable="ServiceOrderIdColumn" msprop:Generator_UserColumnName="ServiceOrderId" type="xs:int" />
+              <xs:element name="ServiceOrderDetailId" msprop:Generator_ColumnVarNameInTable="columnServiceOrderDetailId" msprop:Generator_ColumnPropNameInRow="ServiceOrderDetailId" msprop:Generator_ColumnPropNameInTable="ServiceOrderDetailIdColumn" msprop:Generator_UserColumnName="ServiceOrderDetailId" type="xs:int" />
+              <xs:element name="ServiceOrderReference" msprop:Generator_ColumnVarNameInTable="columnServiceOrderReference" msprop:Generator_ColumnPropNameInRow="ServiceOrderReference" msprop:Generator_ColumnPropNameInTable="ServiceOrderReferenceColumn" msprop:Generator_UserColumnName="ServiceOrderReference">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ServiceOrderStarts" msprop:Generator_ColumnVarNameInTable="columnServiceOrderStarts" msprop:Generator_ColumnPropNameInRow="ServiceOrderStarts" msprop:Generator_ColumnPropNameInTable="ServiceOrderStartsColumn" msprop:Generator_UserColumnName="ServiceOrderStarts" type="xs:dateTime" />
+              <xs:element name="ServiceOrderEnds" msprop:Generator_ColumnVarNameInTable="columnServiceOrderEnds" msprop:Generator_ColumnPropNameInRow="ServiceOrderEnds" msprop:Generator_ColumnPropNameInTable="ServiceOrderEndsColumn" msprop:Generator_UserColumnName="ServiceOrderEnds" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ServiceOrderEndsReason" msprop:Generator_ColumnVarNameInTable="columnServiceOrderEndsReason" msprop:Generator_ColumnPropNameInRow="ServiceOrderEndsReason" msprop:Generator_ColumnPropNameInTable="ServiceOrderEndsReasonColumn" msprop:Generator_UserColumnName="ServiceOrderEndsReason" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ServiceOrderProjectCode" msprop:Generator_ColumnVarNameInTable="columnServiceOrderProjectCode" msprop:Generator_ColumnPropNameInRow="ServiceOrderProjectCode" msprop:Generator_ColumnPropNameInTable="ServiceOrderProjectCodeColumn" msprop:Generator_UserColumnName="ServiceOrderProjectCode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="18" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ServiceOrderComment" msprop:Generator_ColumnVarNameInTable="columnServiceOrderComment" msprop:Generator_ColumnPropNameInRow="ServiceOrderComment" msprop:Generator_ColumnPropNameInTable="ServiceOrderCommentColumn" msprop:Generator_UserColumnName="ServiceOrderComment" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ServiceOrderLineStarts" msprop:Generator_ColumnVarNameInTable="columnServiceOrderLineStarts" msprop:Generator_ColumnPropNameInRow="ServiceOrderLineStarts" msprop:Generator_ColumnPropNameInTable="ServiceOrderLineStartsColumn" msprop:Generator_UserColumnName="ServiceOrderLineStarts" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ServiceOrderLineEnds" msprop:Generator_ColumnVarNameInTable="columnServiceOrderLineEnds" msprop:Generator_ColumnPropNameInRow="ServiceOrderLineEnds" msprop:Generator_ColumnPropNameInTable="ServiceOrderLineEndsColumn" msprop:Generator_UserColumnName="ServiceOrderLineEnds" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ServiceOrderLineFrequency" msprop:Generator_ColumnVarNameInTable="columnServiceOrderLineFrequency" msprop:Generator_ColumnPropNameInRow="ServiceOrderLineFrequency" msprop:Generator_ColumnPropNameInTable="ServiceOrderLineFrequencyColumn" msprop:Generator_UserColumnName="ServiceOrderLineFrequency" type="xs:int" minOccurs="0" />
+              <xs:element name="ServiceType" msprop:Generator_ColumnVarNameInTable="columnServiceType" msprop:Generator_ColumnPropNameInRow="ServiceType" msprop:Generator_ColumnPropNameInTable="ServiceTypeColumn" msprop:Generator_UserColumnName="ServiceType">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ServiceGroup" msprop:Generator_ColumnVarNameInTable="columnServiceGroup" msprop:Generator_ColumnPropNameInRow="ServiceGroup" msprop:Generator_ColumnPropNameInTable="ServiceGroupColumn" msprop:Generator_UserColumnName="ServiceGroup" type="xs:string" minOccurs="0" />
+              <xs:element name="ServiceUserId" msprop:Generator_ColumnVarNameInTable="columnServiceUserId" msprop:Generator_ColumnPropNameInRow="ServiceUserId" msprop:Generator_ColumnPropNameInTable="ServiceUserIdColumn" msprop:Generator_UserColumnName="ServiceUserId" type="xs:int" />
+              <xs:element name="ServiceUserCreatedOn" msprop:Generator_ColumnVarNameInTable="columnServiceUserCreatedOn" msprop:Generator_ColumnPropNameInRow="ServiceUserCreatedOn" msprop:Generator_ColumnPropNameInTable="ServiceUserCreatedOnColumn" msprop:Generator_UserColumnName="ServiceUserCreatedOn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ServiceUserName" msprop:Generator_ColumnVarNameInTable="columnServiceUserName" msprop:Generator_ColumnPropNameInRow="ServiceUserName" msprop:Generator_ColumnPropNameInTable="ServiceUserNameColumn" msprop:Generator_UserColumnName="ServiceUserName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ServiceUserForenames" msprop:Generator_ColumnVarNameInTable="columnServiceUserForenames" msprop:Generator_ColumnPropNameInRow="ServiceUserForenames" msprop:Generator_ColumnPropNameInTable="ServiceUserForenamesColumn" msprop:Generator_UserColumnName="ServiceUserForenames" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ServiceUserSurname" msprop:Generator_ColumnVarNameInTable="columnServiceUserSurname" msprop:Generator_ColumnPropNameInRow="ServiceUserSurname" msprop:Generator_ColumnPropNameInTable="ServiceUserSurnameColumn" msprop:Generator_UserColumnName="ServiceUserSurname" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ServiceUserReference" msprop:Generator_ColumnVarNameInTable="columnServiceUserReference" msprop:Generator_ColumnPropNameInRow="ServiceUserReference" msprop:Generator_ColumnPropNameInTable="ServiceUserReferenceColumn" msprop:Generator_UserColumnName="ServiceUserReference" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ServiceUserAlternativeReference" msprop:Generator_ColumnVarNameInTable="columnServiceUserAlternativeReference" msprop:Generator_ColumnPropNameInRow="ServiceUserAlternativeReference" msprop:Generator_ColumnPropNameInTable="ServiceUserAlternativeReferenceColumn" msprop:Generator_UserColumnName="ServiceUserAlternativeReference" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ServiceUserDateOfBirth" msprop:Generator_ColumnVarNameInTable="columnServiceUserDateOfBirth" msprop:Generator_ColumnPropNameInRow="ServiceUserDateOfBirth" msprop:Generator_ColumnPropNameInTable="ServiceUserDateOfBirthColumn" msprop:Generator_UserColumnName="ServiceUserDateOfBirth" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ServiceUserDateOfDeath" msprop:Generator_ColumnVarNameInTable="columnServiceUserDateOfDeath" msprop:Generator_ColumnPropNameInRow="ServiceUserDateOfDeath" msprop:Generator_ColumnPropNameInTable="ServiceUserDateOfDeathColumn" msprop:Generator_UserColumnName="ServiceUserDateOfDeath" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ServiceUserCreditorReference" msprop:Generator_ColumnVarNameInTable="columnServiceUserCreditorReference" msprop:Generator_ColumnPropNameInRow="ServiceUserCreditorReference" msprop:Generator_ColumnPropNameInTable="ServiceUserCreditorReferenceColumn" msprop:Generator_UserColumnName="ServiceUserCreditorReference" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ServiceUserDebtorReference" msprop:Generator_ColumnVarNameInTable="columnServiceUserDebtorReference" msprop:Generator_ColumnPropNameInRow="ServiceUserDebtorReference" msprop:Generator_ColumnPropNameInTable="ServiceUserDebtorReferenceColumn" msprop:Generator_UserColumnName="ServiceUserDebtorReference" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ServiceUserNHSNumber" msprop:Generator_ColumnVarNameInTable="columnServiceUserNHSNumber" msprop:Generator_ColumnPropNameInRow="ServiceUserNHSNumber" msprop:Generator_ColumnPropNameInTable="ServiceUserNHSNumberColumn" msprop:Generator_UserColumnName="ServiceUserNHSNumber" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Period1_Commitment" msprop:Generator_ColumnVarNameInTable="columnPeriod1_Commitment" msprop:Generator_ColumnPropNameInRow="Period1_Commitment" msprop:Generator_ColumnPropNameInTable="Period1_CommitmentColumn" msprop:Generator_UserColumnName="Period1_Commitment" type="xs:decimal" />
+              <xs:element name="Period2_Commitment" msprop:Generator_ColumnVarNameInTable="columnPeriod2_Commitment" msprop:Generator_ColumnPropNameInRow="Period2_Commitment" msprop:Generator_ColumnPropNameInTable="Period2_CommitmentColumn" msprop:Generator_UserColumnName="Period2_Commitment" type="xs:decimal" />
+              <xs:element name="Period3_Commitment" msprop:Generator_ColumnVarNameInTable="columnPeriod3_Commitment" msprop:Generator_ColumnPropNameInRow="Period3_Commitment" msprop:Generator_ColumnPropNameInTable="Period3_CommitmentColumn" msprop:Generator_UserColumnName="Period3_Commitment" type="xs:decimal" />
+              <xs:element name="Period4_Commitment" msprop:Generator_ColumnVarNameInTable="columnPeriod4_Commitment" msprop:Generator_ColumnPropNameInRow="Period4_Commitment" msprop:Generator_ColumnPropNameInTable="Period4_CommitmentColumn" msprop:Generator_UserColumnName="Period4_Commitment" type="xs:decimal" />
+              <xs:element name="Period5_Commitment" msprop:Generator_ColumnVarNameInTable="columnPeriod5_Commitment" msprop:Generator_ColumnPropNameInRow="Period5_Commitment" msprop:Generator_ColumnPropNameInTable="Period5_CommitmentColumn" msprop:Generator_UserColumnName="Period5_Commitment" type="xs:decimal" />
+              <xs:element name="Period6_Commitment" msprop:Generator_ColumnVarNameInTable="columnPeriod6_Commitment" msprop:Generator_ColumnPropNameInRow="Period6_Commitment" msprop:Generator_ColumnPropNameInTable="Period6_CommitmentColumn" msprop:Generator_UserColumnName="Period6_Commitment" type="xs:decimal" />
+              <xs:element name="Period7_Commitment" msprop:Generator_ColumnVarNameInTable="columnPeriod7_Commitment" msprop:Generator_ColumnPropNameInRow="Period7_Commitment" msprop:Generator_ColumnPropNameInTable="Period7_CommitmentColumn" msprop:Generator_UserColumnName="Period7_Commitment" type="xs:decimal" />
+              <xs:element name="Period8_Commitment" msprop:Generator_ColumnVarNameInTable="columnPeriod8_Commitment" msprop:Generator_ColumnPropNameInRow="Period8_Commitment" msprop:Generator_ColumnPropNameInTable="Period8_CommitmentColumn" msprop:Generator_UserColumnName="Period8_Commitment" type="xs:decimal" />
+              <xs:element name="Period9_Commitment" msprop:Generator_ColumnVarNameInTable="columnPeriod9_Commitment" msprop:Generator_ColumnPropNameInRow="Period9_Commitment" msprop:Generator_ColumnPropNameInTable="Period9_CommitmentColumn" msprop:Generator_UserColumnName="Period9_Commitment" type="xs:decimal" />
+              <xs:element name="Period10_Commitment" msprop:Generator_ColumnVarNameInTable="columnPeriod10_Commitment" msprop:Generator_ColumnPropNameInRow="Period10_Commitment" msprop:Generator_ColumnPropNameInTable="Period10_CommitmentColumn" msprop:Generator_UserColumnName="Period10_Commitment" type="xs:decimal" />
+              <xs:element name="Period11_Commitment" msprop:Generator_ColumnVarNameInTable="columnPeriod11_Commitment" msprop:Generator_ColumnPropNameInRow="Period11_Commitment" msprop:Generator_ColumnPropNameInTable="Period11_CommitmentColumn" msprop:Generator_UserColumnName="Period11_Commitment" type="xs:decimal" />
+              <xs:element name="Period12_Commitment" msprop:Generator_ColumnVarNameInTable="columnPeriod12_Commitment" msprop:Generator_ColumnPropNameInRow="Period12_Commitment" msprop:Generator_ColumnPropNameInTable="Period12_CommitmentColumn" msprop:Generator_UserColumnName="Period12_Commitment" type="xs:decimal" />
+              <xs:element name="Period1_Expenditure" msprop:Generator_ColumnVarNameInTable="columnPeriod1_Expenditure" msprop:Generator_ColumnPropNameInRow="Period1_Expenditure" msprop:Generator_ColumnPropNameInTable="Period1_ExpenditureColumn" msprop:Generator_UserColumnName="Period1_Expenditure" type="xs:decimal" />
+              <xs:element name="Period2_Expenditure" msprop:Generator_ColumnVarNameInTable="columnPeriod2_Expenditure" msprop:Generator_ColumnPropNameInRow="Period2_Expenditure" msprop:Generator_ColumnPropNameInTable="Period2_ExpenditureColumn" msprop:Generator_UserColumnName="Period2_Expenditure" type="xs:decimal" />
+              <xs:element name="Period3_Expenditure" msprop:Generator_ColumnVarNameInTable="columnPeriod3_Expenditure" msprop:Generator_ColumnPropNameInRow="Period3_Expenditure" msprop:Generator_ColumnPropNameInTable="Period3_ExpenditureColumn" msprop:Generator_UserColumnName="Period3_Expenditure" type="xs:decimal" />
+              <xs:element name="Period4_Expenditure" msprop:Generator_ColumnVarNameInTable="columnPeriod4_Expenditure" msprop:Generator_ColumnPropNameInRow="Period4_Expenditure" msprop:Generator_ColumnPropNameInTable="Period4_ExpenditureColumn" msprop:Generator_UserColumnName="Period4_Expenditure" type="xs:decimal" />
+              <xs:element name="Period5_Expenditure" msprop:Generator_ColumnVarNameInTable="columnPeriod5_Expenditure" msprop:Generator_ColumnPropNameInRow="Period5_Expenditure" msprop:Generator_ColumnPropNameInTable="Period5_ExpenditureColumn" msprop:Generator_UserColumnName="Period5_Expenditure" type="xs:decimal" />
+              <xs:element name="Period6_Expenditure" msprop:Generator_ColumnVarNameInTable="columnPeriod6_Expenditure" msprop:Generator_ColumnPropNameInRow="Period6_Expenditure" msprop:Generator_ColumnPropNameInTable="Period6_ExpenditureColumn" msprop:Generator_UserColumnName="Period6_Expenditure" type="xs:decimal" />
+              <xs:element name="Period7_Expenditure" msprop:Generator_ColumnVarNameInTable="columnPeriod7_Expenditure" msprop:Generator_ColumnPropNameInRow="Period7_Expenditure" msprop:Generator_ColumnPropNameInTable="Period7_ExpenditureColumn" msprop:Generator_UserColumnName="Period7_Expenditure" type="xs:decimal" />
+              <xs:element name="Period8_Expenditure" msprop:Generator_ColumnVarNameInTable="columnPeriod8_Expenditure" msprop:Generator_ColumnPropNameInRow="Period8_Expenditure" msprop:Generator_ColumnPropNameInTable="Period8_ExpenditureColumn" msprop:Generator_UserColumnName="Period8_Expenditure" type="xs:decimal" />
+              <xs:element name="Period9_Expenditure" msprop:Generator_ColumnVarNameInTable="columnPeriod9_Expenditure" msprop:Generator_ColumnPropNameInRow="Period9_Expenditure" msprop:Generator_ColumnPropNameInTable="Period9_ExpenditureColumn" msprop:Generator_UserColumnName="Period9_Expenditure" type="xs:decimal" />
+              <xs:element name="Period10_Expenditure" msprop:Generator_ColumnVarNameInTable="columnPeriod10_Expenditure" msprop:Generator_ColumnPropNameInRow="Period10_Expenditure" msprop:Generator_ColumnPropNameInTable="Period10_ExpenditureColumn" msprop:Generator_UserColumnName="Period10_Expenditure" type="xs:decimal" />
+              <xs:element name="Period11_Expenditure" msprop:Generator_ColumnVarNameInTable="columnPeriod11_Expenditure" msprop:Generator_ColumnPropNameInRow="Period11_Expenditure" msprop:Generator_ColumnPropNameInTable="Period11_ExpenditureColumn" msprop:Generator_UserColumnName="Period11_Expenditure" type="xs:decimal" />
+              <xs:element name="Period12_Expenditure" msprop:Generator_ColumnVarNameInTable="columnPeriod12_Expenditure" msprop:Generator_ColumnPropNameInRow="Period12_Expenditure" msprop:Generator_ColumnPropNameInTable="Period12_ExpenditureColumn" msprop:Generator_UserColumnName="Period12_Expenditure" type="xs:decimal" />
+              <xs:element name="Period1_Suspension" msprop:Generator_ColumnVarNameInTable="columnPeriod1_Suspension" msprop:Generator_ColumnPropNameInRow="Period1_Suspension" msprop:Generator_ColumnPropNameInTable="Period1_SuspensionColumn" msprop:Generator_UserColumnName="Period1_Suspension" type="xs:decimal" />
+              <xs:element name="Period2_Suspension" msprop:Generator_ColumnVarNameInTable="columnPeriod2_Suspension" msprop:Generator_ColumnPropNameInRow="Period2_Suspension" msprop:Generator_ColumnPropNameInTable="Period2_SuspensionColumn" msprop:Generator_UserColumnName="Period2_Suspension" type="xs:decimal" />
+              <xs:element name="Period3_Suspension" msprop:Generator_ColumnVarNameInTable="columnPeriod3_Suspension" msprop:Generator_ColumnPropNameInRow="Period3_Suspension" msprop:Generator_ColumnPropNameInTable="Period3_SuspensionColumn" msprop:Generator_UserColumnName="Period3_Suspension" type="xs:decimal" />
+              <xs:element name="Period4_Suspension" msprop:Generator_ColumnVarNameInTable="columnPeriod4_Suspension" msprop:Generator_ColumnPropNameInRow="Period4_Suspension" msprop:Generator_ColumnPropNameInTable="Period4_SuspensionColumn" msprop:Generator_UserColumnName="Period4_Suspension" type="xs:decimal" />
+              <xs:element name="Period5_Suspension" msprop:Generator_ColumnVarNameInTable="columnPeriod5_Suspension" msprop:Generator_ColumnPropNameInRow="Period5_Suspension" msprop:Generator_ColumnPropNameInTable="Period5_SuspensionColumn" msprop:Generator_UserColumnName="Period5_Suspension" type="xs:decimal" />
+              <xs:element name="Period6_Suspension" msprop:Generator_ColumnVarNameInTable="columnPeriod6_Suspension" msprop:Generator_ColumnPropNameInRow="Period6_Suspension" msprop:Generator_ColumnPropNameInTable="Period6_SuspensionColumn" msprop:Generator_UserColumnName="Period6_Suspension" type="xs:decimal" />
+              <xs:element name="Period7_Suspension" msprop:Generator_ColumnVarNameInTable="columnPeriod7_Suspension" msprop:Generator_ColumnPropNameInRow="Period7_Suspension" msprop:Generator_ColumnPropNameInTable="Period7_SuspensionColumn" msprop:Generator_UserColumnName="Period7_Suspension" type="xs:decimal" />
+              <xs:element name="Period8_Suspension" msprop:Generator_ColumnVarNameInTable="columnPeriod8_Suspension" msprop:Generator_ColumnPropNameInRow="Period8_Suspension" msprop:Generator_ColumnPropNameInTable="Period8_SuspensionColumn" msprop:Generator_UserColumnName="Period8_Suspension" type="xs:decimal" />
+              <xs:element name="Period9_Suspension" msprop:Generator_ColumnVarNameInTable="columnPeriod9_Suspension" msprop:Generator_ColumnPropNameInRow="Period9_Suspension" msprop:Generator_ColumnPropNameInTable="Period9_SuspensionColumn" msprop:Generator_UserColumnName="Period9_Suspension" type="xs:decimal" />
+              <xs:element name="Period10_Suspension" msprop:Generator_ColumnVarNameInTable="columnPeriod10_Suspension" msprop:Generator_ColumnPropNameInRow="Period10_Suspension" msprop:Generator_ColumnPropNameInTable="Period10_SuspensionColumn" msprop:Generator_UserColumnName="Period10_Suspension" type="xs:decimal" />
+              <xs:element name="Period11_Suspension" msprop:Generator_ColumnVarNameInTable="columnPeriod11_Suspension" msprop:Generator_ColumnPropNameInRow="Period11_Suspension" msprop:Generator_ColumnPropNameInTable="Period11_SuspensionColumn" msprop:Generator_UserColumnName="Period11_Suspension" type="xs:decimal" />
+              <xs:element name="Period12_Suspension" msprop:Generator_ColumnVarNameInTable="columnPeriod12_Suspension" msprop:Generator_ColumnPropNameInRow="Period12_Suspension" msprop:Generator_ColumnPropNameInTable="Period12_SuspensionColumn" msprop:Generator_UserColumnName="Period12_Suspension" type="xs:decimal" />
+              <xs:element name="Period1_Starts" msprop:Generator_ColumnVarNameInTable="columnPeriod1_Starts" msprop:Generator_ColumnPropNameInRow="Period1_Starts" msprop:Generator_ColumnPropNameInTable="Period1_StartsColumn" msprop:Generator_UserColumnName="Period1_Starts" type="xs:dateTime" />
+              <xs:element name="Period1_Ends" msprop:Generator_ColumnVarNameInTable="columnPeriod1_Ends" msprop:Generator_ColumnPropNameInRow="Period1_Ends" msprop:Generator_ColumnPropNameInTable="Period1_EndsColumn" msprop:Generator_UserColumnName="Period1_Ends" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Period2_Starts" msprop:Generator_ColumnVarNameInTable="columnPeriod2_Starts" msprop:Generator_ColumnPropNameInRow="Period2_Starts" msprop:Generator_ColumnPropNameInTable="Period2_StartsColumn" msprop:Generator_UserColumnName="Period2_Starts" type="xs:dateTime" />
+              <xs:element name="Period2_Ends" msprop:Generator_ColumnVarNameInTable="columnPeriod2_Ends" msprop:Generator_ColumnPropNameInRow="Period2_Ends" msprop:Generator_ColumnPropNameInTable="Period2_EndsColumn" msprop:Generator_UserColumnName="Period2_Ends" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Period3_Starts" msprop:Generator_ColumnVarNameInTable="columnPeriod3_Starts" msprop:Generator_ColumnPropNameInRow="Period3_Starts" msprop:Generator_ColumnPropNameInTable="Period3_StartsColumn" msprop:Generator_UserColumnName="Period3_Starts" type="xs:dateTime" />
+              <xs:element name="Period3_Ends" msprop:Generator_ColumnVarNameInTable="columnPeriod3_Ends" msprop:Generator_ColumnPropNameInRow="Period3_Ends" msprop:Generator_ColumnPropNameInTable="Period3_EndsColumn" msprop:Generator_UserColumnName="Period3_Ends" type="xs:string" minOccurs="0" />
+              <xs:element name="Period4_Starts" msprop:Generator_ColumnVarNameInTable="columnPeriod4_Starts" msprop:Generator_ColumnPropNameInRow="Period4_Starts" msprop:Generator_ColumnPropNameInTable="Period4_StartsColumn" msprop:Generator_UserColumnName="Period4_Starts" type="xs:dateTime" />
+              <xs:element name="Period4_Ends" msprop:Generator_ColumnVarNameInTable="columnPeriod4_Ends" msprop:Generator_ColumnPropNameInRow="Period4_Ends" msprop:Generator_ColumnPropNameInTable="Period4_EndsColumn" msprop:Generator_UserColumnName="Period4_Ends" type="xs:string" minOccurs="0" />
+              <xs:element name="Period5_Starts" msprop:Generator_ColumnVarNameInTable="columnPeriod5_Starts" msprop:Generator_ColumnPropNameInRow="Period5_Starts" msprop:Generator_ColumnPropNameInTable="Period5_StartsColumn" msprop:Generator_UserColumnName="Period5_Starts" type="xs:dateTime" />
+              <xs:element name="Period5_Ends" msprop:Generator_ColumnVarNameInTable="columnPeriod5_Ends" msprop:Generator_ColumnPropNameInRow="Period5_Ends" msprop:Generator_ColumnPropNameInTable="Period5_EndsColumn" msprop:Generator_UserColumnName="Period5_Ends" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Period6_Starts" msprop:Generator_ColumnVarNameInTable="columnPeriod6_Starts" msprop:Generator_ColumnPropNameInRow="Period6_Starts" msprop:Generator_ColumnPropNameInTable="Period6_StartsColumn" msprop:Generator_UserColumnName="Period6_Starts" type="xs:dateTime" />
+              <xs:element name="Period6_Ends" msprop:Generator_ColumnVarNameInTable="columnPeriod6_Ends" msprop:Generator_ColumnPropNameInRow="Period6_Ends" msprop:Generator_ColumnPropNameInTable="Period6_EndsColumn" msprop:Generator_UserColumnName="Period6_Ends" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Period7_Starts" msprop:Generator_ColumnVarNameInTable="columnPeriod7_Starts" msprop:Generator_ColumnPropNameInRow="Period7_Starts" msprop:Generator_ColumnPropNameInTable="Period7_StartsColumn" msprop:Generator_UserColumnName="Period7_Starts" type="xs:dateTime" />
+              <xs:element name="Period7_Ends" msprop:Generator_ColumnVarNameInTable="columnPeriod7_Ends" msprop:Generator_ColumnPropNameInRow="Period7_Ends" msprop:Generator_ColumnPropNameInTable="Period7_EndsColumn" msprop:Generator_UserColumnName="Period7_Ends" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Period8_Starts" msprop:Generator_ColumnVarNameInTable="columnPeriod8_Starts" msprop:Generator_ColumnPropNameInRow="Period8_Starts" msprop:Generator_ColumnPropNameInTable="Period8_StartsColumn" msprop:Generator_UserColumnName="Period8_Starts" type="xs:dateTime" />
+              <xs:element name="Period8_Ends" msprop:Generator_ColumnVarNameInTable="columnPeriod8_Ends" msprop:Generator_ColumnPropNameInRow="Period8_Ends" msprop:Generator_ColumnPropNameInTable="Period8_EndsColumn" msprop:Generator_UserColumnName="Period8_Ends" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Period9_Starts" msprop:Generator_ColumnVarNameInTable="columnPeriod9_Starts" msprop:Generator_ColumnPropNameInRow="Period9_Starts" msprop:Generator_ColumnPropNameInTable="Period9_StartsColumn" msprop:Generator_UserColumnName="Period9_Starts" type="xs:dateTime" />
+              <xs:element name="Period9_Ends" msprop:Generator_ColumnVarNameInTable="columnPeriod9_Ends" msprop:Generator_ColumnPropNameInRow="Period9_Ends" msprop:Generator_ColumnPropNameInTable="Period9_EndsColumn" msprop:Generator_UserColumnName="Period9_Ends" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Period10_Starts" msprop:Generator_ColumnVarNameInTable="columnPeriod10_Starts" msprop:Generator_ColumnPropNameInRow="Period10_Starts" msprop:Generator_ColumnPropNameInTable="Period10_StartsColumn" msprop:Generator_UserColumnName="Period10_Starts" type="xs:dateTime" />
+              <xs:element name="Period10_Ends" msprop:Generator_ColumnVarNameInTable="columnPeriod10_Ends" msprop:Generator_ColumnPropNameInRow="Period10_Ends" msprop:Generator_ColumnPropNameInTable="Period10_EndsColumn" msprop:Generator_UserColumnName="Period10_Ends" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Period11_Starts" msprop:Generator_ColumnVarNameInTable="columnPeriod11_Starts" msprop:Generator_ColumnPropNameInRow="Period11_Starts" msprop:Generator_ColumnPropNameInTable="Period11_StartsColumn" msprop:Generator_UserColumnName="Period11_Starts" type="xs:dateTime" />
+              <xs:element name="Period11_Ends" msprop:Generator_ColumnVarNameInTable="columnPeriod11_Ends" msprop:Generator_ColumnPropNameInRow="Period11_Ends" msprop:Generator_ColumnPropNameInTable="Period11_EndsColumn" msprop:Generator_UserColumnName="Period11_Ends" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Period12_Starts" msprop:Generator_ColumnVarNameInTable="columnPeriod12_Starts" msprop:Generator_ColumnPropNameInRow="Period12_Starts" msprop:Generator_ColumnPropNameInTable="Period12_StartsColumn" msprop:Generator_UserColumnName="Period12_Starts" type="xs:dateTime" />
+              <xs:element name="Period12_Ends" msprop:Generator_ColumnVarNameInTable="columnPeriod12_Ends" msprop:Generator_ColumnPropNameInRow="Period12_Ends" msprop:Generator_ColumnPropNameInTable="Period12_EndsColumn" msprop:Generator_UserColumnName="Period12_Ends" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Total_Commitment" msprop:Generator_ColumnVarNameInTable="columnTotal_Commitment" msprop:Generator_ColumnPropNameInRow="Total_Commitment" msprop:Generator_ColumnPropNameInTable="Total_CommitmentColumn" msprop:Generator_UserColumnName="Total_Commitment" type="xs:decimal" />
+              <xs:element name="Total_Expenditure" msprop:Generator_ColumnVarNameInTable="columnTotal_Expenditure" msprop:Generator_ColumnPropNameInRow="Total_Expenditure" msprop:Generator_ColumnPropNameInTable="Total_ExpenditureColumn" msprop:Generator_UserColumnName="Total_Expenditure" type="xs:decimal" />
+              <xs:element name="Total_Suspension" msprop:Generator_ColumnVarNameInTable="columnTotal_Suspension" msprop:Generator_ColumnPropNameInRow="Total_Suspension" msprop:Generator_ColumnPropNameInTable="Total_SuspensionColumn" msprop:Generator_UserColumnName="Total_Suspension" type="xs:decimal" />
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

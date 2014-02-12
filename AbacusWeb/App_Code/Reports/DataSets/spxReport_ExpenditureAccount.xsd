@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="spxReport_ExpenditureAccount" targetNamespace="http://tempuri.org/spxReport_ExpenditureAccount.xsd" xmlns:mstns="http://tempuri.org/spxReport_ExpenditureAccount.xsd" xmlns="http://tempuri.org/spxReport_ExpenditureAccount.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="spxReport_ExpenditureAccount" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="spxReport_ExpenditureAccount" msprop:Generator_DataSetName="spxReport_ExpenditureAccount" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AccountGroup" msprop:Generator_UserTableName="AccountGroup" msprop:Generator_RowDeletedName="AccountGroupRowDeleted" msprop:Generator_RowChangedName="AccountGroupRowChanged" msprop:Generator_RowClassName="AccountGroupRow" msprop:Generator_RowChangingName="AccountGroupRowChanging" msprop:Generator_RowEvArgName="AccountGroupRowChangeEvent" msprop:Generator_RowEvHandlerName="AccountGroupRowChangeEventHandler" msprop:Generator_TableClassName="AccountGroupDataTable" msprop:Generator_TableVarName="tableAccountGroup" msprop:Generator_RowDeletingName="AccountGroupRowDeleting" msprop:Generator_TablePropName="AccountGroup">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TypeID" msprop:Generator_UserColumnName="TypeID" msprop:Generator_ColumnVarNameInTable="columnTypeID" msprop:Generator_ColumnPropNameInRow="TypeID" msprop:Generator_ColumnPropNameInTable="TypeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Type" msprop:Generator_UserColumnName="Type" msprop:Generator_ColumnVarNameInTable="columnType" msprop:Generator_ColumnPropNameInRow="Type" msprop:Generator_ColumnPropNameInTable="TypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PrimaryCareTrust" msprop:Generator_UserColumnName="PrimaryCareTrust" msprop:Generator_ColumnVarNameInTable="columnPrimaryCareTrust" msprop:Generator_ColumnPropNameInRow="PrimaryCareTrust" msprop:Generator_ColumnPropNameInTable="PrimaryCareTrustColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ServiceUser" msprop:Generator_UserColumnName="ServiceUser" msprop:Generator_ColumnVarNameInTable="columnServiceUser" msprop:Generator_ColumnPropNameInRow="ServiceUser" msprop:Generator_ColumnPropNameInTable="ServiceUserColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ThirdParty" msprop:Generator_UserColumnName="ThirdParty" msprop:Generator_ColumnVarNameInTable="columnThirdParty" msprop:Generator_ColumnPropNameInRow="ThirdParty" msprop:Generator_ColumnPropNameInTable="ThirdPartyColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="OtherLocalAuthority" msprop:Generator_UserColumnName="OtherLocalAuthority" msprop:Generator_ColumnVarNameInTable="columnOtherLocalAuthority" msprop:Generator_ColumnPropNameInRow="OtherLocalAuthority" msprop:Generator_ColumnPropNameInTable="OtherLocalAuthorityColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Redundant" msprop:Generator_UserColumnName="Redundant" msprop:Generator_ColumnVarNameInTable="columnRedundant" msprop:Generator_ColumnPropNameInRow="Redundant" msprop:Generator_ColumnPropNameInTable="RedundantColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Organization" msprop:Generator_UserColumnName="Organization" msprop:Generator_ColumnPropNameInRow="Organization" msprop:Generator_ColumnVarNameInTable="columnOrganization" msprop:Generator_ColumnPropNameInTable="OrganizationColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ServiceTypes" msprop:Generator_UserTableName="ServiceTypes" msprop:Generator_RowDeletedName="ServiceTypesRowDeleted" msprop:Generator_RowChangedName="ServiceTypesRowChanged" msprop:Generator_RowClassName="ServiceTypesRow" msprop:Generator_RowChangingName="ServiceTypesRowChanging" msprop:Generator_RowEvArgName="ServiceTypesRowChangeEvent" msprop:Generator_RowEvHandlerName="ServiceTypesRowChangeEventHandler" msprop:Generator_TableClassName="ServiceTypesDataTable" msprop:Generator_TableVarName="tableServiceTypes" msprop:Generator_RowDeletingName="ServiceTypesRowDeleting" msprop:Generator_TablePropName="ServiceTypes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ServiceType" msprop:Generator_UserColumnName="ServiceType" msprop:Generator_ColumnVarNameInTable="columnServiceType" msprop:Generator_ColumnPropNameInRow="ServiceType" msprop:Generator_ColumnPropNameInTable="ServiceTypeColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AccountCodes" msprop:Generator_UserTableName="AccountCodes" msprop:Generator_RowDeletedName="AccountCodesRowDeleted" msprop:Generator_RowChangedName="AccountCodesRowChanged" msprop:Generator_RowClassName="AccountCodesRow" msprop:Generator_RowChangingName="AccountCodesRowChanging" msprop:Generator_RowEvArgName="AccountCodesRowChangeEvent" msprop:Generator_RowEvHandlerName="AccountCodesRowChangeEventHandler" msprop:Generator_TableClassName="AccountCodesDataTable" msprop:Generator_TableVarName="tableAccountCodes" msprop:Generator_RowDeletingName="AccountCodesRowDeleting" msprop:Generator_TablePropName="AccountCodes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ExpenditureCode" msprop:Generator_UserColumnName="ExpenditureCode" msprop:Generator_ColumnVarNameInTable="columnExpenditureCode" msprop:Generator_ColumnPropNameInRow="ExpenditureCode" msprop:Generator_ColumnPropNameInTable="ExpenditureCodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="IncomeCode" msprop:Generator_UserColumnName="IncomeCode" msprop:Generator_ColumnVarNameInTable="columnIncomeCode" msprop:Generator_ColumnPropNameInRow="IncomeCode" msprop:Generator_ColumnPropNameInTable="IncomeCodeColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

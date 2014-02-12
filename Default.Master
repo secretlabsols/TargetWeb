@@ -1,0 +1,109 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Default.master.vb" Inherits="Target.Web.DefaultMaster" %>
+
+<%@ Register TagPrefix="ajaxToolkit" Namespace="AjaxControlToolkit" Assembly="AjaxControlToolkit" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-GB">
+<head runat="server">
+    <title>
+        <asp:Literal ID="litHtmlTitle" runat="server" EnableViewState="False" /></title>
+    <meta http-equiv="Content-Type" content="application/html+xml; charset=utf-8" />
+    <meta name="e-GMS.accessibility" scheme="WCAG" content="Single-A" />
+    <meta name="eGMS.Coverage.Spatial" content="United Kingdom" />
+    <meta name="DC.creator" content="Target Systems &amp; Programming Ltd, Station Court, Old Station Road, Hampton in Arden, Solihull, B92 0HA." />
+    <meta name="DC.publisher" content="Target Systems &amp; Programming Ltd, Station Court, Old Station Road, Hampton in Arden, Solihull, B92 0HA." />
+    <asp:Literal ID="litHomeLink" runat="server" EnableViewState="False"></asp:Literal>
+    <asp:Literal ID="litCssReferences" runat="server" EnableViewState="False"></asp:Literal>
+    <asp:Literal ID="litJSReferences" runat="server" EnableViewState="False"></asp:Literal>
+    <asp:Literal ID="litExtraCssStyles" runat="server" EnableViewState="False"></asp:Literal>
+</head>
+<body>
+    <div>
+        <a href="#content" id="skipNav" accesskey="2">Skip to main content</a></div>
+    <form id="aspnetForm" runat="server" autocomplete="off">
+    <ajaxToolkit:ToolkitScriptManager runat="Server" ID="ScriptManager1" />
+    <div id="menuContainer" class="menuContainer" runat="server">
+        <div id="testSystemPanel">
+            <asp:Label ID="testSystem" class="testSystem" runat="server" EnableViewState="false"
+                Text="Test System"></asp:Label>
+        </div>
+        <div>
+            <asp:PlaceHolder ID="phMenu" runat="server" />
+        </div>
+    </div>
+    <div id="pageLoading">
+        Loading...</div>
+    <div id="headerContainer">
+        <div id="headerLeft" class="headerLogo">
+            <asp:HyperLink CssClass="transBg" ID="lnkHeaderLogo" runat="server" AccessKey="1"
+                EnableViewState="False">
+                <asp:Image ID="imgHeaderLogo" runat="server" EnableViewState="False" />
+            </asp:HyperLink>
+        </div>
+        <div id="headerRight" class="companyLogo">
+            <asp:Image ID="imgCompanyLogo" alt="Company logo" runat="server" EnableViewState="False"
+                SkinID="CompanyLogo" />
+        </div>
+    </div>
+    <div id="subHeaderContainer">
+        <div id="subHeaderPageTitle">
+            <asp:ContentPlaceHolder ID="MPPageTitle" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="textSizeContainer">
+            <a href="javascript:TextSize('0.8');" id="fontS" class="magnifier" title="Change the text size to Small">
+                A</a> 
+            <a href="javascript:TextSize('0.9');" id="fontM" class="magnifier" title="Change the text size to Standard">
+                    A</a> 
+            <a href="javascript:TextSize('1.0');" id="fontL" class="magnifier" title="Change the text size to Large">
+                        A</a> 
+            <a href="javascript:TextSize('1.1');" id="fontXL" class="magnifier" title="Change the text size to Extra Large">
+                            A</a>
+            <asp:HyperLink ID="lnkHelpLink" CssClass="transBg" runat="server" AccessKey="3" EnableViewState="False">
+						<asp:Image  AlternateText="Need help?" runat="server" SkinID="Help" ImageUrl="~/Images/help18.png" />
+            </asp:HyperLink>
+        </div>
+        <div id="timeoutWrapper">
+            <div class="timeout hidden" id="timeoutDesc">
+                &nbsp;</div>
+            <div class="timeout hidden" id="timeout">
+            </div>
+        </div>
+    </div>
+    <div id="subHeaderContainerSeperator"></div>
+    <div id="contentContainer">
+        <div class="contentWrapper">
+            <a id="content"></a>
+            <div id="pageOverviewContainer" class="MPPageOverview">
+                <asp:ContentPlaceHolder ID="MPPageOverview" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="errorText">
+                <asp:ContentPlaceHolder ID="MPPageError" runat="server" EnableViewState="false">
+                </asp:ContentPlaceHolder>
+                <asp:PlaceHolder ID="phValidationSummaries" runat="server" EnableViewState="false">
+                </asp:PlaceHolder>
+            </div>
+            <asp:ContentPlaceHolder ID="MPContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    <br />
+    <div id="footerContainer" class="footerStrip">
+        <div class="contentWrapper footerContent">
+            <div style="float: left;">
+            </div>
+            <div style="float: right;">
+                <asp:HyperLink CssClass="transBg" ID="lnkAccessibility" runat="server" AccessKey="0"
+                    EnableViewState="False">Accessibility</asp:HyperLink>
+            </div>
+            <br />
+            <div style="float: right;">
+                <asp:HyperLink CssClass="transBg" ID="lnkAbout" runat="server" EnableViewState="False">About</asp:HyperLink>
+            </div>
+        </div>
+    </div>
+    <div id="divModal" style="position: absolute">
+    </div>
+    </form>
+</body>
+</html>

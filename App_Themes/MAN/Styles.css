@@ -1,0 +1,1801 @@
+﻿
+/* CORE SKIN.CSS OVERRIDES */
+
+/* standard tags */
+html, body
+{
+    font-family: normal 13px lucida grande, verdana, Geneva, Helvetica, sans-serif;
+}
+
+
+h1 { 	color: #6487DB;	font-size: 1.75em; }
+h2 { 	color: #6487DB;	font-size: 1.50em; }
+h3 { 	color: #6487DB;	font-size: 1.25em; }
+h4 { 	color: #6487DB;	font-size: 0.99em; }
+
+textarea
+{
+    font-family: lucida grande, verdana, Geneva, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+legend
+{
+    color: #004fa3;
+    font-weight: bold;
+}
+
+/* MASTER PAGE SKIN.CSS OVERRIDES */
+
+/* id-ed tag classes */
+#headerContainer
+{
+    height:59px;
+}
+
+    
+#headerLeft  
+{
+       /* background: url(HeaderBgLeft.png) repeat-xy left; 
+        background-color: #FFFFFF;*/
+        
+}
+
+#headerRight  
+{
+         /* background: url(HeaderBgRight.png) repeat-xy right; 
+        background-color: #000000; */
+}
+
+/* header container contains top left and right div   Ends */
+
+.errorText  
+{
+	 color: #FF0000;	
+	 font-weight: bold; 
+}
+
+.ContractSummary 
+{
+	font-size: 0.75em; 
+	font-style: italic;
+	font-weight: bold; 
+}
+
+.warningText 
+{ 
+    color: #ff9933; 
+    font-weight: bold !important; 
+}
+
+.headerLogo  
+{
+    float:left;
+    padding-top:5px;
+    padding-left:5px;
+    padding-bottom:3px;
+ 
+}
+
+.companyLogo  
+{
+    float:right; 
+     padding-top:5px;
+      padding-right:5px;
+}
+
+.footerStrip
+{
+    background-color: #004FA3;
+    border-top: solid 1px #004FA3;
+    border-bottom: solid 1px #004FA3;
+}
+
+.footerStrip a
+{
+    background-color: #ffffff;
+}
+
+
+#subHeaderContainer
+{
+    background-color: #004fa3;
+    color: #ffffff;
+    border-top: solid 1px #004fa3;
+    border-bottom: solid 1px #004fa3;
+}
+
+#subHeaderPageTitle
+{
+    background-color: #004fa3;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.35em;
+}
+
+#textSizeContainer a
+{
+    color: #ffffff;
+}
+
+#textSizeContainer a:hover
+{
+    color: #000000;
+}
+
+#footerContainer
+{
+    background-color: #ffffff;
+    color: #5B5B5B;
+    border-width: 0px;
+    border-top: 1px dotted silver;
+}
+
+div.dialogBox #dialogTitle 
+{
+    height: 1.25em;
+    padding: 0.5em;
+    border-top-width: 2px; 
+    border-left-width: 2px; 
+    border-bottom-width: 1px; 
+    border-right-width: 2px;
+    background-color: #004FA3;
+    color: white;
+    font-weight: bold;
+    border-style: outset;
+    border-color: #004FA3;
+}
+
+div.dialogBox #dialogContent {
+    background-color: white;
+    color: black;
+    border-left-style: outset;
+    border-left-color: #003A4F;
+    border-right-style: outset;
+    border-right-color: #003A4F;
+}
+
+div.dialogBox #dialogButtons {
+    background-color: white;
+    color: black;
+    border-left-style: outset;
+    border-left-color: #005575;
+    border-right-style: outset;
+    border-right-color: #005575;
+    border-bottom-style: outset;
+    border-bottom-color: #005575;
+}
+
+/* menu styles */
+ul.nav, ul.nav ul
+{
+    background: #e6f3f7;
+    border-width: 0px;
+}
+ul.nav li a
+{
+    border-width: 0px;
+    color: #000000;
+    font-weight: bold;
+    width: 11.45em;
+    border-bottom: 1px dotted silver;
+}
+ul.nav li a:hover
+{
+    border-width: 0px;
+    background-color: #C8E1BF;
+    color: #000000;
+    font-weight: bold;
+    width: 11.45em;
+    border-bottom: 1px solid #C8E1BF;
+}
+
+/* end of menu styles */
+
+div.menuContainer ul#newNav li div.subnav
+{
+    background-color: white;
+    border-top-color: #c2e1eb !important;
+    border-bottom-color: #c2e1eb !important;
+    border-left-color: silver;
+    border-right-color: silver;
+}
+
+div.menuContainer ul#newNav
+{
+    background-color: white;
+    border-top-color: white !important;
+}
+
+
+/* list table scroll  */
+.tablescroll thead th
+{
+    background: url(ListTableHeaderBg.png) repeat-x top !important;
+    background-color: #004FA3 !important;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.tablescroll tbody td
+{
+    border-bottom-style: solid;
+    border-bottom-color: #004FA3 !important;
+    border-bottom-width: 1px;
+    white-space: nowrap;
+}
+
+
+/* hyper link inside list table th*/
+table.listTable th {  background: #004FA3; color: #ffffff;	font-weight: bold; }
+table.listTable th a { background-color: transparent; color: #ffffff; text-decoration: none; font-weight: bold; }
+table.listTable th a:hover { background-color: transparent; color: #ffffff; text-decoration: underline; }
+table.listTable th a:focus { border-style: none; }
+table.listTable td { border-bottom-style: solid; border-bottom-color: #004FA3; color:Black; border-width:1px; }
+/* hyper link inside list table td */
+table.listTable td a { background-color: transparent; color: #004FA3; text-decoration: underline; }
+table.listTable td a:hover { background-color: transparent; color: #004FA3; text-decoration: underline; }
+table.listTable td a:focus { border-style: none; }
+
+
+fieldset.stdButtons { float:left; padding:0.25em; margin-left:0.25em; margin-bottom:1em; }
+fieldset.stdButtons .stdButtonSearch { float:left; }
+input.stdButton { float:left; width:4.5em; margin-right:0.25em; }
+
+
+/************************************************************************************************
+JQUERY PUP UPS SETTINGS
+*************************************************************************************************/
+/* JQuery tab header and pop up header tapstrip color */
+.ui-widget-header
+{
+    border: 1px solid #004FA3 !important;
+    background: #004FA3  !important;
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+/* contents like buttons and calender dates */
+.ui-widget-content .ui-state-default 
+{
+    border-style:ridge;
+    border-color: #004FA3;
+    background: #004FA3;
+    font-weight: normal;
+    color: #ffffff;
+} 
+
+/* tabs in default state */
+.ui-widget-header .ui-state-default
+{
+    border: 1px solid #FFFFFF;
+    background: #004FA3;
+    font-weight: normal;
+    color: #ffffff;
+} 
+
+/* calender control jQuery selected date  */ 
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active  
+{
+       background: rgb(223,234,237) !important; 
+       font-weight: normal; 
+       color: #000000; 
+}
+   
+/* calender control jQuery date  hover*/ 
+.ui-state-hover, .ui-widget-content .ui-state-hover  
+{
+       border: 1px solid #0D80FF; 
+       background: #0D80FF !important; 
+       font-weight: normal; 
+       color: #FFFFFF  !important; 
+
+}
+
+ /* jQuery Tab Hover style */
+ .ui-state-hover a
+{
+    border: 1px solid #004FA3;
+    background: #0D80FF !important;
+    color: #FFFFFF !important;
+}
+
+ /* jQuery Tab Selected style */
+ .ui-state-active a
+{
+       background: rgb(223,234,237) !important;  
+       color: #003A4F !important; 
+}
+   
+ /* div borders in jquery Panels */ 
+.ui-widget-content {
+    border: 1px solid #004FA3;
+    color: #222222;
+}
+
+
+hr
+{
+    background-color: white !important;
+    color: #004FA3 !important;
+    border-color: #004FA3 !important;
+    border-style: solid !important;
+    border-top-width: 1px !important;
+    height: 1px !important;
+}
+
+
+/* filter icon */
+.Filter
+{
+    background-image: url('Filter.png') !important;
+}
+
+
+
+/* saved icon */
+
+.esSaved
+{
+    background-image: url('Saved.png') !important;
+}
+
+.esRead
+{
+    background-image: url('BookRead.png') !important;
+}
+
+transBg {
+    color:Red;
+}
+
+
+/* hyper link inside list table th*/
+table.listTable { margin-bottom: 10px;}
+table.listTable th {  background: #004FA3; color: #ffffff;	font-weight: bold; text-align:left;  }
+table.listTable th a { background-color: transparent; color: #ffffff; text-decoration: none; font-weight: bold; }
+table.listTable th a:hover { background-color: transparent; color: #ffffff; text-decoration: underline; }
+table.listTable th a:focus { border-style: none; }
+table.listTable td { border-bottom-style: solid; border-bottom-color: #005575; color:Black; }
+/* hyper link inside list table td */
+table.listTable td a { background-color: transparent; color: #1D34B2; }
+table.listTable td a:hover { background-color: transparent; color: #1D34B2; text-decoration: underline; }
+table.listTable td a:active { background-color: transparent; color: #1D34B2; }
+table.listTable td a:focus { border-style: none; }
+
+
+/*  list table row bottom border  */
+table.tablescroll th a { background-color: transparent; color: #ffffff; text-decoration: none; font-weight: bold; }
+table.tablescroll th a:hover { background-color: transparent; color: #ffffff; text-decoration: underline; }
+table.tablescroll th a:focus { border-style: none; }
+
+/* hyper link inside list table td */
+table.tablescroll td a:hover { background-color: transparent; color: #1D34B2; text-decoration: underline; }
+table.tablescroll td a:active { background-color: transparent; color: #1D34B2; }
+table.tablescroll td a:focus { border-style: none; }
+
+/* list table scroll  */
+.tablescroll thead th
+{
+    background: #003A4F;
+    background-color: #003A4F !important;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    white-space: nowrap;
+}
+.tablescroll tbody td
+{
+    border-bottom-style: solid;
+    border-bottom-color: #003A4F !important;
+    border-bottom-width: 1px;
+    white-space: nowrap;
+}
+
+a.footer { color: White;
+             background-color: Transparent; 
+          }
+         
+
+
+
+fieldset.stdButtons { float:left; padding:0.25em; margin-left:0.25em; margin-bottom:1em; }
+fieldset.stdButtons .stdButtonSearch { float:left; }
+input.stdButton { float:left; width:4.5em; margin-right:0.25em; }
+
+
+
+/* jQuery filters */
+
+.Filter {       
+    background-image: url('Filter.png');
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    display: block;
+    height: 16px;
+    width: 16px; 
+}
+
+.Filter:Hover { 
+    cursor: pointer;
+}
+
+.Filtered {
+    background-image: url('FilterRemove.png');
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    display: block;
+    height: 16px;
+    width: 16px;     
+}
+
+.Filtered:Hover { 
+    cursor: pointer;
+}
+
+.FilterRemove {       
+    background-image: url('Filtered.png');
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    display: block;
+    height: 16px;
+    width: 16px;     
+}
+
+.FilterRemove:Hover { 
+    cursor: pointer;
+}
+
+
+/* jQuery filters  Ends*/
+
+
+/* jQuery Tooltip  */
+
+.TooltipInformation {       
+    background-image: url('help18.png');
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    display: block;
+    height: 18px;
+    width: 18px;  
+}
+
+.TooltipInformation:Hover {
+    cursor: pointer;
+}
+
+.tooltipTable td {
+    border-bottom: solid 1px #003A4F;
+}
+
+.tooltipName 
+{
+    font-weight: bold;
+    padding-right: 15px;
+    border-right: solid 1px #003A4F;
+    width: 40%;
+}
+/* jQuery Tooltip  Ends */
+
+
+/* jQuery Menu filter and Image based columns */ 
+
+.Menu .MenuItemClearFilter
+{
+    background-image : url('FilterRemove.png');
+    background-repeat : no-repeat; 
+    background-position : 1% 50%;  
+    text-indent : 8%; 
+}
+
+.Menu .MenuItemSelected
+{
+    background-image : url('tick.png');
+    background-repeat : no-repeat; 
+    background-position : 1% 50%;  
+    text-indent : 8%; 
+}
+
+.Menu .MenuItemSaved
+{
+    background-image : url('Saved.png');
+    background-repeat : no-repeat; 
+    background-position : 3px 50%;  
+    text-indent : 25px; 
+}
+ 
+.Menu .MenuItemUnselected
+{
+    background-image : url('cross.png');
+    background-repeat : no-repeat; 
+    background-position : 1% 50%;  
+    text-indent : 8%; 
+}
+
+.Menu .MenuItemNoNote
+{
+    background-image : url('info18_grey.png');
+    background-repeat : no-repeat; 
+    background-position : 3px 50%;  
+    text-indent : 25px; 
+}
+
+.Menu .MenuItemInvoiceNote
+{
+    background-image : url('info18_amber.png');
+    background-repeat : no-repeat; 
+    background-position : 3px 50%;  
+    text-indent : 25px; 
+}
+
+.Menu .MenuItemPrivateNote
+{
+    background-image : url('info18_blue.png');
+    background-repeat : no-repeat; 
+    background-position : 3px 50%;  
+    text-indent : 25px; 
+}
+
+.Menu .MenuItemIsAttended
+{
+    background-image : url('Tick.png');
+    background-repeat : no-repeat; 
+    background-position : 1% 50%;  
+    text-indent : 8%; 
+}
+
+.Menu .MenuItemIsNotAttended
+{
+    background-image : url('Cross.png');
+    background-repeat : no-repeat; 
+    background-position : 1% 50%;  
+    text-indent : 8%; 
+}
+
+.Menu .MenuItemIsPlannedNotAttended
+{
+    background-image : url('PlannedNotAttended.png');
+    background-repeat : no-repeat; 
+    background-position : 1% 50%;  
+    text-indent : 8%; 
+}
+
+.qNoNote {
+    background-image: url('info18_grey.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: 3.5px 50%
+}
+
+.qPrivateNote {
+    background-image: url('info18_blue.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: 3.5px 50%
+}
+
+.qInvoiceNote {
+    background-image: url('info18_amber.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: 3.5px 50%
+}
+
+.esUnread {
+    background-image: url('BookUnread.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: 20% 50%;
+}
+
+.esRead {
+    background-image: url('BookRead.png');
+    background-repeat: no-repeat;
+    background-position: 20% 50%;
+}
+
+.esSaved {
+    background-image: url('Saved.png');
+    background-repeat: no-repeat;
+    background-position: 20% 50%;
+}
+
+.deleteInvoiceLine {
+    background-image: url('Cross.png');
+    background-repeat: no-repeat;
+    background-position: 3px 3px;
+    width: 20px;
+}
+
+.deleteInvoiceLine:Hover {
+    cursor: pointer;    
+}
+
+.notDelivered {
+    background-image: url('EditTable.png');
+    background-repeat: no-repeat;
+    background-position: 2px 50%;
+    text-indent: 20px;
+    color: #0034B2;
+    font-weight: bold;
+}
+
+.notDelivered:Hover {
+    background-color: #fffea6;
+    cursor: pointer;
+    text-decoration: underline;    
+}
+
+.val {
+    color: Red;
+}
+
+/* custom, tag-specific classes */
+div.testSystem { text-transform:uppercase; font-size:1.75em; font-weight:bold; color:#FF0000; border-style:solid; border-color:#FF0000; }
+a.title { background-color: #FFFFFF; font-weight: bold; text-decoration: underline; color: #0034b2; }
+a.title:hover {	background-color: #FFFFFF; font-weight: bold; text-decoration: underline; color: #FF3300; }
+div.footerContent { font-size: 0.8em; }
+div.timeoutVisible { background-color: transparent; color: #FF0000; font-size: smaller; font-weight: bold; }
+p.footnote { font-size: 0.7em; }
+span.selectorWizardTitle { color:#5B5B5B;font-weight:bold;font-size:1.1em; }
+
+
+/*#footerContainer { background-color: #c8c8c8; color: #5B5B5B; border-width:1px; border-top-style: solid; border-top-color: #6487DB; border-bottom-style: solid; border-bottom-color: #6487DB; }*/
+#fontS { font-size: 0.95em; margin-right:3px; }
+#fontM { font-size: 1.20em; margin-right:3px; }
+#fontL { font-size: 1.45em; margin-right:3px; }
+#fontXL { font-size: 1.60em; margin-right:3px;} 
+
+
+/* new menu styles */
+@media screen {
+    div.menuContainer ul#newNav {
+        background-color:#ffffff;
+        border-top-color:#ffffff;
+    }
+    div.menuContainer ul#newNav li.topLevel a.topLevel {
+        background-color:transparent;
+        border-left-color:#ffffff;
+        border-right-color:#ffffff;
+    }
+    div.menuContainer ul#newNav li div.subnav {
+	    background-color:#ffffff;
+	    border-top-color:#c2e1eb;
+	    border-bottom-color:#c2e1eb;
+	    border-left-color:silver;
+	    border-right-color:silver;
+    }
+    div.menuContainer ul#newNav ul.subnavContent li a {
+        text-decoration:none;
+        background-color:transparent;
+        color:#5B5B5B;
+    }
+    div.menuContainer ul#newNav ul.subnavContent li a:hover {
+        text-decoration:underline;
+    }
+    div.menuContainer ul#newNav ul.subnavContent li dl dt {
+        background-color:#c2e1eb;  
+        font-weight:bold;
+        color: #5B5B5B;    
+    }
+
+    div.menuContainer ul#newNav ul.subnavContent li dl dd a {
+        font-weight:normal;
+    }
+}
+/* end of new menu styles */
+
+/* jQuery Tooltip  */
+
+.TooltipInformation {       
+    background-image: url('help18.png');
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    display: block;
+    height: 18px;
+    width: 18px;  
+}
+
+.TooltipInformation:Hover {
+    cursor: pointer;
+}
+
+.tooltipTable td {
+    border-bottom: solid 1px #004FA3;
+}
+
+.tooltipName 
+{
+    font-weight: bold;
+    padding-right: 15px;
+    border-right: solid 1px #004FA3;
+    width: 40%;
+}
+/* jQuery Tooltip  Ends */
+
+.testSystem  
+{
+    text-transform:uppercase; 
+    font-size:1.5em; 
+    font-weight:bold; 
+    color:#FF0000; 
+    border-style:solid; 
+    border-color:#FF0000;    
+}
+
+#testSystemPanel
+{ 
+    height:25px;
+}
+
+.ActionPanels .AuditLogImage
+{
+    background-image:url(application_lightning.png);
+    background-repeat: no-repeat;   
+}
+
+.ActionPanels .BlockedImage
+{
+    background-image:url(DeleteBlocked.png);
+    background-repeat: no-repeat;   
+}
+
+.ActionPanels .CopyImage
+{
+    background-image:url(CopySmall.png);
+    background-repeat: no-repeat;   
+}
+
+.ActionPanels .FindWithSelectorImage
+{
+    background-image:url(application_form_magnify.png);
+    background-repeat: no-repeat;   
+}
+
+.ActionPanels .PayAuthoriseImage
+{
+    background-image:url(MoneyAdd.png);
+    background-repeat: no-repeat;   
+}
+
+.ActionPanels .PayImage
+{
+    background-image:url(Money.png);
+    background-repeat: no-repeat;   
+}
+
+.ActionPanels .PaySuspendImage
+{
+    background-image:url(MoneyDelete.png);
+    background-repeat: no-repeat;   
+}
+
+.ActionPanels .ReportImage
+{
+    background-image:url(ReportGo.png);
+    background-repeat: no-repeat;   
+}
+
+.ActionPanels .StampImage
+{
+    background-image:url(Stamp.png);
+    background-repeat: no-repeat;   
+}
+
+.ActionPanels .ViewImage
+{
+    background-image:url(PageGo.png);
+    background-repeat: no-repeat;   
+}
+
+.ActionPanels .SortOrderImage
+{
+    background-image:url(SortHS.png);
+    background-repeat: no-repeat;   
+}
+
+.ActionPanels .EnhancedRatesImage
+{
+    background-image:url(EnhancedRates.png);
+    background-repeat: no-repeat;   
+}
+
+.ActionPanels .InclusionsImage
+{
+    background-image:url(pencil_add.png);
+    background-repeat: no-repeat;   
+}
+
+.ActionPanels .PreclusionsImage
+{
+    background-image:url(pencil_delete.png);
+    background-repeat: no-repeat;   
+}
+
+.ActionPanels .ExportCsvImage
+{
+    background-image:url(csv.png);
+    background-repeat: no-repeat;
+}
+
+.ActionPanels .ExportExcelImage
+{
+    background-image:url(xls16.png);
+    background-repeat: no-repeat;
+}
+
+.ActionPanels .ExportPdfImage
+{
+    background-image:url(pdf16.png);
+    background-repeat: no-repeat;
+}
+
+.ActionPanels .PreviewImage
+{
+    background-image:url(preview16.png);
+    background-repeat: no-repeat;
+}
+.ActionPanels .TerminateContract
+{
+    background-image:url(table_row_delete.png);
+    background-repeat: no-repeat;   
+}
+.ActionPanels .NotifyImage
+{
+    background-image:url(bell.png);
+    background-repeat: no-repeat;
+}
+.ActionPanels .ReinstateContract
+{
+    background-image:url(table_refresh.png);
+    background-repeat: no-repeat;   
+}
+
+.ActionPanels .SaveImage
+{
+    background-image:url(disk.png);
+    background-repeat: no-repeat;   
+}
+.ActionPanels .CreateBatchImage
+{
+    background-image:url(table_multiple.png);
+    background-repeat: no-repeat;   
+}
+
+.ActionPanels .IncludeCreditorPayment
+{
+    background-image:url(pencil_add.png);
+    background-repeat: no-repeat;   
+}
+
+.ActionPanels .ExcludeCreditorPayment
+{
+    background-image:url(pencil_delete.png);
+    background-repeat: no-repeat;   
+}
+
+.ActionPanels .AuthoriseCreditorPayment
+{
+    background-image:url(coins_add.png);
+    background-repeat: no-repeat;   
+}
+
+.ActionPanels .SuspendCreditorPayment
+{
+    background-image:url(table_error.png);
+    background-repeat: no-repeat;   
+}
+
+.ActionPanels .NotesCreditorPayment
+{
+    background-image:url(comment_add.png);
+    background-repeat: no-repeat;   
+}
+
+.ActionPanels .Delete
+{
+    background-image:url(DataTableDelete.png);
+    background-repeat: no-repeat;
+}
+
+.ActionPanels .Edit
+{
+    background-image:url(DataTableEdit.png);
+    background-repeat: no-repeat;
+}
+
+.ActionPanels .WorldGo
+{
+    background-image:url(world_go.png);
+    background-repeat: no-repeat;
+}
+
+.ActionPanels .ToggleImage
+{
+    background-image:url(arrow_switch.png);
+    background-repeat: no-repeat;   
+}
+
+.ActionPanels .CogEdit
+{
+    background-image:url(cog_edit.png);
+    background-repeat: no-repeat;   
+}
+
+.ActionPanels .PrintEdit
+{
+    background-image:url(Print.png);
+    background-repeat: no-repeat;   
+}
+
+
+
+/*******************************************************
+Selector Section 
+********************************************************/
+
+.Selectors { }
+
+.Selectors .Filterable .x-column-header-text 
+{
+    font-style: normal;
+    padding-left: 20px;
+    background-image:url(Filter.png);
+    background-repeat: no-repeat;    
+}
+
+.Selectors .x-menu-item-icon
+{
+    background-image:url(DataTable.png); 
+    background-repeat: no-repeat;
+}
+
+.Selectors .x-grid-row div:hover
+{
+    cursor: pointer;
+}
+
+.Selectors .x-grid-row-selected div
+{
+    background-color: #f9f3cd;   
+}
+
+.Selectors .imgDataTable
+{
+    background-image:url(DataTable.png);
+    background-repeat: no-repeat;
+}
+
+.Selectors .imgDataTableEdit
+{
+    background-image:url(DataTableEdit.png);
+    background-repeat: no-repeat;
+}
+
+.Selectors .imgDataTableDefault
+{
+    background-image:url(Star.png);
+    background-repeat: no-repeat;
+}
+
+.Selectors .imgDataTableCreate
+{
+    background-image:url(DataTableCreate.png);
+    background-repeat: no-repeat;
+}
+
+.Selectors .imgDataTableDelete
+{
+    background-image:url(DataTableDelete.png);
+    background-repeat: no-repeat;
+}
+
+.Selectors .imgDelete
+{
+    background-image:url(Delete.png);
+    background-repeat: no-repeat;
+}
+
+.Selectors .imgAdd
+{
+    background-image:url(Add.png);
+    background-repeat: no-repeat;
+}
+
+.Selectors .imgFiltered
+{
+    background-image:url(Filter.png);
+    background-repeat: no-repeat;
+}
+
+.Selectors .imgFilterRemove
+{
+    background-image:url(FilterRemove.png);
+    background-repeat: no-repeat;
+}
+
+.Selectors .imgSave
+{
+    background-image:url(Disk.png);
+    background-repeat: no-repeat;
+}
+
+.Selectors .imgExport
+{
+    background-image:url(xls16.png);
+    background-repeat: no-repeat;
+}
+
+.Selectors .imgUndo
+{
+    background-image:url(arrow_undo.png);
+    background-repeat: no-repeat;   
+}
+
+.Selectors .imgInfo
+{
+    background-image:url(information.png);
+    background-repeat: no-repeat;   
+}
+
+.Selectors .imgExclamation
+{
+    background-image:url(exclamation.png); 
+    background-repeat: no-repeat;
+}
+
+.Selectors .imgAccept
+{
+    background-image:url(accept.png); 
+    background-repeat: no-repeat;
+}
+
+.Selectors .imgMe
+{
+    background-image:url(user_go.png); 
+    background-repeat: no-repeat;
+}
+
+.Selectors .GenericCreditorPayment-SuspensionReasonBitWiseIndicator 
+{
+    height: 14px; 
+    width: 14px; 
+    clear: none; 
+    float: left; 
+    margin: 0px 3px 0px 0px;
+}
+
+.InPlaceSelector .x-form-text
+{
+    cursor: pointer;
+}
+
+.InPlaceSelector .BtnClear 
+{
+    background-image:url(TableDelete.png);
+    background-repeat: no-repeat;
+}
+
+.InPlaceSelector .BtnSelect 
+{
+    background-image:url(TableGo.png);
+    background-repeat: no-repeat;
+}
+
+.Selectors .imgColumns
+{
+    background-image:url(Columns.gif);
+    background-repeat: no-repeat;
+}
+
+
+/*******************************************************
+Selector Section  Ends
+********************************************************/
+
+
+
+
+div.contentWrapper {
+    padding: 0;
+    margin: 0;
+}
+
+#pageOverviewContainer {
+    margin-bottom: 0.1em;
+}
+
+
+
+/*   Sencha Searcher Panel  */
+
+.Searchers .FindImage
+{
+    background-image:url(Find.png);
+    background-repeat: no-repeat;   
+}
+
+.Searchers .FindClearImage
+{
+    background-image:url(FindClear.png);
+    background-repeat: no-repeat;   
+}
+
+.Searchers .AddSelectionImage
+{
+    background-image:url(Add.png);
+    background-repeat: no-repeat;   
+}
+
+.Searchers .DeleteSelectionImage
+{
+    background-image:url(Cross.png);
+    background-repeat: no-repeat;   
+}
+
+.Searchers .SaveSelectionImage
+{
+    background-image:url(Saved.png);
+    background-repeat: no-repeat;   
+}
+
+.Searchers .HeadingLabel
+{
+    color: #0034B2; 
+}
+
+
+
+/*  Sencha Default by Us */
+
+.x-body 
+{
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 12px;
+}
+
+.x-window-body {
+	background-color: white !important;
+}
+
+.x-mask
+{
+	opacity: 0.60 !important; 
+	filter: alpha(opacity = 60);    
+	-ms-filter: "Alpha(Opacity=60)"; /* IE8 */
+}
+
+
+
+.x-item-disabled
+{
+	opacity: 0.75 !important; 
+	filter: alpha(opacity = 75);
+	-ms-filter: "Alpha(Opacity=75)"; /* IE8 */
+}
+
+.x-form-readonly
+{
+	opacity: 0.75 !important; 
+	filter: alpha(opacity = 75);
+	-ms-filter: "Alpha(Opacity=75)"; /* IE8 */
+	cursor: default;
+}
+
+.x-menu-item-link
+{
+	font-weight: normal;
+}
+
+.ux-filtered-column .x-column-header-text 
+{
+	font-style: normal;
+	padding-left: 20px;
+	background-image:url(Filtered.png) !important; 
+	background-repeat: no-repeat;
+}
+
+.x-menu-item-unchecked .x-menu-item-icon
+{
+	background-image:url(DeleteBlocked.png); 
+	background-repeat: no-repeat;
+}
+
+.x-menu-item-checked .x-menu-item-icon
+{
+	background-image:url(Accept.png); 
+	background-repeat: no-repeat;
+} 
+
+.x-menu-item-checked .x-menu-group-icon
+{
+	background-image:url(Accept.png); 
+	background-repeat: no-repeat;
+} 
+
+.x-tip
+{
+	overflow: visible;
+	border-color: #8EAACE;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	padding: 2px 2px 2px 2px;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #E9F2FF;
+}
+
+.x-tip-body-default
+{
+	background-color: #E9F2FF;
+}
+
+.x-boundlist-item 
+{
+	background-image:url(DeleteBlocked.png); 
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.x-boundlist-selected
+{
+	background-image:url(Accept.png); 
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+/* MultiSelectEditor */
+.MultiSelectEditor .imgArrowRightAll 
+{
+	background-image:url(arrow_join.png);
+	background-repeat: no-repeat;
+}
+
+.MultiSelectEditor .imgArrowLeft
+{
+	background-image:url(arrow_left.png);
+	background-repeat: no-repeat;
+}
+
+.MultiSelectEditor .imgArrowRight
+{
+	background-image:url(arrow_right.png);
+	background-repeat: no-repeat;
+}
+
+.MultiSelectEditor .imgArrowUndo
+{
+	background-image:url(arrow_undo.png);
+	background-repeat: no-repeat;
+}
+
+/* ViewMenu */
+.ViewMenu .ViewImage
+{
+	background-image:url(PageGo.png);
+	background-repeat: no-repeat;   
+}
+
+/* Clear Button */
+.ext-ux-clearbutton {
+	width: 12px;
+	height: 12px;
+	background-image: url(clear-text-icon.gif);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	-moz-user-focus: ignore; /* https://developer.mozilla.org/en/CSS/-moz-user-focus */
+	cursor: pointer;
+	position: absolute;
+	overflow:  hidden; /* IE 6 :-( */
+	margin-top: 4px;
+	background-color: white;
+}
+
+.ext-ux-clearbutton-mouse-over-input {
+	background-position: 0 -12px;
+}
+
+.ext-ux-clearbutton-mouse-over-button {
+	background-position: 0 -24px;
+}
+
+.ext-ux-clearbutton-mouse-down {
+	background-position: 0 -36px;
+}
+
+.ext-ux-clearbutton-on {
+	opacity: 1;
+	visibility: visible;
+	transition: opacity .35s linear;
+	-webkit-transition: opacity .35s linear;
+	-moz-transition: opacity .35s linear;
+	-o-transition: opacity .35s linear;
+	-ms-transition: opacity .35s linear;
+	-khtml-transition: opacity .35s linear;
+}
+
+.ext-ux-clearbutton-off {
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity .35s linear, visibility .0s linear .35s;
+	-webkit-transition: opacity .35s linear, visibility .0s linear .35s;
+	-moz-transition: opacity .35s linear, visibility .0s linear .35s;
+	-o-transition: opacity .35s linear, visibility .0s linear .35s;
+	-ms-transition: opacity .35s linear, visibility .0s linear .35s;
+	-khtml-transition: opacity .35s linear, visibility .0s linear .35s;
+}
+
+.x-combo-list-group	{
+	font : bold 12px tahoma,arial,helvetica,sans-serif;
+	padding : 2px;
+	border : 1px solid #fff;
+	white-space : nowrap;
+	overflow : hidden;
+	text-overflow : ellipsis;
+}
+
+.x-boundlist-item 
+{
+    list-style-type: none;   
+}
+
+.x-boundlist-list-ct ul
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.x-menu-item-icon-right 
+{
+    background-image: none!important;
+}
+
+
+.EnterCopyInvoiceButton {
+    background-repeat:no-repeat; 
+    background-position:5px 50%;  
+    text-indent:28px;
+}
+.EnterCopyInvoiceButtonNew {
+    background-image:url(new16.gif);
+}
+.EnterCopyInvoiceButtonCopy {
+    background-image:url(copy16.gif);
+}
+
+
+/*****************************************************************************************
+SENCHA SECTION  Ends
+******************************************************************************************/
+
+
+.footerStrip
+{
+    background-color: #003A4F;
+    height:30px;
+}
+
+.footerStrip a
+{
+    background-color: #003A4F;
+    color: #ffffff;
+}
+
+.footerStrip a:hover
+{
+    background-color: #003A4F;
+    color: #ffffff;
+}
+/* default hyperlink */
+span.currentPage { font-weight:bold; color:#006C95; }
+
+
+.Unread {
+    background-image: url('BookUnread.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: 20% 50%;
+}
+
+.Read {
+    background-image: url('BookRead.png');
+    background-repeat: no-repeat;
+    background-position: 20% 50%;
+}
+
+.Saved {
+    background-image: url('Saved.png');
+    background-repeat: no-repeat;
+    background-position: 20% 50%;
+}
+
+.Filter {       
+    background-image: url('Filter.png');
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    display: block;
+    height: 16px;
+    width: 16px; 
+}
+
+.Filter:Hover { 
+    cursor: pointer;
+}
+
+.Filtered {
+    background-image: url('FilterRemove.png');
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    display: block;
+    height: 16px;
+    width: 16px;     
+}
+
+.Filtered:Hover { 
+    cursor: pointer;
+}
+
+.FilterRemove {       
+    background-image: url('Filtered.png');
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    display: block;
+    height: 16px;
+    width: 16px;     
+}
+
+.FilterRemove:Hover { 
+    cursor: pointer;
+}
+
+.Menu .MenuItemNone
+{
+    background-image : url('BookUnread.png');
+    background-repeat : no-repeat; 
+    background-position : 1% 50%;  
+    text-indent : 8%; 
+}
+ 
+
+.Menu .MenuItemUnread
+{
+    background-image : url('BookUnread.png');
+    background-repeat : no-repeat; 
+    background-position : 3px 50%;  
+    text-indent : 25px; 
+}
+ 
+.Menu .MenuItemRead
+{
+    background-image : url('BookRead.png');
+    background-repeat : no-repeat; 
+    background-position : 3px 50%;  
+    text-indent : 25px; 
+}
+
+
+.listTable a:Hover {
+    background-color: transparent;
+    text-decoration: underline;
+    color: #F93;
+    cursor: pointer;
+}
+
+a 
+{
+    color : #1D34B2;
+    }
+a:hover 
+{
+    color: #1D34B2;
+    }
+ a:active 
+ {
+    color: #1D34B2;
+     }
+ 
+
+/*
+
+input[type="button"], input[type="submit"], button  { 
+    background-color:#005575;
+    border-style:none;
+    padding-top:4px;
+    padding-bottom:4px;
+    color:White;
+} 
+
+input[type="button"], input[type="submit"], button  { 
+    background-color:#005575;
+    border-style:none;
+    padding-top:4px;
+    padding-bottom:4px;
+    color:White;
+} 
+
+input[type="button"] input[disabled] {
+	
+	background-color:#999;
+	color:Gray;
+}
+
+input[disabled] {
+	
+	
+	color:Gray;
+}
+
+*/
+
+/************************************************************************************************
+ Sencha Over rides  starts
+*************************************************************************************************/
+.x-grid-cell {
+    font: normal 13px lucida grande, verdana, Geneva, Helvetica, sans-serif !important;
+}
+
+.x-column-header-inner 
+{
+    padding: 7px 6px 7px 6px !important;
+}
+
+.x-form-item-label 
+{
+    color: black;
+    font: normal 13px lucida grande, verdana, Geneva, Helvetica, sans-serif !important;
+}
+
+.x-form-item, .x-form-field 
+{
+    font: normal 13px lucida grande, verdana, Geneva, Helvetica, sans-serif !important;
+}
+.x-form-text
+{
+    font: normal 13px lucida grande, verdana, Geneva, Helvetica, sans-serif !important;
+    }
+  
+  .x-btn-inner 
+ {
+     font: bold 13px lucida grande, verdana, Geneva, Helvetica, sans-serif !important;
+     display: block;
+     white-space: nowrap;
+     overflow: hidden;
+     zoom: 1;
+ }
+ 
+ .x-btn 
+ {
+    display: inline-block;
+    position: relative;
+    zoom: 1;
+    cursor: pointer;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-decoration: none;
+    margin-bottom: 3px !important;
+}
+
+
+ 
+.x-header-text {
+    font: normal 13px lucida grande, verdana, Geneva, Helvetica, sans-serif !important;
+}
+
+.x-toolbar-text {
+    white-space: nowrap;
+    font: normal 13px lucida grande, verdana, Geneva, Helvetica, sans-serif !important;
+}
+ 
+.x-form-display-field 
+{
+    font:  normal 13px lucida grande, verdana, Geneva, Helvetica, sans-serif !important;
+    color: black;
+    line-height: 24px;
+}
+
+
+.ux-form-time-trigger
+{
+	background-image:url(time.png) !important; 
+	background-repeat: no-repeat;
+	margin-top:0px;
+	margin-right: -3px;
+}
+
+ .x-column-header-text 
+{
+    font: bold 13px lucida grande, verdana, Geneva, Helvetica, sans-serif !important;
+}
+
+.ajax__tab_xp .ajax__tab_tab .ajax__tab_active
+{
+    height: 21px;
+    min-height: 21px;
+}
+
+
+
+
+/* ajax tab background color */
+.con
+{
+    background-color: rgb(223,234,237) !important;
+}
+
+.headerStatus
+{
+    background-color:#ECE100 !important;
+    }
+
+/* progress bar */
+div.progressBarContainer { border-style: solid;	border-color: #b6cefb; background-color: #FFFFFF; }
+div.progressBarFill { background-color: #00ff00; color: #000000; }
+/* stepped progress bar */
+div.steppedProgress { border-top-style:solid;border-top-color:Silver;border-bottom-style:solid;border-bottom-color:Silver; }
+div.steppedProgressFilled { background-color:#ECE100; }
+
+/*  job service  */
+/* custom, tag-generic classes */
+
+.borderless 
+{
+    border: none;
+    background-color:white;
+    color: #ff9933; 
+    font-weight: bold; 
+    width:34pt
+    }
+
+.redText  
+{
+    background-color: #ffffff; 
+    color: #FF0000; 
+    }
+
+.clickable  
+{
+    cursor: pointer; 
+    }
+
+.hidden  
+{
+    display: none; 
+    }
+
+.bold  
+{
+    font-weight: bold; 
+    }
+
+.bluebg
+{
+    background-color: #9393FF;
+    color: #ffffff;
+}
+.greenbg
+{
+    background-color: #46FF46;
+    color: #000000;
+}
+
+.lightgreenbg
+{
+    background-color: #C1FFC1;
+    color: #000000;
+}
+
+.orangebg
+{
+    background-color: #FFC677;
+    color: #000000;
+}
+   
+.lightorangebg
+{
+    background-color: #FFDAA8;
+    color: #000000;
+}
+
+.yellowbg
+{
+    background-color: #ECE100;
+    color: #000000;
+}
+
+.redbg
+{
+    background-color: #FF8A8A;
+    color: #ffffff;
+}
+
+.disabled  
+{
+    background-color: Transparent;	
+    color: #bba8ac; 
+  }
+
+.flashedText  
+{
+        color: #FF0000; 
+        text-decoration:underline; 
+       }
+
+.boxedLabel  
+{
+    border : solid 1px #6487DB; 
+    text-align : left; 
+   }
+
+fieldset
+{
+    padding-top: 10px;
+    }
+
+
+/*  check box label bold*/    
+label { display: inline-block;
+        font-weight: normal !important; }
+        
+/* Same Class has been injected from Sencha Selector screens to reset padding to Zero when on sencha screen */
+.MPPageOverview
+{
+    padding-bottom:10px;
+    }
+
+.divFieldSeperator
+{
+    padding-bottom: 15px;
+    }
+    
+/* System Settings Screen  */
+.ContentTable
+{
+    width:100%;
+    overflow: auto;
+    }
+ 
+.ContentTableTree
+{
+    width: 30%;
+    overflow:auto;
+    }
+    
+.ContentTableEditor {
+    width : 70%; 
+    height : 100%; 
+    padding : 10px 0px 10px 10px;
+    vertical-align : top;
+}
+
+.ContentTableEditorIFrame {
+   width : 100%; 
+    height : 100%; 
+}
+
+.SplashScreen {
+    position: absolute; 
+    left: 0px; 
+    top: 0px; 
+    width:100%; 
+    height:100%; 
+    text-align:center; 
+    z-index: 10000; 
+    background-color: #fff;
+}
+
+.SplashScreenMessage {
+    width:200px; 
+    background-color: #fff; 
+    border:1px solid #6487DB; 
+    padding:15px; 
+    text-align:center;
+}
+/* System Settings Screen  Ends*/
+
+.label2
+{
+    width: 160px !important;
+    }

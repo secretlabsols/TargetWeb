@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="spxReport_CommitmentByCommTypeTransType" targetNamespace="http://tempuri.org/spxReport_CommitmentByCommTypeTransType.xsd" xmlns:mstns="http://tempuri.org/spxReport_CommitmentByCommTypeTransType.xsd" xmlns="http://tempuri.org/spxReport_CommitmentByCommTypeTransType.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="spxReport_CommitmentByCommTypeTransType" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="spxReport_CommitmentByCommTypeTransType" msprop:Generator_UserDSName="spxReport_CommitmentByCommTypeTransType" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Detail" msprop:Generator_UserTableName="Detail" msprop:Generator_RowDeletedName="DetailRowDeleted" msprop:Generator_TableClassName="DetailDataTable" msprop:Generator_RowChangedName="DetailRowChanged" msprop:Generator_RowClassName="DetailRow" msprop:Generator_RowChangingName="DetailRowChanging" msprop:Generator_RowEvArgName="DetailRowChangeEvent" msprop:Generator_RowEvHandlerName="DetailRowChangeEventHandler" msprop:Generator_TablePropName="Detail" msprop:Generator_TableVarName="tableDetail" msprop:Generator_RowDeletingName="DetailRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateFrom" msprop:Generator_UserColumnName="DateFrom" msprop:Generator_ColumnPropNameInRow="DateFrom" msprop:Generator_ColumnVarNameInTable="columnDateFrom" msprop:Generator_ColumnPropNameInTable="DateFromColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DateTo" msprop:Generator_UserColumnName="DateTo" msprop:Generator_ColumnPropNameInRow="DateTo" msprop:Generator_ColumnVarNameInTable="columnDateTo" msprop:Generator_ColumnPropNameInTable="DateToColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Commitment_x0020_Type" msprop:Generator_UserColumnName="Commitment Type" msprop:Generator_ColumnPropNameInRow="Commitment_Type" msprop:Generator_ColumnVarNameInTable="columnCommitment_Type" msprop:Generator_ColumnPropNameInTable="Commitment_TypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Service_x0020_Classification" msprop:Generator_UserColumnName="Service Classification" msprop:Generator_ColumnPropNameInRow="Service_Classification" msprop:Generator_ColumnVarNameInTable="columnService_Classification" msprop:Generator_ColumnPropNameInTable="Service_ClassificationColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Service_x0020_Group" msprop:Generator_UserColumnName="Service Group" msprop:Generator_ColumnPropNameInRow="Service_Group" msprop:Generator_ColumnVarNameInTable="columnService_Group" msprop:Generator_ColumnPropNameInTable="Service_GroupColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Service_x0020_Type" msprop:Generator_UserColumnName="Service Type" msprop:Generator_ColumnPropNameInRow="Service_Type" msprop:Generator_ColumnVarNameInTable="columnService_Type" msprop:Generator_ColumnPropNameInTable="Service_TypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Budget_x0020_Category" msprop:Generator_UserColumnName="Budget Category" msprop:Generator_ColumnPropNameInRow="Budget_Category" msprop:Generator_ColumnVarNameInTable="columnBudget_Category" msprop:Generator_ColumnPropNameInTable="Budget_CategoryColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Budget_x0020_Category_x0020_Group" msprop:Generator_UserColumnName="Budget Category Group" msprop:Generator_ColumnPropNameInRow="Budget_Category_Group" msprop:Generator_ColumnVarNameInTable="columnBudget_Category_Group" msprop:Generator_ColumnPropNameInTable="Budget_Category_GroupColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Transaction_x0020_Type" msprop:Generator_UserColumnName="Transaction Type" msprop:Generator_ColumnPropNameInRow="Transaction_Type" msprop:Generator_ColumnVarNameInTable="columnTransaction_Type" msprop:Generator_ColumnPropNameInTable="Transaction_TypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Total_x0020_Value" msprop:Generator_UserColumnName="Total Value" msprop:Generator_ColumnPropNameInRow="Total_Value" msprop:Generator_ColumnVarNameInTable="columnTotal_Value" msprop:Generator_ColumnPropNameInTable="Total_ValueColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

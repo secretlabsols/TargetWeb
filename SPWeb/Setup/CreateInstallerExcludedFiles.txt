@@ -1,0 +1,8 @@
+bin\Interop.AbacusClasses.dll
+bin\Interop.AbacusClientServer.dll
+bin\Interop.AbacusLibrary.dll
+bin\Target.Abacus.Jobs.dll
+bin\Target.Abacus.Library.dll
+bin\Target.Abacus.Web.dll
+_vti*
+SPWeb\_vti*

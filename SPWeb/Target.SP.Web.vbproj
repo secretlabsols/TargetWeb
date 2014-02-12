@@ -1,0 +1,801 @@
+<Project DefaultTargets="Build" ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D0DF7AA4-5805-4E80-90EC-2090E3695C3C}</ProjectGuid>
+    
+    
+    
+    
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Target.SP.Web</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Flow</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>Target.SP.Web</RootNamespace>
+    <StartupObject>Target.SP.Web.%28None%29</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Target.SP.Web.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Target.SP.Web.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=1.0.10618.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>R:\v2.0\CommonAssemblies\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="AjaxPro.2, Version=6.10.6.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>R:\v2.0\CommonAssemblies\AjaxPro.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Net.SourceForge.Koogra, Version=1.1.7.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>R:\v2.0\CommonAssemblies\Net.SourceForge.Koogra.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration.Install">
+      <Name>System.Configuration.Install</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>R:\v2.0\CommonAssemblies\System.Web.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Name>System.Web.Services</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <ProjectReference Include="R:\v2.0\Library\Target.Library.vbproj">
+      <Name>Target.Library</Name>
+      <Project>{8094033F-C3FB-4E50-88BC-A2C0E5D116A8}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+    <ProjectReference Include="R:\v2.0\Library\Web\Target.Library.Web.vbproj">
+      <Name>Target.Library.Web</Name>
+      <Project>{AA392CCB-4110-408F-A792-18DC900FD5D8}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+    <ProjectReference Include="R:\v2.0\SP\Library\Target.SP.Library.vbproj">
+      <Name>Target.SP.Library</Name>
+      <Project>{96FED899-46DE-4446-9E70-9C15A62D1BB6}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+    <ProjectReference Include="R:\v2.0\Web\Apps\Target.Web.Apps.vbproj">
+      <Name>Target.Web.Apps</Name>
+      <Project>{E86D0C84-642F-416C-B4D3-487ABB951720}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.HtmlControls" />
+    <Import Include="System.Web.UI.WebControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Apps\ListProviders.aspx.designer.vb">
+      <DependentUpon>ListProviders.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\ListProviders.aspx.vb">
+      <DependentUpon>ListProviders.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\ListServices.aspx.designer.vb">
+      <DependentUpon>ListServices.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\ListServices.aspx.vb">
+      <DependentUpon>ListServices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\ListSubsidies\EndSubsidy.aspx.designer.vb">
+      <DependentUpon>EndSubsidy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\ListSubsidies\EndSubsidy.aspx.vb">
+      <DependentUpon>EndSubsidy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\ListSubsidies\ListSubsidies.aspx.designer.vb">
+      <DependentUpon>ListSubsidies.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\ListSubsidies\ListSubsidies.aspx.vb">
+      <DependentUpon>ListSubsidies.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\ListSubsidies\ViewSubsidy.aspx.designer.vb">
+      <DependentUpon>ViewSubsidy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\ListSubsidies\ViewSubsidy.aspx.vb">
+      <DependentUpon>ViewSubsidy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Msg\SPMsg.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Apps\OccupancyEnq.aspx.designer.vb">
+      <DependentUpon>OccupancyEnq.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\OccupancyEnq.aspx.vb">
+      <DependentUpon>OccupancyEnq.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Payments\GetProviderInterfaceFile.aspx.designer.vb">
+      <DependentUpon>GetProviderInterfaceFile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Payments\GetProviderInterfaceFile.aspx.vb">
+      <DependentUpon>GetProviderInterfaceFile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Payments\PaymentEnquiry.aspx.designer.vb">
+      <DependentUpon>PaymentEnquiry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Payments\PaymentEnquiry.aspx.vb">
+      <DependentUpon>PaymentEnquiry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Payments\PaymentInterface.aspx.designer.vb">
+      <DependentUpon>PaymentInterface.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Payments\PaymentInterface.aspx.vb">
+      <DependentUpon>PaymentInterface.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Payments\SUPaymentEnquiry.aspx.designer.vb">
+      <DependentUpon>SUPaymentEnquiry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Payments\SUPaymentEnquiry.aspx.vb">
+      <DependentUpon>SUPaymentEnquiry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Payments\ViewRemittance.aspx.designer.vb">
+      <DependentUpon>ViewRemittance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Payments\ViewRemittance.aspx.vb">
+      <DependentUpon>ViewRemittance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Payments\ViewStatement.aspx.designer.vb">
+      <DependentUpon>ViewStatement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Payments\ViewStatement.aspx.vb">
+      <DependentUpon>ViewStatement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\PIReturns\ListSubmittedPIReturns.aspx.designer.vb">
+      <DependentUpon>ListSubmittedPIReturns.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\PIReturns\ListSubmittedPIReturns.aspx.vb">
+      <DependentUpon>ListSubmittedPIReturns.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\PIReturns\PISubmissionStatusEnquiry.aspx.designer.vb">
+      <DependentUpon>PISubmissionStatusEnquiry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\PIReturns\PISubmissionStatusEnquiry.aspx.vb">
+      <DependentUpon>PISubmissionStatusEnquiry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\PIReturns\SubmitNewPIReturn.aspx.designer.vb">
+      <DependentUpon>SubmitNewPIReturn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\PIReturns\SubmitNewPIReturn.aspx.vb">
+      <DependentUpon>SubmitNewPIReturn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Security\SPSecurity.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Apps\SUNotif\Admin\ProcessSUNotif.aspx.designer.vb">
+      <DependentUpon>ProcessSUNotif.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\SUNotif\Admin\ProcessSUNotif.aspx.vb">
+      <DependentUpon>ProcessSUNotif.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\SUNotif\ListSUNotif.aspx.designer.vb">
+      <DependentUpon>ListSUNotif.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\SUNotif\ListSUNotif.aspx.vb">
+      <DependentUpon>ListSUNotif.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\SUNotif\NewSUNotif.aspx.designer.vb">
+      <DependentUpon>NewSUNotif.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\SUNotif\NewSUNotif.aspx.vb">
+      <DependentUpon>NewSUNotif.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\SUNotif\ViewSUNotif.aspx.designer.vb">
+      <DependentUpon>ViewSUNotif.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\SUNotif\ViewSUNotif.aspx.vb">
+      <DependentUpon>ViewSUNotif.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\AddressContact.ascx.designer.vb">
+      <DependentUpon>AddressContact.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\AddressContact.ascx.vb">
+      <DependentUpon>AddressContact.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\ClientSelector.ascx.designer.vb">
+      <DependentUpon>ClientSelector.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\ClientSelector.ascx.vb">
+      <DependentUpon>ClientSelector.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\financialYrQtrSelector.ascx.designer.vb">
+      <DependentUpon>financialYrQtrSelector.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\financialYrQtrSelector.ascx.vb">
+      <DependentUpon>financialYrQtrSelector.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\NewSUNotifEnterDetails.ascx.designer.vb">
+      <DependentUpon>NewSUNotifEnterDetails.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\NewSUNotifEnterDetails.ascx.vb">
+      <DependentUpon>NewSUNotifEnterDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\OccupancyEnqList.ascx.designer.vb">
+      <DependentUpon>OccupancyEnqList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\OccupancyEnqList.ascx.vb">
+      <DependentUpon>OccupancyEnqList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\PISubmissionStatusList.ascx.designer.vb">
+      <DependentUpon>PISubmissionStatusList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\PISubmissionStatusList.ascx.vb">
+      <DependentUpon>PISubmissionStatusList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\PropertySelector.ascx.designer.vb">
+      <DependentUpon>PropertySelector.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\PropertySelector.ascx.vb">
+      <DependentUpon>PropertySelector.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\ProviderInterfaceFileSelector.ascx.designer.vb">
+      <DependentUpon>ProviderInterfaceFileSelector.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\ProviderInterfaceFileSelector.ascx.vb">
+      <DependentUpon>ProviderInterfaceFileSelector.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\ProviderSelector.ascx.designer.vb">
+      <DependentUpon>ProviderSelector.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\ProviderSelector.ascx.vb">
+      <DependentUpon>ProviderSelector.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\RemittanceDetailSelector.ascx.designer.vb">
+      <DependentUpon>RemittanceDetailSelector.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\RemittanceDetailSelector.ascx.vb">
+      <DependentUpon>RemittanceDetailSelector.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\RemittanceSelector.ascx.designer.vb">
+      <DependentUpon>RemittanceSelector.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\RemittanceSelector.ascx.vb">
+      <DependentUpon>RemittanceSelector.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\SelectorWizardSteps.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\ServiceSelector.ascx.designer.vb">
+      <DependentUpon>ServiceSelector.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\ServiceSelector.ascx.vb">
+      <DependentUpon>ServiceSelector.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\SubmittedPIReturnsList.ascx.designer.vb">
+      <DependentUpon>SubmittedPIReturnsList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\SubmittedPIReturnsList.ascx.vb">
+      <DependentUpon>SubmittedPIReturnsList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\SubsidySelector.ascx.designer.vb">
+      <DependentUpon>SubsidySelector.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\SubsidySelector.ascx.vb">
+      <DependentUpon>SubsidySelector.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\ViewProperty.aspx.designer.vb">
+      <DependentUpon>ViewProperty.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\ViewProperty.aspx.vb">
+      <DependentUpon>ViewProperty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\ViewProvider.aspx.designer.vb">
+      <DependentUpon>ViewProvider.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\ViewProvider.aspx.vb">
+      <DependentUpon>ViewProvider.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\ViewService.aspx.designer.vb">
+      <DependentUpon>ViewService.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\ViewService.aspx.vb">
+      <DependentUpon>ViewService.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\ViewServiceUser.aspx.designer.vb">
+      <DependentUpon>ViewServiceUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\ViewServiceUser.aspx.vb">
+      <DependentUpon>ViewServiceUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\WebSvc\Clients.asmx.vb">
+      <DependentUpon>Clients.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Apps\WebSvc\OccupancyEnquiry.asmx.vb">
+      <DependentUpon>OccupancyEnquiry.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Apps\WebSvc\Payments.asmx.vb">
+      <DependentUpon>Payments.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Apps\WebSvc\PIReturns.asmx.vb">
+      <DependentUpon>PIReturns.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Apps\WebSvc\Properties.asmx.vb">
+      <DependentUpon>Properties.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Apps\WebSvc\Providers.asmx.vb">
+      <DependentUpon>Providers.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Apps\WebSvc\ResultClasses.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Apps\WebSvc\Services.asmx.vb">
+      <DependentUpon>Services.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Apps\WebSvc\Subsidies.asmx.vb">
+      <DependentUpon>Subsidies.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Apps\WebSvc\SUNotif.asmx.vb">
+      <DependentUpon>SUNotif.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Content Include="Apps\ListProviders.aspx" />
+    <Content Include="Apps\ListProviders.js" />
+    <Content Include="Apps\ListServices.aspx" />
+    <Content Include="Apps\ListServices.js" />
+    <Content Include="Apps\ListSubsidies\EndSubsidy.aspx" />
+    <Content Include="Apps\ListSubsidies\EndSubsidy.js" />
+    <Content Include="Apps\ListSubsidies\ListSubsidies.aspx" />
+    <Content Include="Apps\ListSubsidies\ViewSubsidy.aspx" />
+    <Content Include="Apps\OccupancyEnq.aspx" />
+    <Content Include="Apps\Payments\GetProviderInterfaceFile.aspx" />
+    <Content Include="Apps\Payments\logo.jpg" />
+    <Content Include="Apps\Payments\PaymentEnquiry.aspx" />
+    <Content Include="Apps\Payments\PaymentInterface.aspx" />
+    <Content Include="Apps\Payments\SUPaymentEnquiry.aspx" />
+    <Content Include="Apps\Payments\ViewRemittance.aspx" />
+    <Content Include="Apps\Payments\ViewRemittance.css" />
+    <Content Include="Apps\Payments\ViewRemittance.xslt" />
+    <Content Include="Apps\Payments\ViewStatement.aspx" />
+    <Content Include="Apps\Payments\ViewStatement.css" />
+    <Content Include="Apps\Payments\ViewStatement.xslt" />
+    <Content Include="Apps\PIReturns\ListSubmittedPIReturns.aspx" />
+    <Content Include="Apps\PIReturns\PISubmissionStatusEnquiry.aspx" />
+    <Content Include="Apps\PIReturns\SubmitNewPIReturn.aspx" />
+    <Content Include="Apps\SUNotif\Admin\ProcessSUNotif.aspx" />
+    <Content Include="Apps\SUNotif\Admin\ProcessSUNotif.js" />
+    <Content Include="Apps\SUNotif\ListSUNotif.aspx" />
+    <Content Include="Apps\SUNotif\ListSUNotif.js" />
+    <Content Include="Apps\SUNotif\NewSUNotif.aspx" />
+    <Content Include="Apps\SUNotif\ViewSUNotif.aspx" />
+    <Content Include="Apps\SUNotif\ViewSUNotif.css" />
+    <Content Include="Apps\SUNotif\ViewSUNotif.xslt" />
+    <Content Include="Apps\UserControls\AddressContact.ascx" />
+    <Content Include="Apps\UserControls\ClientSelector.ascx" />
+    <Content Include="Apps\UserControls\ClientSelector.js" />
+    <Content Include="Apps\UserControls\FinancialYrQtrPIStatusStep.js" />
+    <Content Include="Apps\UserControls\financialYrQtrSelector.ascx" />
+    <Content Include="Apps\UserControls\FinancialYrQtrStep.js" />
+    <Content Include="Apps\UserControls\FinYrQtrFromToPIStatusStep.js" />
+    <Content Include="Apps\UserControls\NewPIReturnAttachDocStep.js" />
+    <Content Include="Apps\UserControls\NewSUNotif.js" />
+    <Content Include="Apps\UserControls\NewSUNotifEnterDetails.ascx" />
+    <Content Include="Apps\UserControls\OccupancyEnqList.ascx" />
+    <Content Include="Apps\UserControls\OccupancyEnqList.js" />
+    <Content Include="Apps\UserControls\PISubmissionStatusList.ascx" />
+    <Content Include="Apps\UserControls\PISubmissionStatusList.js" />
+    <Content Include="Apps\UserControls\PropertySelector.ascx" />
+    <Content Include="Apps\UserControls\PropertySelector.js" />
+    <Content Include="Apps\UserControls\ProviderInterfaceFileSelector.ascx" />
+    <Content Include="Apps\UserControls\ProviderInterfaceFileSelector.js" />
+    <Content Include="Apps\UserControls\ProviderSelector.ascx" />
+    <Content Include="Apps\UserControls\ProviderSelector.js" />
+    <Content Include="Apps\UserControls\RemittanceDetailSelector.ascx" />
+    <Content Include="Apps\UserControls\RemittanceDetailSelector.js" />
+    <Content Include="Apps\UserControls\RemittanceSelector.ascx" />
+    <Content Include="Apps\UserControls\RemittanceSelector.js" />
+    <Content Include="Apps\UserControls\ServiceSelector.ascx" />
+    <Content Include="Apps\UserControls\ServiceSelector.js" />
+    <Content Include="Apps\UserControls\SubmittedPIReturnsList.ascx" />
+    <Content Include="Apps\UserControls\SubmittedPIReturnsList.js" />
+    <Content Include="Apps\UserControls\SubsidyFilterStep.js" />
+    <Content Include="Apps\UserControls\SubsidySelector.ascx" />
+    <Content Include="Apps\UserControls\SubsidySelector.js" />
+    <Content Include="Apps\ViewProperty.aspx" />
+    <Content Include="Apps\ViewProvider.aspx" />
+    <Content Include="Apps\ViewService.aspx" />
+    <Content Include="Apps\ViewServiceUser.aspx" />
+    <Content Include="Apps\WebSvc\Clients.asmx" />
+    <Content Include="Apps\WebSvc\OccupancyEnquiry.asmx" />
+    <Content Include="Apps\WebSvc\Payments.asmx" />
+    <Content Include="Apps\WebSvc\PIReturns.asmx" />
+    <Content Include="Apps\WebSvc\Properties.asmx" />
+    <Content Include="Apps\WebSvc\Providers.asmx" />
+    <Content Include="Apps\WebSvc\Services.asmx" />
+    <Content Include="Apps\WebSvc\Subsidies.asmx" />
+    <Content Include="Apps\WebSvc\SUNotif.asmx" />
+    <Content Include="bin\AjaxControlToolkit.dll" />
+    <Content Include="bin\AjaxPro.2.dll" />
+    <Content Include="bin\AssistedSolutions.SlickUpload.dll" />
+    <Content Include="bin\HtmlAgilityPack.dll" />
+    <Content Include="bin\Interop.AbacusInterfaces.dll" />
+    <Content Include="bin\Interop.ErrorClass.dll" />
+    <Content Include="bin\Interop.SPClasses.dll" />
+    <Content Include="bin\Interop.SPFunctions.dll" />
+    <Content Include="bin\MSXML2.dll" />
+    <Content Include="bin\Net.SourceForge.Koogra.dll" />
+    <Content Include="bin\Net.SourceForge.Koogra.xml" />
+    <Content Include="bin\Scripting.dll" />
+    <Content Include="bin\Target.Library.dll" />
+    <Content Include="bin\Target.Library.pdb" />
+    <Content Include="bin\Target.Library.Web.dll" />
+    <Content Include="bin\Target.Library.Web.pdb" />
+    <Content Include="bin\Target.Library.Web.xml" />
+    <Content Include="bin\Target.Library.xml" />
+    <Content Include="bin\Target.SP.Library.dll" />
+    <Content Include="bin\Target.SP.Library.pdb" />
+    <Content Include="bin\Target.SP.Library.xml" />
+    <Content Include="bin\Target.SP.Web.dll" />
+    <Content Include="bin\Target.SP.Web.pdb" />
+    <Content Include="bin\Target.SP.Web.xml" />
+    <Content Include="bin\Target.Web.Apps.dll" />
+    <Content Include="bin\Target.Web.Apps.pdb" />
+    <Content Include="bin\Target.Web.Apps.xml" />
+    <Content Include="bin\VBA.dll" />
+    <Content Include="Default.aspx" />
+    <Content Include="Images\CompanyLogo.png" />
+    <Content Include="Images\SPLogo.png" />
+    <Content Include="Library\Controls\MasterPages\Default\Blue\Images\CompanyLogo.gif" />
+    <Content Include="Library\Controls\MasterPages\Default\Blue\Images\HeaderLogo.gif" />
+    <Content Include="Setup\ArchiveSourceExclude.txt" />
+    <Content Include="Setup\CreateInstallerExcludedFiles.txt" />
+    <Content Include="Setup\CreateInstallerFiles.txt" />
+    <EmbeddedResource Include="Apps\ListProviders.aspx.resx">
+      <DependentUpon>ListProviders.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\ListServices.aspx.resx">
+      <DependentUpon>ListServices.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\ListSubsidies\EndSubsidy.aspx.resx">
+      <DependentUpon>EndSubsidy.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\ListSubsidies\ListSubsidies.aspx.resx">
+      <DependentUpon>ListSubsidies.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\ListSubsidies\ViewSubsidy.aspx.resx">
+      <DependentUpon>ViewSubsidy.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\OccupancyEnq.aspx.resx">
+      <DependentUpon>OccupancyEnq.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\Payments\GetProviderInterfaceFile.aspx.resx">
+      <DependentUpon>GetProviderInterfaceFile.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\Payments\PaymentEnquiry.aspx.resx">
+      <DependentUpon>PaymentEnquiry.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\Payments\PaymentInterface.aspx.resx">
+      <DependentUpon>PaymentInterface.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\Payments\SUPaymentEnquiry.aspx.resx">
+      <DependentUpon>SUPaymentEnquiry.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\Payments\ViewRemittance.aspx.resx">
+      <DependentUpon>ViewRemittance.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\Payments\ViewStatement.aspx.resx">
+      <DependentUpon>ViewStatement.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\PIReturns\ListSubmittedPIReturns.aspx.resx">
+      <DependentUpon>ListSubmittedPIReturns.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\PIReturns\PISubmissionStatusEnquiry.aspx.resx">
+      <DependentUpon>PISubmissionStatusEnquiry.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\PIReturns\SubmitNewPIReturn.aspx.resx">
+      <DependentUpon>SubmitNewPIReturn.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\SUNotif\Admin\ProcessSUNotif.aspx.resx">
+      <DependentUpon>ProcessSUNotif.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\SUNotif\ListSUNotif.aspx.resx">
+      <DependentUpon>ListSUNotif.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\SUNotif\NewSUNotif.aspx.resx">
+      <DependentUpon>NewSUNotif.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\SUNotif\ViewSUNotif.aspx.resx">
+      <DependentUpon>ViewSUNotif.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\UserControls\AddressContact.ascx.resx">
+      <DependentUpon>AddressContact.ascx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\UserControls\ClientSelector.ascx.resx">
+      <DependentUpon>ClientSelector.ascx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\UserControls\financialYrQtrSelector.ascx.resx">
+      <DependentUpon>financialYrQtrSelector.ascx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\UserControls\NewSUNotifEnterDetails.ascx.resx">
+      <DependentUpon>NewSUNotifEnterDetails.ascx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\UserControls\OccupancyEnqList.ascx.resx">
+      <DependentUpon>OccupancyEnqList.ascx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\UserControls\PISubmissionStatusList.ascx.resx">
+      <DependentUpon>PISubmissionStatusList.ascx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\UserControls\PropertySelector.ascx.resx">
+      <DependentUpon>PropertySelector.ascx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\UserControls\ProviderInterfaceFileSelector.ascx.resx">
+      <DependentUpon>ProviderInterfaceFileSelector.ascx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\UserControls\ProviderSelector.ascx.resx">
+      <DependentUpon>ProviderSelector.ascx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\UserControls\RemittanceDetailSelector.ascx.resx">
+      <DependentUpon>RemittanceDetailSelector.ascx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\UserControls\RemittanceSelector.ascx.resx">
+      <DependentUpon>RemittanceSelector.ascx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\UserControls\ServiceSelector.ascx.resx">
+      <DependentUpon>ServiceSelector.ascx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\UserControls\SubmittedPIReturnsList.ascx.resx">
+      <DependentUpon>SubmittedPIReturnsList.ascx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\UserControls\SubsidySelector.ascx.resx">
+      <DependentUpon>SubsidySelector.ascx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\ViewProperty.aspx.resx">
+      <DependentUpon>ViewProperty.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\ViewProvider.aspx.resx">
+      <DependentUpon>ViewProvider.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\ViewService.aspx.resx">
+      <DependentUpon>ViewService.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\ViewServiceUser.aspx.resx">
+      <DependentUpon>ViewServiceUser.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\WebSvc\Clients.asmx.resx">
+      <DependentUpon>Clients.asmx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\WebSvc\OccupancyEnquiry.asmx.resx">
+      <DependentUpon>OccupancyEnquiry.asmx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\WebSvc\Payments.asmx.resx">
+      <DependentUpon>Payments.asmx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\WebSvc\PIReturns.asmx.resx">
+      <DependentUpon>PIReturns.asmx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\WebSvc\Properties.asmx.resx">
+      <DependentUpon>Properties.asmx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\WebSvc\Providers.asmx.resx">
+      <DependentUpon>Providers.asmx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\WebSvc\Services.asmx.resx">
+      <DependentUpon>Services.asmx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\WebSvc\Subsidies.asmx.resx">
+      <DependentUpon>Subsidies.asmx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\WebSvc\SUNotif.asmx.resx">
+      <DependentUpon>SUNotif.asmx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Default.aspx.resx">
+      <DependentUpon>Default.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="bin\PostBuildEvent.bat" />
+    <None Include="bin\RegisterComDlls.bat" />
+    <None Include="bin\UnregisterComDlls.bat" />
+    <None Include="Setup\ArchiveSource.bat" />
+    <None Include="Setup\CreateInstaller.bat" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/TargetWeb/SPWeb</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>$(TargetDir)PostBuildEvent.bat</PostBuildEvent>
+  </PropertyGroup>
+</Project>

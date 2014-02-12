@@ -1,0 +1,5 @@
+IF (New.Checked = False)  THEN  InstanceName.Enabled := False;
+IF (New.Checked = True)  THEN  InstanceName.Enabled := True;
+IF (New.Checked = True)  THEN  Next.Enabled := False;
+IF (InstanceName.Text <> )  THEN  Next.Enabled := True;
+IF (Update.Checked = True)  THEN  Next.Enabled := True;

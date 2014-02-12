@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="spxReport_DomEnhancedRateDays" targetNamespace="http://tempuri.org/spxReport_DomEnhancedRateDays.xsd" xmlns:mstns="http://tempuri.org/spxReport_DomEnhancedRateDays.xsd" xmlns="http://tempuri.org/spxReport_DomEnhancedRateDays.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="spxReport_DomEnhancedRateDays" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="spxReport_DomEnhancedRateDays" msprop:Generator_UserDSName="spxReport_DomEnhancedRateDays" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="EnhancedRateDays" msprop:Generator_UserTableName="EnhancedRateDays" msprop:Generator_RowDeletedName="EnhancedRateDaysRowDeleted" msprop:Generator_TableClassName="EnhancedRateDaysDataTable" msprop:Generator_RowChangedName="EnhancedRateDaysRowChanged" msprop:Generator_RowClassName="EnhancedRateDaysRow" msprop:Generator_RowChangingName="EnhancedRateDaysRowChanging" msprop:Generator_RowEvArgName="EnhancedRateDaysRowChangeEvent" msprop:Generator_RowEvHandlerName="EnhancedRateDaysRowChangeEventHandler" msprop:Generator_TablePropName="EnhancedRateDays" msprop:Generator_TableVarName="tableEnhancedRateDays" msprop:Generator_RowDeletingName="EnhancedRateDaysRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EnhancedDay" msprop:Generator_UserColumnName="EnhancedDay" msprop:Generator_ColumnPropNameInRow="EnhancedDay" msprop:Generator_ColumnVarNameInTable="columnEnhancedDay" msprop:Generator_ColumnPropNameInTable="EnhancedDayColumn" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

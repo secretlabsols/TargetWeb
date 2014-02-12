@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Site Offline</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link href="Library/Css/Skin.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        * {margin:0;padding:0}
+        /* mac hide \*/
+        html,body{height:100%;width:100%;font-family: Verdana, Arial, sans-serif; background-color: #ffffff; color: #000000;}
+        /* end hide */
+        body { 
+	        text-align:center;
+	        min-height:468px;/* for good browsers*/
+	        min-width:180px;/* for good browsers*/
+        }
+        h1 { background-color:#ffffff;color:#6487DB;font-size:2em; }
+        #xouter{
+	        height:100%;
+	        width:100%;
+	        display:table;
+	        vertical-align:middle;
+        }
+        #xcontainer {
+	        text-align: center;
+	        position:relative;
+	        vertical-align:middle;
+	        display:table-cell;
+	        height:180px;
+        }	
+        #xinner {
+	        width: 552px;
+	        background:#fff;
+	        height: 180px;
+	        text-align: center;
+	        margin-left:auto;
+	        margin-right:auto;
+	        border:1px solid gray;
+        }
+        /* not required for demo */
+        p,h1{margin-bottom:1em}
+        #header{margin-right:0}
+        .maintxt{text-align:left;clear:left;}
+        /* - */
+    </style>
+    <!--[if lte IE 8]>
+        <style type="text/css">
+        #xouter{display:block}
+        #xcontainer{top:50%;display:block}
+        #xinner{top:-50%;position:relative}
+        </style>
+        <![endif]-->
+
+        <!--[if IE 7]>
+        <style type="text/css">
+        #xouter{
+        position:relative;
+        overflow:hidden;
+        }
+        </style>
+    <![endif]-->
+</head>
+<body>
+    <div id="xouter">
+	    <div id="xcontainer">
+		    <div id="xinner">
+                <h1>Site Offline</h1>
+			    <p class="maintxt">
+			        <p>This site is currently offline for maintenance.</p>
+			        <p>We apologise for any inconvenience.</p>
+			        <p>Please <a href="javascript:document.location.href=document.location.href;">try again</a> later.</p>
+			    </p>
+		    </div>
+	    </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+﻿/*
+    Use this stylesheet to override any styles from the Jquery UI custom theme.
+*/
+
+/* ui-datepicker */
+.ui-datepicker-trigger {
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+    cursor: pointer;     
+}
+
+.hasDatepicker:Hover {
+    cursor: pointer;     
+}
+
+/* ui-dialog */
+.ui-dialog { 
+    font-size: 90%; 
+}
+
+.DialogLoading {
+    top: 0; 
+    left: 0; 
+    position: absolute; 
+    background-color: white;
+    background-image : url('../../../../Images/busy.gif');
+    background-repeat : no-repeat;
+    background-position: 50% 50%;
+}
+
+.DialogLoading label {
+    font-weight: bold;
+    width: 100%;
+    text-align: center; 
+    top: 68%;
+    position: absolute;    
+}
+
+.ui-button 
+{
+    font-size: 90%;
+    color:#000000;
+    background:#ffffff;
+}
+
+.ui-button.ui-state-default .ui-icon, .ui-button.ui-state-hover .ui-icon, .ui-button.ui-state-focus .ui-icon {
+    background-image: url(jquery-ui/css/custom-theme/images/ui-icons_0078ae_256x240.png);
+}
+.ui-button-text-icon-secondary .ui-button-text 
+{
+    padding-bottom:0;
+    padding-top:0;
+}
+
+.Menu { text-indent:1em; }
+
+a { background-color: Transparent; text-decoration: none; color: #0034b2; font-weight: bold; }
+a:hover { background-color: Transparent; text-decoration: underline; color: #ff9933; cursor: pointer; }
+

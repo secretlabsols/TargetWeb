@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<codeSmith>
+	<!--  template that will be used to generate code  --> 
+	<template path="..\..\..\..\..\CodeSmith Templates\VB.NET\BusinessObjects\Main.cst" />
+	<!--  any number of variables can be setup for use in the propery sets  --> 
+	<variables>
+		<add key="ConnectionString" value="Data Source=(local);Initial Catalog=LIVE_RED;Integrated Security=true;Connection Timeout=1;" /> 
+		<add key="ProviderType" value="SchemaExplorer.SqlSchemaProvider,SchemaExplorer.SqlSchemaProvider" /> 
+	</variables>
+	<!--  list of property sets which each get loaded into the template and executed --> 
+	<propertySets>
+		<propertySet>
+			<property name="OutputDirectory">..\..\..\..\..\TargetWeb\AbacusWeb\Apps\Security\BusinessObjects</property>
+			<property name="SourceDatabase">
+				<connectionString>$(ConnectionString)</connectionString>
+				<providerType>$(ProviderType)</providerType>
+			</property>
+			<property name="RootNamespace">Target.Abacus.Web</property>
+			<property name="ClassesNamespace">Apps.Security</property>
+			<property name="CollectionsNamespace">Apps.Security.Collections</property>
+			<property name="SourceTables">
+				<connectionString>$(ConnectionString)</connectionString>
+				<providerType>$(ProviderType)</providerType>
+				<tableList>
+					<table>
+						<owner>dbo</owner>
+						<name>Users</name>
+					</table>
+				</tableList>
+			</property>
+			<property name="ArrayListCollectionTables">
+				<connectionString>$(ConnectionString)</connectionString>
+				<providerType>$(ProviderType)</providerType>
+				<tableList>
+					<table>
+						<owner>dbo</owner>
+						<name>Users</name>
+					</table>
+				</tableList>
+			</property>
+		</propertySet>
+	</propertySets>
+</codeSmith>

@@ -1,0 +1,21 @@
+
+@media print {
+	div.header { display:none; }
+	#divRemittance { margin:0em; }
+} 
+@media screen {
+	div.header { padding-top:1em; }
+	#divRemittance { margin:1em; }
+}
+
+#logoContainer { width:100%; text-align:center; }
+#addressContainer { margin: 3em 0em 3em 0em; }
+label.label { width:5em; }
+#detailsTable {	margin-top:2em; width:100%; }
+#detailsTable .nowrap { white-space:nowrap; vertical-align:top; }
+#detailsTable th { font-weight:bold; }
+#detailsTable th.left { text-align:left; }
+#detailsTable th.right { text-align:right; }
+#detailsTable td.spacer { height:1px; }
+#detailsTable td.spacer hr { background-color: #ffffff;	color: #000000; border-color: #000000; border-style: solid; border-top-width: 1px; height: 1px; }
+#detailsTable td.right { text-align:right; }

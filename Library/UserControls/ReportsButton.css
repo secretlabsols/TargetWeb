@@ -1,0 +1,14 @@
+﻿.ReportButton {
+    background-repeat:no-repeat; 
+    background-position:5px 50%;  
+    text-indent:28px;
+}
+.ReportButtonView {
+    background-image:url(../../Images/FileTypes/preview16.png);
+}
+.ReportButtonPdf {
+    background-image:url(../../Images/FileTypes/pdf16.png);
+}
+.ReportButtonExcel {
+    background-image:url(../../Images/FileTypes/xls16.png);
+}

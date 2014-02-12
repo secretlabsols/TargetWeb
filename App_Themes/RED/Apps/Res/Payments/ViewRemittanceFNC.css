@@ -1,0 +1,49 @@
+
+@media print {
+	div.header { display:none; }
+	#divRemittance { margin:0em; }
+} 
+@media screen {
+	div.header { padding-top:1em; }
+	#divRemittance { margin:1em; }
+}
+
+#logoContainer { float:left; }
+#councilAddressContainer { float:right; text-align:right; margin-right:0.5em; }
+#councilName { text-transform:uppercase; font-weight:bold; font-size:1.1em; }
+
+#homeAddressContainer { margin: 1em 0em 0em 6em; }
+#homeName { text-transform:uppercase; font-weight:bold; font-size:1.1em; }
+#attnOf { float:left; margin-left:6em; }
+#creditorRef { float:right; }
+
+.borderTopThin { border-top: solid 1px #000000; }
+.borderLeftThin { border-left: solid 1px #000000; }
+.borderBottomThin { border-bottom: solid 1px #000000; }
+.borderRightThin { border-right: solid 1px #000000; }
+.borderTopThick { border-top: solid 2px #000000; }
+.borderLeftThick { border-left: solid 2px #000000; }
+.borderBottomThick { border-bottom: solid 2px #000000; }
+.borderRightThick { border-right: solid 2px #000000; }
+
+#detailsTable {	margin-top:2em; width:100%; font-family: Arial; font-size:1.20em; background-color: #ffffff; color: #000000; }
+#detailsTable td { padding:4px; }
+#detailsTable thead { display:table-header-group; }
+#detailsTable tfoot { display:table-footer-group; }
+#detailsTable tr.dataRow { font-family: Courier New; }
+#detailsTable tr.detailHeader td { font-weight:bold; border-bottom: solid 1px #000000; vertical-align:bottom; text-align:center; }
+#detailsTable tr.detailHeader td.leftMostColumn { text-align:left; }
+#detailsTable td.remittanceTitle { border-top: solid 2px #000000; border-left: solid 2px #000000; border-right: solid 2px #000000; }
+#detailsTable td.remittanceTitleLeft { width:33%; text-align:left; white-space:nowrap; vertical-align:top; }
+#detailsTable td.remittanceTitleMiddle { width:33%; text-align:center; text-transform:uppercase; font-weight:bold; font-size:1.1em; }
+#detailsTable td.remittanceTitleRight { width:33%; text-align:right; white-space:nowrap; vertical-align:top; }
+#detailsTable td.remittanceSubTitle { text-align:center; border: solid 2px #000000; }
+#detailsTable td.leftMostColumn { width:50%; border-left: solid 2px #000000; text-align:left; vertical-align:top; }
+#detailsTable td.dataColumn { border-left: solid 1px #000000; text-align:right; white-space:nowrap; vertical-align:top; }
+#detailsTable td.netPaymentColumn { font-weight:bold; text-decoration:underline; }
+#detailsTable td.remittanceTotalTitle { border-top: solid 4px #000000; border-left: solid 2px #000000; font-weight:bold; font-size:1.1em; }
+#detailsTable td.remittanceTotalValue { text-align:right; border-top: solid 4px #000000; border-right: solid 2px #000000; text-transform:uppercase; font-weight:bold; font-size:1.1em;  }
+#detailsTable td.footer { border-left: solid 2px #000000; border-bottom: solid 2px #000000; border-right: solid 2px #000000; font-size:0px; padding:0px; }
+
+.greyBg { background-color:#C0C0C0; }
+

@@ -1,0 +1,26 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Popup.master.vb" Inherits="Target.Web.Popup" %>
+<%@ Register TagPrefix="ajaxToolkit" Namespace="AjaxControlToolkit" Assembly="AjaxControlToolkit" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-GB">
+  <head runat="server">
+		<title><asp:Literal ID="litHtmlTitle" Runat="server" EnableViewState="False"></asp:Literal></title>
+		<meta http-equiv="Content-Type" content="xhtml+xml; charset=utf-8"></meta>
+		<asp:Literal ID="litCssReferences" Runat="server" EnableViewState="False"></asp:Literal>
+		<asp:Literal ID="litJSReferences" Runat="server" EnableViewState="False"></asp:Literal>
+		<asp:Literal ID="litExtraCssStyles" Runat="server" EnableViewState="False"></asp:Literal>
+  </head>
+	<body>
+		<form id="aspnetForm" runat="server" autocomplete="off">
+		    <ajaxToolkit:ToolkitScriptManager runat="Server" ID="ScriptManager1" />
+			<div id="pageLoading">Loading...</div>
+			<asp:ContentPlaceHolder ID="MPPageOverview" runat="server"></asp:ContentPlaceHolder>
+			<p class="errorText">
+				<asp:ContentPlaceHolder ID="MPPageError" runat="server" EnableViewState="false"></asp:ContentPlaceHolder>
+				<asp:PlaceHolder ID="phValidationSummaries" runat="server" EnableViewState="false"></asp:PlaceHolder>
+			</p>
+			<asp:ContentPlaceHolder ID="MPContent" runat="server"></asp:ContentPlaceHolder>
+			<div id="divModal" style="position:absolute"></div>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="spxReport_DomiciliaryProviderInvoiceVisitsOutsideMinMax" targetNamespace="http://tempuri.org/spxReport_DomiciliaryProviderInvoiceVisitsOutsideMinMax.xsd" xmlns:mstns="http://tempuri.org/spxReport_DomiciliaryProviderInvoiceVisitsOutsideMinMax.xsd" xmlns="http://tempuri.org/spxReport_DomiciliaryProviderInvoiceVisitsOutsideMinMax.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="spxReport_DomiciliaryProviderInvoiceVisitsOutsideMinMax" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="spxReport_DomiciliaryProviderInvoiceVisitsOutsideMinMax" msprop:Generator_UserDSName="spxReport_DomiciliaryProviderInvoiceVisitsOutsideMinMax">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Visits" msprop:Generator_UserTableName="Visits" msprop:Generator_RowEvArgName="VisitsRowChangeEvent" msprop:Generator_TableVarName="tableVisits" msprop:Generator_TablePropName="Visits" msprop:Generator_RowDeletingName="VisitsRowDeleting" msprop:Generator_RowChangingName="VisitsRowChanging" msprop:Generator_RowDeletedName="VisitsRowDeleted" msprop:Generator_TableClassName="VisitsDataTable" msprop:Generator_RowChangedName="VisitsRowChanged" msprop:Generator_RowEvHandlerName="VisitsRowChangeEventHandler" msprop:Generator_RowClassName="VisitsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ProviderRef" msprop:Generator_ColumnVarNameInTable="columnProviderRef" msprop:Generator_ColumnPropNameInRow="ProviderRef" msprop:Generator_ColumnPropNameInTable="ProviderRefColumn" msprop:Generator_UserColumnName="ProviderRef" type="xs:string" minOccurs="0" />
+              <xs:element name="ProviderName" msprop:Generator_ColumnVarNameInTable="columnProviderName" msprop:Generator_ColumnPropNameInRow="ProviderName" msprop:Generator_ColumnPropNameInTable="ProviderNameColumn" msprop:Generator_UserColumnName="ProviderName" type="xs:string" minOccurs="0" />
+              <xs:element name="ContractNumber" msprop:Generator_ColumnVarNameInTable="columnContractNumber" msprop:Generator_ColumnPropNameInRow="ContractNumber" msprop:Generator_ColumnPropNameInTable="ContractNumberColumn" msprop:Generator_UserColumnName="ContractNumber" type="xs:string" minOccurs="0" />
+              <xs:element name="ContractTitle" msprop:Generator_ColumnVarNameInTable="columnContractTitle" msprop:Generator_ColumnPropNameInRow="ContractTitle" msprop:Generator_ColumnPropNameInTable="ContractTitleColumn" msprop:Generator_UserColumnName="ContractTitle" type="xs:string" minOccurs="0" />
+              <xs:element name="ClientName" msprop:Generator_ColumnVarNameInTable="columnClientName" msprop:Generator_ColumnPropNameInRow="ClientName" msprop:Generator_ColumnPropNameInTable="ClientNameColumn" msprop:Generator_UserColumnName="ClientName" type="xs:string" minOccurs="0" />
+              <xs:element name="ClientRef" msprop:Generator_ColumnVarNameInTable="columnClientRef" msprop:Generator_ColumnPropNameInRow="ClientRef" msprop:Generator_ColumnPropNameInTable="ClientRefColumn" msprop:Generator_UserColumnName="ClientRef" type="xs:string" minOccurs="0" />
+              <xs:element name="InvoiceNumber" msprop:Generator_ColumnVarNameInTable="columnInvoiceNumber" msprop:Generator_ColumnPropNameInRow="InvoiceNumber" msprop:Generator_ColumnPropNameInTable="InvoiceNumberColumn" msprop:Generator_UserColumnName="InvoiceNumber" type="xs:string" minOccurs="0" />
+              <xs:element name="ServiceType" msprop:Generator_ColumnVarNameInTable="columnServiceType" msprop:Generator_ColumnPropNameInRow="ServiceType" msprop:Generator_ColumnPropNameInTable="ServiceTypeColumn" msprop:Generator_UserColumnName="ServiceType" type="xs:string" minOccurs="0" />
+              <xs:element name="VisitDate" msprop:Generator_ColumnVarNameInTable="columnVisitDate" msprop:Generator_ColumnPropNameInRow="VisitDate" msprop:Generator_ColumnPropNameInTable="VisitDateColumn" msprop:Generator_UserColumnName="VisitDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="StartTimeClaimed" msprop:Generator_ColumnVarNameInTable="columnStartTimeClaimed" msprop:Generator_ColumnPropNameInRow="StartTimeClaimed" msprop:Generator_ColumnPropNameInTable="StartTimeClaimedColumn" msprop:Generator_UserColumnName="StartTimeClaimed" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DurationClaimed" msprop:Generator_ColumnVarNameInTable="columnDurationClaimed" msprop:Generator_ColumnPropNameInRow="DurationClaimed" msprop:Generator_ColumnPropNameInTable="DurationClaimedColumn" msprop:Generator_UserColumnName="DurationClaimed" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ActualStartTime" msprop:Generator_ColumnVarNameInTable="columnActualStartTime" msprop:Generator_ColumnPropNameInRow="ActualStartTime" msprop:Generator_ColumnPropNameInTable="ActualStartTimeColumn" msprop:Generator_UserColumnName="ActualStartTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ActualDuration" msprop:Generator_ColumnVarNameInTable="columnActualDuration" msprop:Generator_ColumnPropNameInRow="ActualDuration" msprop:Generator_ColumnPropNameInTable="ActualDurationColumn" msprop:Generator_UserColumnName="ActualDuration" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ActualEndTime" msprop:Generator_ColumnVarNameInTable="columnActualEndTime" msprop:Generator_ColumnPropNameInRow="ActualEndTime" msprop:Generator_ColumnPropNameInTable="ActualEndTimeColumn" msprop:Generator_UserColumnName="ActualEndTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ExpectedMinStartTime" msprop:Generator_ColumnVarNameInTable="columnExpectedMinStartTime" msprop:Generator_ColumnPropNameInRow="ExpectedMinStartTime" msprop:Generator_ColumnPropNameInTable="ExpectedMinStartTimeColumn" msprop:Generator_UserColumnName="ExpectedMinStartTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ExpectedMaxEndTime" msprop:Generator_ColumnVarNameInTable="columnExpectedMaxEndTime" msprop:Generator_ColumnPropNameInRow="ExpectedMaxEndTime" msprop:Generator_ColumnPropNameInTable="ExpectedMaxEndTimeColumn" msprop:Generator_UserColumnName="ExpectedMaxEndTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="SecondaryVisitAutoSet" msdata:Caption="SecondaryVisit" msprop:Generator_ColumnVarNameInTable="columnSecondaryVisitAutoSet" msprop:Generator_ColumnPropNameInRow="SecondaryVisitAutoSet" msprop:Generator_ColumnPropNameInTable="SecondaryVisitAutoSetColumn" msprop:Generator_UserColumnName="SecondaryVisitAutoSet" type="xs:boolean" minOccurs="0" />
+              <xs:element name="SecondaryVisit" msprop:Generator_ColumnVarNameInTable="columnSecondaryVisit" msprop:Generator_ColumnPropNameInRow="SecondaryVisit" msprop:Generator_ColumnPropNameInTable="SecondaryVisitColumn" msprop:Generator_UserColumnName="SecondaryVisit" type="xs:boolean" minOccurs="0" />
+              <xs:element name="NumberOfCarers" msprop:Generator_ColumnVarNameInTable="columnNumberOfCarers" msprop:Generator_ColumnPropNameInRow="NumberOfCarers" msprop:Generator_ColumnPropNameInTable="NumberOfCarersColumn" msprop:Generator_UserColumnName="NumberOfCarers" type="xs:int" minOccurs="0" />
+              <xs:element name="VisitCode" msprop:Generator_ColumnVarNameInTable="columnVisitCode" msprop:Generator_ColumnPropNameInRow="VisitCode" msprop:Generator_ColumnPropNameInTable="VisitCodeColumn" msprop:Generator_UserColumnName="VisitCode" type="xs:string" minOccurs="0" />
+              <xs:element name="ManuallyAmendedIndicator" msprop:Generator_ColumnVarNameInTable="columnManuallyAmendedIndicator" msprop:Generator_ColumnPropNameInRow="ManuallyAmendedIndicator" msprop:Generator_ColumnPropNameInTable="ManuallyAmendedIndicatorColumn" msprop:Generator_UserColumnName="ManuallyAmendedIndicator" type="xs:string" minOccurs="0" />
+              <xs:element name="DurationPaid" msprop:Generator_ColumnVarNameInTable="columnDurationPaid" msprop:Generator_ColumnPropNameInRow="DurationPaid" msprop:Generator_ColumnPropNameInTable="DurationPaidColumn" msprop:Generator_UserColumnName="DurationPaid" type="xs:int" minOccurs="0" />
+              <xs:element name="CalculatedPayment" msprop:Generator_ColumnVarNameInTable="columnCalculatedPayment" msprop:Generator_ColumnPropNameInRow="CalculatedPayment" msprop:Generator_ColumnPropNameInTable="CalculatedPaymentColumn" msprop:Generator_UserColumnName="CalculatedPayment" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CareManager" msprop:Generator_ColumnVarNameInTable="columnCareManager" msprop:Generator_ColumnPropNameInRow="CareManager" msprop:Generator_ColumnPropNameInTable="CareManagerColumn" msprop:Generator_UserColumnName="CareManager" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

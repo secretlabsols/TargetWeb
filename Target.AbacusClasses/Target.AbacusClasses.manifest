@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+
+<assemblyIdentity name="Target.AbacusClasses" version="1.0.0.166" type="win32" processorArchitecture="x86"/>
+
+<description>Built with: Side-by-Side Manifest Maker, Command Line (4.0.0.4650) (x64)</description>
+<description>Copyright: (c) Maze Computer Communications, Inc.  All rights reserved.</description>
+<description>Licensee: Target Systems &amp; Programming Ltd; Station Court; Hampton in Arden; United Kingdom</description>
+<description>License: 10 user license</description>
+
+<dependency>
+ <dependentAssembly>
+  <assemblyIdentity name="Target.AbacusLibrary" version="1.0.0.166" type="win32" processorArchitecture="x86"/>
+ </dependentAssembly>
+</dependency>
+
+<file name="AbacusClasses.dll">
+ <comClass
+     clsid="{00EDABD1-B339-4E93-8E94-1A91AE8F12F4}"
+     description="AbacusClasses.TSDomInvoicing"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.TSDomInvoicing"/>
+ <comClass
+     clsid="{015747D6-189F-41EF-8E94-83F38472A047}"
+     description="AbacusClasses.clsDirectDebit"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.clsDirectDebit"/>
+ <comClass
+     clsid="{02313BA4-58B8-4957-8C2D-F90A013CA2E1}"
+     description="AbacusClasses.TSRACAssessment"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.TSRACAssessment"/>
+ <comClass
+     clsid="{0422A1F2-ACF6-4A59-8FEF-387FF5190E0F}"
+     description="AbacusClasses.PaymentAllocationGroup"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.PaymentAllocationGroup"/>
+ <comClass
+     clsid="{056A19E3-BEE9-459F-814A-1FF919F6D4F0}"
+     description="AbacusClasses.TSRACAssessment2"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.TSRACAssessment2"/>
+ <comClass
+     clsid="{0808D1AF-AE08-4BDB-8874-7A14F402BCE2}"
+     description="AbacusClasses.RemittancePublish"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.RemittancePublish"/>
+ <comClass
+     clsid="{08B88E07-CDC3-42E0-BA23-5F846F326B55}"
+     description="AbacusClasses.PaymentAllocation"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.PaymentAllocation"/>
+ <comClass
+     clsid="{0AA557BC-741D-4FC2-AB2C-E99D32D24D46}"
+     description="AbacusClasses.DomPackageItem"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.DomPackageItem"/>
+ <comClass
+     clsid="{0B87071E-778D-43D6-884C-154BF87306E9}"
+     description="AbacusClasses.DomServiceOrderHeader"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.DomServiceOrderHeader"/>
+ <comClass
+     clsid="{0E4E80C5-4DF1-4D0B-9C58-C3837A684236}"
+     description="AbacusClasses.DomServiceActual"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.DomServiceActual"/>
+ <comClass
+     clsid="{162F64A3-6A5A-4863-BE0E-D4C81A5FCA09}"
+     description="AbacusClasses.PensionStd"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.PensionStd"/>
+ <comClass
+     clsid="{178B3163-7922-4184-8536-21F86B5E1CF2}"
+     description="AbacusClasses.DomContractUnitCost"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.DomContractUnitCost"/>
+ <comClass
+     clsid="{17C4FCE9-8743-452D-BF42-E345A6451E20}"
+     description="AbacusClasses.InvoiceDetail"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.InvoiceDetail"/>
+ <comClass
+     clsid="{183E6C80-35CE-464D-AC1D-41B971C24D73}"
+     description="AbacusClasses.PaymentStd"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.PaymentStd"/>
+ <comClass
+     clsid="{1C41BC38-DB9A-4C7A-81D9-EFFC89A097B5}"
+     description="AbacusClasses.ClientDetail"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.ClientDetail"/>
+ <comClass
+     clsid="{1C7951BA-B19A-4007-A998-DA7B194BB68E}"
+     description="AbacusClasses.colDirectDebits"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.colDirectDebits"/>
+ <comClass
+     clsid="{1D3851E8-62DB-4617-87E2-6CC6D6609AE6}"
+     description="AbacusClasses.PaymentToleranceGroup"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.PaymentToleranceGroup"/>
+ <comClass
+     clsid="{1E4BFE91-1932-4FD0-BABF-7619550DBB3D}"
+     description="AbacusClasses.SuspendOrder"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.SuspendOrder"/>
+ <comClass
+     clsid="{21EAEDAE-A684-4BA9-91D4-073FA8DB09B3}"
+     description="AbacusClasses.TSAccount"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.TSAccount"/>
+ <comClass
+     clsid="{22F89ABB-1827-4EEA-B8BF-51366F4814E5}"
+     description="AbacusClasses.Impersonate"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.Impersonate"/>
+ <comClass
+     clsid="{23DA3790-0A1E-46B1-A934-3C3EF1F15B9E}"
+     description="AbacusClasses.CreditControlParamsDetail"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.CreditControlParamsDetail"/>
+ <comClass
+     clsid="{2404F319-2308-4463-AA7E-D8FB812B99E1}"
+     description="AbacusClasses.SuspendOrderData"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.SuspendOrderData"/>
+ <comClass
+     clsid="{2A42033C-F6B2-41DE-9517-796FA83629DD}"
+     description="AbacusClasses.DSOCarePlanForClientWeek"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.DSOCarePlanForClientWeek"/>
+ <comClass
+     clsid="{2B483234-D6C0-45FE-B909-B87494DFF77E}"
+     description="AbacusClasses.ProcessStateHistory"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.ProcessStateHistory"/>
+ <comClass
+     clsid="{2E760955-4779-45FD-8D09-AC7B3A674FF4}"
+     description="AbacusClasses.DomServiceOrderDetail"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.DomServiceOrderDetail"/>
+ <comClass
+     clsid="{3054E46E-9FF6-43B8-94DE-2D382C0811E9}"
+     description="AbacusClasses.TSTransaction"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.TSTransaction"/>
+ <comClass
+     clsid="{33C3D41C-0DA0-46C1-8CDF-495D4EBC2FE2}"
+     description="AbacusClasses.DomEnhancedRateDays"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.DomEnhancedRateDays"/>
+ <comClass
+     clsid="{36349B63-F513-40F6-9A4B-20155465DBC6}"
+     description="AbacusClasses.SimpleQueryHelper"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.SimpleQueryHelper"/>
+ <comClass
+     clsid="{3BD5DE2B-6D6D-44BF-9C74-833FF1592511}"
+     description="AbacusClasses.DomServiceOrderActivity"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.DomServiceOrderActivity"/>
+ <comClass
+     clsid="{3E53263C-5B7D-44EA-BCFE-A8BCB9C21BC4}"
+     description="AbacusClasses.DomContractPeriod"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.DomContractPeriod"/>
+ <comClass
+     clsid="{41082851-E221-4F52-912C-32EE757ADA52}"
+     description="AbacusClasses.TSRACalcCharges"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.TSRACalcCharges"/>
+ <comClass
+     clsid="{4142F1F7-148E-48EF-9D6F-0097CDA752B0}"
+     description="AbacusClasses.CareWorker"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.CareWorker"/>
+ <comClass
+     clsid="{45873AAB-C285-4820-B818-4A13274AE904}"
+     description="AbacusClasses.General"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.General"/>
+ <comClass
+     clsid="{46C67B73-0C13-4A00-B3D1-FEFE80B75E2B}"
+     description="AbacusClasses.UserInputControl"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.UserInputControl"/>
+ <comClass
+     clsid="{48F5DEBA-4620-44CE-A7BE-6BF9900C38B6}"
+     description="AbacusClasses.DPSCarePlan"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.DPSCarePlan"/>
+ <comClass
+     clsid="{491333FC-6649-4D85-B76E-AD743160DC83}"
+     description="AbacusClasses.CreditControl"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.CreditControl"/>
+ <comClass
+     clsid="{49A236E9-28BB-408B-B8A4-BB5C3BD8982B}"
+     description="AbacusClasses.ServiceDeliveryBatch"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.ServiceDeliveryBatch"/>
+ <comClass
+     clsid="{4FF92840-2E91-45C4-90B4-B921F7547DD1}"
+     description="AbacusClasses.ServiceDelBatchDetail"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.ServiceDelBatchDetail"/>
+ <comClass
+     clsid="{51A2DD4B-E385-461C-B42B-E579188C4337}"
+     description="AbacusClasses.TSLog"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.TSLog"/>
+ <comClass
+     clsid="{52966ECF-2D37-4CDD-9976-BF62A82D011A}"
+     description="AbacusClasses.CreditControlParameters"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.CreditControlParameters"/>
+ <comClass
+     clsid="{59F4510E-5F60-41C4-AF33-C038F76D4293}"
+     description="AbacusClasses.StringBuilder"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.StringBuilder"/>
+ <comClass
+     clsid="{5D803796-9953-44C9-8238-7090A41CF738}"
+     description="AbacusClasses.TSClientProxy"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.TSClientProxy"/>
+ <comClass
+     clsid="{60BE5D34-9595-480E-8EFF-8343DCC50443}"
+     description="AbacusClasses.DSOSummaryLine"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.DSOSummaryLine"/>
+ <comClass
+     clsid="{71418800-D0B6-45D2-9743-4C468AF487D5}"
+     description="AbacusClasses.AccountNotesDetail"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.AccountNotesDetail"/>
+ <comClass
+     clsid="{71AD961F-5FB5-4D31-9027-B0317F9D3183}"
+     description="AbacusClasses.QueryHelper"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.QueryHelper"/>
+ <comClass
+     clsid="{725BE651-9CF2-4E1F-8811-C2F8DE79947C}"
+     description="AbacusClasses.DDMandateStd"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.DDMandateStd"/>
+ <comClass
+     clsid="{72F40E16-C826-4B87-AAA5-3E6B13213639}"
+     description="AbacusClasses.DomServiceOrder"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.DomServiceOrder"/>
+ <comClass
+     clsid="{7346B24B-F5A1-4056-9538-DFB0D35B0062}"
+     description="AbacusClasses.DomiciliaryService"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.DomiciliaryService"/>
+ <comClass
+     clsid="{7469F7F8-006D-4843-BB30-879337436364}"
+     description="AbacusClasses.PensionStdNI"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.PensionStdNI"/>
+ <comClass
+     clsid="{752E96DC-3B90-40BB-9D60-F4CD8FBE8E8B}"
+     description="AbacusClasses.DPINonDeliveryUnitBased"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.DPINonDeliveryUnitBased"/>
+ <comClass
+     clsid="{75EEF720-BAD4-43E3-A2AF-77DCF432AD09}"
+     description="AbacusClasses.TSFinanceCode"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.TSFinanceCode"/>
+ <comClass
+     clsid="{760A4230-B519-49DE-B3CB-107E6B356FF1}"
+     description="AbacusClasses.ClassDeclares"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.ClassDeclares"/>
+ <comClass
+     clsid="{771366DA-0632-4E20-AC9D-0495A2C80F99}"
+     description="AbacusClasses.TSAssessmentHardCopy"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.TSAssessmentHardCopy"/>
+ <comClass
+     clsid="{787EA1DE-FD36-4DC5-B7EE-BB9011D13168}"
+     description="AbacusClasses.DomVisitCode"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.DomVisitCode"/>
+ <comClass
+     clsid="{7AB70159-D76A-45A8-B39C-132C07B9C34D}"
+     description="AbacusClasses.CreditControlDetail"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.CreditControlDetail"/>
+ <comClass
+     clsid="{7C11F709-8208-4978-BAFD-C9ED50FC58F3}"
+     description="AbacusClasses.Remittance"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.Remittance"/>
+ <comClass
+     clsid="{7D481529-D867-46EA-83FA-D425560518DD}"
+     description="AbacusClasses.TSInitialSettings"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.TSInitialSettings"/>
+ <comClass
+     clsid="{7F0C6C2C-0BEE-4D1F-9D2E-3EDE5F9F9083}"
+     description="AbacusClasses.InvoiceHeader"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.InvoiceHeader"/>
+ <comClass
+     clsid="{80115A0C-D941-4561-BBEF-C0783CD6B5A8}"
+     description="AbacusClasses.DomProviderInvoice"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.DomProviderInvoice"/>
+ <comClass
+     clsid="{80C6BAA0-E91F-47D1-B190-71701880A088}"
+     description="AbacusClasses.EstablishmentStarRating"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.EstablishmentStarRating"/>
+ <comClass
+     clsid="{81EB2A17-9663-4E4C-8087-C7C5CB1AC706}"
+     description="AbacusClasses.PaymentTolerance"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.PaymentTolerance"/>
+ <comClass
+     clsid="{867A1501-5687-48B7-8E15-DD19D6BA3FD1}"
+     description="AbacusClasses.JobServiceHelper"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.JobServiceHelper"/>
+ <comClass
+     clsid="{8A882DC8-F763-4030-A48B-854FE3BB4A5F}"
+     description="AbacusClasses.TSCareEpisode"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.TSCareEpisode"/>
+ <comClass
+     clsid="{8E61186A-EB50-4937-A46E-EE79D2F99102}"
+     description="AbacusClasses.DomParameters"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.DomParameters"/>
+ <comClass
+     clsid="{9495DA39-919B-441F-8242-39E1C3C0CB40}"
+     description="AbacusClasses.ClientAddress"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.ClientAddress"/>
+ <comClass
+     clsid="{964BB544-B87C-4CA8-ADB3-4A04B08448C9}"
+     description="AbacusClasses.DomProviderInvoiceVisit"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.DomProviderInvoiceVisit"/>
+ <comClass
+     clsid="{977D7E77-3BF5-404E-8A27-16F43D796513}"
+     description="AbacusClasses.UserInputValidation"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.UserInputValidation"/>
+ <comClass
+     clsid="{9823F2DB-8698-41BE-A288-BC8DAEEE2DEC}"
+     description="AbacusClasses.DomProviderInvoiceDetail"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.DomProviderInvoiceDetail"/>
+ <comClass
+     clsid="{9C5B493C-03C2-48D1-9A49-102028E63729}"
+     description="AbacusClasses.DomServiceCache"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.DomServiceCache"/>
+ <comClass
+     clsid="{A12CFE74-CBF6-46D5-8CA9-828C58C059EB}"
+     description="AbacusClasses.DPINonDeliveryVisitBased"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.DPINonDeliveryVisitBased"/>
+ <comClass
+     clsid="{A1A96D4C-6BD7-4087-9B87-946913B5DA84}"
+     description="AbacusClasses.ACPrintFunctions"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.ACPrintFunctions"/>
+ <comClass
+     clsid="{A58C81D3-82DB-4FF3-99C1-3F058BE2C27A}"
+     description="AbacusClasses.HCVisitSummary"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.HCVisitSummary"/>
+ <comClass
+     clsid="{B2B397C8-20E5-4CAD-B09A-9363FBB03C9B}"
+     description="AbacusClasses.EmailTemplate"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.EmailTemplate"/>
+ <comClass
+     clsid="{B585AA2A-ADC1-4E00-9859-D73E106E55FD}"
+     description="AbacusClasses.tsDomCalcCharge"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.tsDomCalcCharge"/>
+ <comClass
+     clsid="{B7155895-4A34-4F3A-98CE-EE00B4D26D02}"
+     description="AbacusClasses.AddressDetails"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.AddressDetails"/>
+ <comClass
+     clsid="{B910F9F6-886A-4A25-9514-E1FC43519161}"
+     description="AbacusClasses.Action"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.Action"/>
+ <comClass
+     clsid="{BABF0C90-3C50-4A80-8481-40D0BE419280}"
+     description="AbacusClasses.AccountNotes"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.AccountNotes"/>
+ <comClass
+     clsid="{C32913C5-42BE-4B58-998B-22D3831C1458}"
+     description="AbacusClasses.ServiceUserContribution"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.ServiceUserContribution"/>
+ <comClass
+     clsid="{C4A3B440-CEBC-452A-A597-562BB4ABC1AA}"
+     description="AbacusClasses.TSDomInvoicingAddService"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.TSDomInvoicingAddService"/>
+ <comClass
+     clsid="{C5FFD35B-D2A4-41B4-88A1-FB7DCAFEEAE7}"
+     description="AbacusClasses.SpendPlanCost"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.SpendPlanCost"/>
+ <comClass
+     clsid="{C6B1DF1F-0957-4E03-8B46-1B365C49B7A1}"
+     description="AbacusClasses.clsDirectDebitCycle"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     progid="AbacusClasses.clsDirectDebitCycle"/>
+ <comClass
+     clsid="{C7EFCBC6-04EF-4514-835D-3DB5B0144645}"
+     description="AbacusClasses.DomProviderInvDetVisit"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.DomProviderInvDetVisit"/>
+ <comClass
+     clsid="{CDA4E659-17CF-4EF2-B532-CEF5CBBEF687}"
+     description="AbacusClasses.Address"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.Address"/>
+ <comClass
+     clsid="{CE6E33FE-727B-4D1E-8995-FE126D49521E}"
+     description="AbacusClasses.PaymentAllocationDetail"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.PaymentAllocationDetail"/>
+ <comClass
+     clsid="{DBF74C04-E115-4A79-975B-B9CAF9BB1E31}"
+     description="AbacusClasses.CProgressAC"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.CProgressAC"/>
+ <comClass
+     clsid="{DD497F69-BDFB-40A3-9DBC-D0B5ACDA362D}"
+     description="AbacusClasses.ImpersonationAccount"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.ImpersonationAccount"/>
+ <comClass
+     clsid="{E1257F92-FCC8-4426-A133-45214A6B35EC}"
+     description="AbacusClasses.DomContract"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.DomContract"/>
+ <comClass
+     clsid="{E23571BA-EE79-4708-A4EF-BDE21A90D7C7}"
+     description="AbacusClasses.DSOClientChargeSummary"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.DSOClientChargeSummary"/>
+ <comClass
+     clsid="{E44B424F-86DC-41CA-849E-B9561C61E274}"
+     description="AbacusClasses.DomRateCategory"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.DomRateCategory"/>
+ <comClass
+     clsid="{E7A1984D-8EF4-4DEE-80F2-E558D81A9774}"
+     description="AbacusClasses.ServiceCost"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.ServiceCost"/>
+ <comClass
+     clsid="{E7CF02F0-4328-402D-91F9-897D7E49E085}"
+     description="AbacusClasses.DomServicesDelivered"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.DomServicesDelivered"/>
+ <comClass
+     clsid="{E9C445B7-5E17-4764-B0AF-9ECBCF31A9F9}"
+     description="AbacusClasses.HCVisit"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.HCVisit"/>
+ <comClass
+     clsid="{F79A5FA7-2AFC-4F80-81DC-0857773F845F}"
+     description="AbacusClasses.Clients"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.Clients"/>
+ <comClass
+     clsid="{FB21BAD5-02C2-4D53-9040-0FBA0D348C54}"
+     description="AbacusClasses.DSOClientSummary"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.DSOClientSummary"/>
+ <comClass
+     clsid="{FBB4EADD-E69A-4167-B3C7-D5C6BD990923}"
+     description="AbacusClasses.HomeCareVisits"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     threadingModel="apartment"
+     progid="AbacusClasses.HomeCareVisits"/>
+ <typelib
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<comInterfaceExternalProxyStub 
+     iid="{02ECABF5-B3D1-44A2-8542-026937D1658B}"
+     name="Address"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{0325955D-EFB2-4E0C-B882-D08C7E78B9D9}"
+     name="TSAccount"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{04AF4DC1-FF3E-48DF-BDD8-AFF7323059FF}"
+     name="EmailTemplate"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{04BDEC6F-1997-4020-A039-1115B5D85E02}"
+     name="tsDomCalcCharge"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{157731A5-5737-480A-AC00-019218E9FA7E}"
+     name="ServiceDelBatchDetail"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{1801C154-EE0F-4E55-AFDC-F2AB7AD686C9}"
+     name="DDMandateStd"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{1974D977-BF2A-4940-9E61-45A92B03290B}"
+     name="DomServiceOrderHeader"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{197C0A25-8E04-499A-BECA-16CB5A7A5295}"
+     name="DSOSummaryLine"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{1C37B842-4829-4E22-89E3-A4204D42DA31}"
+     name="SimpleQueryHelper"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{1CE91E81-9D12-4C2E-8454-A448E3CC2C04}"
+     name="DomParameters"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{2618D918-2F71-49C8-AEC8-4978E2D5F0DB}"
+     name="ClientAddress"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{2A047CCC-275A-418C-B812-DF8B862A603E}"
+     name="AddressDetails"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{2B841C98-80E4-42B1-9021-BA54C8640535}"
+     name="UserInputValidation"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{2C40DD29-BF3D-4F1B-AD5C-080245B6D03D}"
+     name="clsDirectDebit"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{2CCC14A6-68B6-4515-8E46-2E6B11404B69}"
+     name="DSOCarePlanForClientWeek"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{2D011D5B-053B-4CC5-A8E3-3D7E03C2980E}"
+     name="DomServiceActual"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{32F7AC36-7987-46AF-991B-418506A3B780}"
+     name="TSRACAssessment"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{3578E10C-14E2-42F1-AC8F-3F3F337FCCD1}"
+     name="AccountNotes"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{37FE8193-D2D5-4516-8B5E-A91B90B4D3B0}"
+     name="PaymentTolerance"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{401D55B8-0766-4FF2-9407-C87CAF1C76C0}"
+     name="PaymentAllocationDetail"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{41091E82-C30E-48FF-8BB8-B16215681D60}"
+     name="UserInputControl"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{41D61AB0-9414-4C95-A53F-D61E1972B30E}"
+     name="ServiceCost"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{43A0EF4B-352B-4424-A0F0-20D88CF0CB7B}"
+     name="CreditControl"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{43D1380C-2FF2-4A42-A3EC-F94353060CA7}"
+     name="ACPrintFunctions"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{49F6C612-870B-41F9-9FE6-1FABDA128F8B}"
+     name="Clients"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{4A61DE26-C2DD-4ECD-BEB2-D9B22B59F319}"
+     name="TSClientProxy"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{4C9B291D-53E9-4CCD-88F5-02A777E6ABDD}"
+     name="ProcessStateHistory"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{4D1CB4FB-BECD-4A69-995A-DB2715A96F29}"
+     name="TSTransaction"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{5147DA79-B2C8-4BC4-A493-46EC04330DCA}"
+     name="CProgressAC"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{5380D815-BA46-42C4-B6FB-E894F25219F5}"
+     name="TSRACAssessment2"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{588BCE3F-70A5-4DE1-B64E-F589E3589063}"
+     name="DPINonDeliveryVisitBased"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{5A179E1B-52A0-44C8-A727-A180B59083DE}"
+     name="AccountNotesDetail"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{5A263A75-EBC6-4297-A996-9169075B8364}"
+     name="SpendPlanCost"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{5C8228D2-5B44-4A38-970D-274E1A7091AA}"
+     name="PaymentStd"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{5CE3E66E-349F-4084-B188-120C9C540237}"
+     name="PaymentAllocation"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{5FEB06A3-BE1E-4E36-941B-6A6B039011B0}"
+     name="ImpersonationAccount"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{62BFBC1D-C1F2-4382-B54C-CB885DD3C5E0}"
+     name="HCVisitSummary"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{69C7A987-1FB5-481C-8D4C-BCA7643DBF1C}"
+     name="PensionStdNI"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{6BFA2DEF-F1CC-40EE-80FF-4B8EB19E7F00}"
+     name="TSDomInvoicingAddService"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{6F05B28D-02E0-4529-8781-186CA40C1524}"
+     name="Action"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{70706AA6-CEEE-4D7C-95B6-0392D48A5EE6}"
+     name="SuspendOrderData"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{71ADFC85-551B-4903-91C2-DFFD18D377A5}"
+     name="DSOClientSummary"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{7298B5EE-01EF-468D-A666-43617CC803E4}"
+     name="DomContract"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{741A79D2-753C-4C4B-9D19-BE80467F84AD}"
+     name="DomServiceCache"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{75A91B61-A309-45A5-9621-FCDDE454C2BB}"
+     name="TSRACAssessment"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{7AF126BF-B6EE-4E19-95D4-2AC2DC9FD556}"
+     name="CreditControlParameters"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{8603BCCD-94E6-4174-A5D8-278507DA783E}"
+     name="ACPrintFunctions"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{87FFD317-D4FF-4E46-AB83-BA508DDE5A89}"
+     name="DomProviderInvDetVisit"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{8A87DF28-DF95-431E-95D7-38EC95A96BDA}"
+     name="CreditControlParamsDetail"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{8BF69C6E-80C7-4880-A01E-FD2C610933E4}"
+     name="DomServiceOrderActivity"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{8E383A1C-FE9F-4280-A655-97BD0936F461}"
+     name="DomRateCategory"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{8F8934E2-0897-44E1-9290-F4B73978E3B5}"
+     name="RemittancePublish"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{941C07DF-7311-43AC-B5B4-9593940411E9}"
+     name="JobServiceHelper"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{962FBE58-ACB7-432E-809A-42C4B9C55CAE}"
+     name="DomProviderInvoiceVisit"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{9975D737-1995-4325-80C3-F7601E366E44}"
+     name="CareWorker"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{9B0DCA17-147D-4DC4-8E65-EAAEE0798BAD}"
+     name="Impersonate"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{9D2D6C5C-087D-4AF8-9EAA-3AA8266D9AA7}"
+     name="TSFinanceCode"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{9D3CC082-C428-4317-9318-A98C66CC3ABE}"
+     name="DomProviderInvoiceDetail"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{9D503304-7125-4256-9D2E-0EFF60983C48}"
+     name="InvoiceDetail"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{9DC76955-F3AD-4DB6-A66C-743FE1B218F7}"
+     name="CreditControlDetail"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{9F39F1BF-D680-4FE7-B7C4-BEB551329CAE}"
+     name="ServiceDeliveryBatch"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A0515236-8BB1-499B-852C-0B64C114B4F7}"
+     name="EstablishmentStarRating"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A1D57D3B-185C-4257-BCE4-574A0C053798}"
+     name="DomContractPeriod"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A34189C6-6A2A-477B-B655-A58D48CA94CB}"
+     name="clsDirectDebit"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{AB7BAC4D-F3DD-4253-90FD-05C0349DD328}"
+     name="TSInitialSettings"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{AE68E187-F4E7-479F-B1C4-773B0DE32530}"
+     name="DomServiceOrderDetail"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{B0F1F64E-0DD4-4EA0-893A-9F606E4C16CD}"
+     name="TSCareEpisode"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{B869C8CE-24BF-42A7-A357-594146774E51}"
+     name="InvoiceHeader"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{B9551ED5-5337-4D72-B0A0-3584EE119407}"
+     name="SuspendOrder"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{BDEF0D84-FC17-44AF-8FC1-C146890D3AD9}"
+     name="PaymentToleranceGroup"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{BF287E31-9B8A-4AC1-B595-DACE599AABCC}"
+     name="DSOClientChargeSummary"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{C1C2022C-78B2-46BC-9484-35D646F0A879}"
+     name="PaymentAllocationGroup"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{C451BFC3-9A76-4034-9B8A-8774EBF6CB2E}"
+     name="Remittance"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{CC90FB6B-C85E-4887-B0D2-F81B1AD4568E}"
+     name="ClassDeclares"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{CCD3A434-5AE0-49AE-99C2-F335972864D4}"
+     name="colDirectDebits"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{CD326C6A-AF6E-478E-B01A-747FC88216A0}"
+     name="PensionStd"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{CE389288-B046-41C9-892B-62FC1F544B4C}"
+     name="QueryHelper"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{CECB375B-DC2A-4BA7-83CB-387966F65B8A}"
+     name="CProgressAC"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{D2CD2D66-DDD1-44B3-A6C9-A4C8FFBD9E40}"
+     name="DomServicesDelivered"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{D5AAA9B5-58D2-4D6F-910A-CEDC84553646}"
+     name="TSFinanceCode"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{D9BFEE3A-B61F-4F35-927C-259B85A62BAA}"
+     name="DomServiceOrder"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{DC565EB6-7A5F-420A-BF17-9727D0888B13}"
+     name="TSDomInvoicing"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{DDF6ED36-95ED-4795-B79B-4C9956AF2D53}"
+     name="DPINonDeliveryUnitBased"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{DE83AFA4-6031-44B4-A87B-21A2C9C610E4}"
+     name="TSLog"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{E175B2B3-877C-49FC-8CAB-C13168782777}"
+     name="DomVisitCode"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{E1BD1D22-6AF0-4ED8-8BDE-CCE48BB7F9EB}"
+     name="General"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{E4E837D0-C87E-4439-B5C6-3C12C59CEF6A}"
+     name="HCVisit"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{E779E985-0538-4A1D-BE13-F50D3739B8E6}"
+     name="DomEnhancedRateDays"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{E9E11DFA-DCE5-4BFF-85AB-ED7F997A2B54}"
+     name="DomContractUnitCost"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{EB8988FA-C9CC-4052-A401-86D507C6D0F0}"
+     name="ServiceUserContribution"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{F0CB294A-D9AA-409E-8CEA-BB5D2E26050C}"
+     name="DomiciliaryService"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{F4AD7848-0A26-40B5-AFE4-812998EFAA4C}"
+     name="StringBuilder"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{F57FF979-AFC7-4246-A781-42451969CE2F}"
+     name="TSAssessmentHardCopy"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{F5A65807-9439-4E67-89FB-8EF829364B09}"
+     name="DPSCarePlan"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{F6E13883-392B-4C51-9740-0AA16321F8D7}"
+     name="DomPackageItem"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{F8EDCF91-603A-440E-BF0B-44CC2DA2FF22}"
+     name="clsDirectDebitCycle"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{F9BB5C24-6374-4CB5-9D87-0ED7F84568E1}"
+     name="TSRACalcCharges"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{FBED0788-F4CF-42BD-B391-B3BE3816DB04}"
+     name="HomeCareVisits"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{FD0CCAE2-C69B-4B57-8376-0C9BCEAA168B}"
+     name="DomProviderInvoice"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{FE9508CD-1A8A-4259-8C45-54C0C0CEC587}"
+     name="ClientDetail"
+     tlbid="{D5B96EDB-3E3D-46AB-A9D0-013D131C640F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+
+</assembly>

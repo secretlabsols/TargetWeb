@@ -1,0 +1,26 @@
+
+/* id-ed tag classes */
+#divModal { filter: Alpha(opacity=40); }
+#divModal iframe { filter: Alpha(opacity=40); }
+
+/* menu styles */
+ul#nav li { float: left; height: 1%; }
+ul#nav li a { height: 1%; }
+/* end of menu styles */
+
+/* custom, tag-specific classes */
+html>body div.tab { border-left-width: 0px; border-right-width: 0px; }
+div.tab { float: none; }
+
+/* stepped progress bar */
+div.steppedProgress { overflow:hidden; }
+
+/* transparent PNG image fix */
+* html img {
+    behavior: expression((this.runtimeStyle.behavior="none")&&(this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none",
+        this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')",
+        this.src = SITE_VIRTUAL_ROOT + "Images/clear.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),
+        this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')",
+        this.runtimeStyle.backgroundImage = "none")),this.pngSet=true)
+    );
+}

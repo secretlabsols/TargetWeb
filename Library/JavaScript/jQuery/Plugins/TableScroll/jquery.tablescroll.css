@@ -1,0 +1,59 @@
+.tablescroll
+{
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+
+.tablescroll td, 
+.tablescroll_wrapper,
+.tablescroll_head,
+.tablescroll_foot
+{  }
+
+.tablescroll tr
+{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.tablescroll td
+{  }
+
+.tablescroll_wrapper
+{  }
+
+.tablescroll_head
+{  }
+
+.tablescroll thead th
+{ 
+    background: url(../../../../../Library/Controls/MasterPages/Default/Images/ListTableHeaderBg.png) repeat-x top;
+    background-color: #6487DB;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.tablescroll tbody td
+{  
+    border-bottom-style: solid;
+    border-bottom-color: #6487DB;
+    border-bottom-width: 1px;
+    white-space: nowrap;
+}
+
+.tablescroll tbody td a 
+{
+    cursor: pointer;
+}
+
+.tablescroll tbody tr.first td
+{  }
+
+.tablescroll_foot
+{  }
+
+.tablescroll tfoot td
+{ border-right:0; border-bottom:0; }

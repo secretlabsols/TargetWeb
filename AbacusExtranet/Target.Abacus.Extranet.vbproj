@@ -1,0 +1,1536 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{72E0F5DE-E265-4FD2-9981-426AA1E282DD}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Target.Abacus.Extranet</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>Target.Abacus.Extranet</RootNamespace>
+    <StartupObject>Target.Abacus.Extranet.%28None%29</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Target.Abacus.Extranet.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Target.Abacus.Extranet.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>Full</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=3.0.31106.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CommonAssemblies\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="AjaxPro.2, Version=6.10.6.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CommonAssemblies\AjaxPro.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Idunno.AntiCsrf, Version=0.9.1.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CommonAssemblies\Idunno.AntiCsrf.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Web.Ajax, Version=3.0.31106.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CommonAssemblies\System.Web.Ajax.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Extensions.Design" />
+    <Reference Include="System.Web.Services">
+      <Name>System.Web.Services</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <ProjectReference Include="..\..\Abacus\Jobs\Target.Abacus.Jobs.vbproj">
+      <Project>{91C9C8E9-C9E6-4B09-80B2-41ADB7E42669}</Project>
+      <Name>Target.Abacus.Jobs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Abacus\Library\Target.Abacus.Library.vbproj">
+      <Name>Target.Abacus.Library</Name>
+      <Project>{B6005F5B-03FF-435D-8E96-E8488B47E136}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Library\Target.Library.vbproj">
+      <Name>Target.Library</Name>
+      <Project>{8094033F-C3FB-4E50-88BC-A2C0E5D116A8}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Library\Web\Target.Library.Web.vbproj">
+      <Name>Target.Library.Web</Name>
+      <Project>{AA392CCB-4110-408F-A792-18DC900FD5D8}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Web\Apps\Target.Web.Apps.vbproj">
+      <Name>Target.Web.Apps</Name>
+      <Project>{E86D0C84-642F-416C-B4D3-487ABB951720}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.HtmlControls" />
+    <Import Include="System.Web.UI.WebControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Apps\Documents\DocumentAdd.aspx.designer.vb">
+      <DependentUpon>DocumentAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Documents\DocumentAdd.aspx.vb">
+      <DependentUpon>DocumentAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\Contracts\ViewDomContractRates.aspx.designer.vb">
+      <DependentUpon>ViewDomContractRates.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\Contracts\ViewDomContractRates.aspx.vb">
+      <DependentUpon>ViewDomContractRates.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\Contracts\ViewDomiciliaryContract.aspx.designer.vb">
+      <DependentUpon>ViewDomiciliaryContract.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\Contracts\ViewDomiciliaryContract.aspx.vb">
+      <DependentUpon>ViewDomiciliaryContract.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\PaymentSchedules\clientSelector.aspx.designer.vb">
+      <DependentUpon>clientSelector.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\PaymentSchedules\clientSelector.aspx.vb">
+      <DependentUpon>clientSelector.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\PaymentSchedules\Lister.aspx.designer.vb">
+      <DependentUpon>Lister.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\PaymentSchedules\Lister.aspx.vb">
+      <DependentUpon>Lister.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\PaymentSchedules\PaymentSchedules.aspx.designer.vb">
+      <DependentUpon>PaymentSchedules.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\PaymentSchedules\PaymentSchedules.aspx.vb">
+      <DependentUpon>PaymentSchedules.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\PaymentSchedules\PaymentSchedulesEnquiry.aspx.designer.vb">
+      <DependentUpon>PaymentSchedulesEnquiry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\PaymentSchedules\PaymentSchedulesEnquiry.aspx.vb">
+      <DependentUpon>PaymentSchedulesEnquiry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\PaymentSchedules\RequestPayment.aspx.designer.vb">
+      <DependentUpon>RequestPayment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\PaymentSchedules\RequestPayment.aspx.vb">
+      <DependentUpon>RequestPayment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\PaymentSchedules\RequestPaymentComplete.aspx.designer.vb">
+      <DependentUpon>RequestPaymentComplete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\PaymentSchedules\RequestPaymentComplete.aspx.vb">
+      <DependentUpon>RequestPaymentComplete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\PaymentSchedules\VoidPaymentDue.aspx.designer.vb">
+      <DependentUpon>VoidPaymentDue.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\PaymentSchedules\VoidPaymentDue.aspx.vb">
+      <DependentUpon>VoidPaymentDue.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\ProformaInvoice\ToolTip\ajaxTabHeader.vb" />
+    <Compile Include="Apps\Dom\ProformaInvoice\ViewNonVisitInvoices.aspx.designer.vb">
+      <DependentUpon>ViewNonVisitInvoices.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\ProformaInvoice\ViewNonVisitInvoices.aspx.vb">
+      <DependentUpon>ViewNonVisitInvoices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\ProviderInvoice\InvoicedVisits\Lister.aspx.designer.vb">
+      <DependentUpon>Lister.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\ProviderInvoice\InvoicedVisits\Lister.aspx.vb">
+      <DependentUpon>Lister.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\ProviderInvoice\VisitAmendmentRequest\Lister.aspx.designer.vb">
+      <DependentUpon>Lister.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\ProviderInvoice\VisitAmendmentRequest\Lister.aspx.vb">
+      <DependentUpon>Lister.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\ServiceDeliveryFile\Lister.aspx.designer.vb">
+      <DependentUpon>Lister.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\ServiceDeliveryFile\Lister.aspx.vb">
+      <DependentUpon>Lister.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\ProviderInvoiceExt\Lister.aspx.designer.vb">
+      <DependentUpon>Lister.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\ProviderInvoiceExt\Lister.aspx.vb">
+      <DependentUpon>Lister.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\ServiceDeliveryFile\ServiceDeliveryFileDownloadMenuItem.vb" />
+    <Compile Include="Apps\Dom\ServiceDeliveryFile\ServiceDeliveryFilePaymentSchedule.aspx.designer.vb">
+      <DependentUpon>ServiceDeliveryFilePaymentSchedule.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\ServiceDeliveryFile\ServiceDeliveryFilePaymentSchedule.aspx.vb">
+      <DependentUpon>ServiceDeliveryFilePaymentSchedule.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\PaymentSchedules\PaymentSchedulesFilterStep.vb" />
+    <Compile Include="Apps\Res\Occupancy\Lister.aspx.designer.vb">
+      <DependentUpon>Lister.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Res\Occupancy\Lister.aspx.vb">
+      <DependentUpon>Lister.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Res\Payments\Lister.aspx.designer.vb">
+      <DependentUpon>Lister.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Res\Payments\Lister.aspx.vb">
+      <DependentUpon>Lister.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Res\SUPayments\Lister.aspx.designer.vb">
+      <DependentUpon>Lister.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Res\SUPayments\Lister.aspx.vb">
+      <DependentUpon>Lister.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\ServiceOrders\NonRes\ServiceOrders\List.aspx.designer.vb">
+      <DependentUpon>List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\ServiceOrders\NonRes\ServiceOrders\List.aspx.vb">
+      <DependentUpon>List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\ServiceOrders\NonRes\ServiceOrders\Lister.aspx.designer.vb">
+      <DependentUpon>Lister.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\ServiceOrders\NonRes\ServiceOrders\Lister.aspx.vb">
+      <DependentUpon>Lister.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\EnterCopyInvoiceButtonMenuItem.vb" />
+    <Compile Include="Apps\Dom\PaymentSchedules\UserControls\PaymentSchedulesFilter.ascx.designer.vb">
+      <DependentUpon>PaymentSchedulesFilter.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\PaymentSchedules\UserControls\PaymentSchedulesFilter.ascx.vb">
+      <DependentUpon>PaymentSchedulesFilter.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\PaymentSchedules\WizardScreenParameters.vb" />
+    <Compile Include="Apps\Dom\ProformaInvoice\InvoiceBatchBreadcrumb.ascx.designer.vb">
+      <DependentUpon>InvoiceBatchBreadcrumb.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\ProformaInvoice\InvoiceBatchBreadcrumb.ascx.vb">
+      <DependentUpon>InvoiceBatchBreadcrumb.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\ProformaInvoice\InvoiceEnquiry.aspx.designer.vb">
+      <DependentUpon>InvoiceEnquiry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\ProformaInvoice\InvoiceEnquiry.aspx.vb">
+      <DependentUpon>InvoiceEnquiry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\ProformaInvoice\ManualEnterInvoice.aspx.designer.vb">
+      <DependentUpon>ManualEnterInvoice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\ProformaInvoice\ManualEnterInvoice.aspx.vb">
+      <DependentUpon>ManualEnterInvoice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\ProformaInvoice\PrintInvoice.aspx.designer.vb">
+      <DependentUpon>PrintInvoice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\ProformaInvoice\PrintInvoice.aspx.vb">
+      <DependentUpon>PrintInvoice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\ProformaInvoice\ViewInvoiceVisitComponents.aspx.designer.vb">
+      <DependentUpon>ViewInvoiceVisitComponents.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\ProformaInvoice\ViewInvoiceVisitComponents.aspx.vb">
+      <DependentUpon>ViewInvoiceVisitComponents.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\ProformaInvoice\ManualEnquiry.aspx.designer.vb">
+      <DependentUpon>ManualEnquiry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\ProformaInvoice\ManualEnquiry.aspx.vb">
+      <DependentUpon>ManualEnquiry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\ProformaInvoice\ManualEnter.aspx.designer.vb">
+      <DependentUpon>ManualEnter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\ProformaInvoice\ManualEnter.aspx.vb">
+      <DependentUpon>ManualEnter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\ProformaInvoice\ViewInvoiceBatch.aspx.designer.vb">
+      <DependentUpon>ViewInvoiceBatch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\ProformaInvoice\ViewInvoiceBatch.aspx.vb">
+      <DependentUpon>ViewInvoiceBatch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\ProformaInvoice\ViewInvoiceCostedVisits.aspx.designer.vb">
+      <DependentUpon>ViewInvoiceCostedVisits.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\ProformaInvoice\ViewInvoiceCostedVisits.aspx.vb">
+      <DependentUpon>ViewInvoiceCostedVisits.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\ProformaInvoice\ViewInvoiceLines.aspx.designer.vb">
+      <DependentUpon>ViewInvoiceLines.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\ProformaInvoice\ViewInvoiceLines.aspx.vb">
+      <DependentUpon>ViewInvoiceLines.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\ProformaInvoice\ViewInvoices.aspx.designer.vb">
+      <DependentUpon>ViewInvoices.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\ProformaInvoice\ViewInvoices.aspx.vb">
+      <DependentUpon>ViewInvoices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\ProformaInvoice\ViewInvoiceVisitDetails.aspx.designer.vb">
+      <DependentUpon>ViewInvoiceVisitDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\ProformaInvoice\ViewInvoiceVisitDetails.aspx.vb">
+      <DependentUpon>ViewInvoiceVisitDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\ProviderInvoice\DomProviderInvoiceList.aspx.designer.vb">
+      <DependentUpon>DomProviderInvoiceList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\ProviderInvoice\DomProviderInvoiceList.aspx.vb">
+      <DependentUpon>DomProviderInvoiceList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\ProviderInvoice\InvoicedVisitsEnquiry.aspx.designer.vb">
+      <DependentUpon>InvoicedVisitsEnquiry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\ProviderInvoice\InvoicedVisitsEnquiry.aspx.vb">
+      <DependentUpon>InvoicedVisitsEnquiry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\ProviderInvoice\InvoiceEnquiry.aspx.designer.vb">
+      <DependentUpon>InvoiceEnquiry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\ProviderInvoice\InvoiceEnquiry.aspx.vb">
+      <DependentUpon>InvoiceEnquiry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\ProviderInvoice\ViewAmendment.aspx.designer.vb">
+      <DependentUpon>ViewAmendment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\ProviderInvoice\ViewAmendment.aspx.vb">
+      <DependentUpon>ViewAmendment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\ProviderInvoice\ViewInvoiceCostedVisits.aspx.designer.vb">
+      <DependentUpon>ViewInvoiceCostedVisits.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\ProviderInvoice\ViewInvoiceCostedVisits.aspx.vb">
+      <DependentUpon>ViewInvoiceCostedVisits.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\ProviderInvoice\ViewInvoiceLines.aspx.designer.vb">
+      <DependentUpon>ViewInvoiceLines.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\ProviderInvoice\ViewInvoiceLines.aspx.vb">
+      <DependentUpon>ViewInvoiceLines.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\ProviderInvoice\ViewInvoiceVisitComponents.aspx.designer.vb">
+      <DependentUpon>ViewInvoiceVisitComponents.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\ProviderInvoice\ViewInvoiceVisitComponents.aspx.vb">
+      <DependentUpon>ViewInvoiceVisitComponents.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\ProviderInvoice\ViewInvoiceVisitDetails.aspx.designer.vb">
+      <DependentUpon>ViewInvoiceVisitDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\ProviderInvoice\ViewInvoiceVisitDetails.aspx.vb">
+      <DependentUpon>ViewInvoiceVisitDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\ProviderInvoice\VisitAmendmentRequestList.aspx.designer.vb">
+      <DependentUpon>VisitAmendmentRequestList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\ProviderInvoice\VisitAmendmentRequestList.aspx.vb">
+      <DependentUpon>VisitAmendmentRequestList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\ProviderInvoice\VisitAmendReqEnquiry.aspx.designer.vb">
+      <DependentUpon>VisitAmendReqEnquiry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\ProviderInvoice\VisitAmendReqEnquiry.aspx.vb">
+      <DependentUpon>VisitAmendReqEnquiry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\ProviderInvoice\ViewInvoicedVisit.aspx.designer.vb">
+      <DependentUpon>ViewInvoicedVisit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\ProviderInvoice\ViewInvoicedVisit.aspx.vb">
+      <DependentUpon>ViewInvoicedVisit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\ProviderInvoice\ViewStatement.aspx.designer.vb">
+      <DependentUpon>ViewStatement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\ProviderInvoice\ViewStatement.aspx.vb">
+      <DependentUpon>ViewStatement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\ReferenceData\DurationClaimedRounding.aspx.designer.vb">
+      <DependentUpon>DurationClaimedRounding.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\ReferenceData\DurationClaimedRounding.aspx.vb">
+      <DependentUpon>DurationClaimedRounding.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\ReferenceData\DurationClaimedRoundingRules.aspx.designer.vb">
+      <DependentUpon>DurationClaimedRoundingRules.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\ReferenceData\DurationClaimedRoundingRules.aspx.vb">
+      <DependentUpon>DurationClaimedRoundingRules.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\ServiceDeliveryFile\FileExceptions.aspx.designer.vb">
+      <DependentUpon>FileExceptions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\ServiceDeliveryFile\FileExceptions.aspx.vb">
+      <DependentUpon>FileExceptions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\ServiceDeliveryFile\ServiceDeliveryFileEnquiry.aspx.designer.vb">
+      <DependentUpon>ServiceDeliveryFileEnquiry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\ServiceDeliveryFile\ServiceDeliveryFileEnquiry.aspx.vb">
+      <DependentUpon>ServiceDeliveryFileEnquiry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\ServiceDeliveryFile\UploadServiceDeliveryFileCompletion.aspx.designer.vb">
+      <DependentUpon>UploadServiceDeliveryFileCompletion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\ServiceDeliveryFile\UploadServiceDeliveryFileCompletion.aspx.vb">
+      <DependentUpon>UploadServiceDeliveryFileCompletion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\ServiceDeliveryFile\UploadServiceDeliveryFileConfirmation.aspx.designer.vb">
+      <DependentUpon>UploadServiceDeliveryFileConfirmation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\ServiceDeliveryFile\UploadServiceDeliveryFileConfirmation.aspx.vb">
+      <DependentUpon>UploadServiceDeliveryFileConfirmation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\ServiceDeliveryFile\UploadServiceDeliveryFile.aspx.designer.vb">
+      <DependentUpon>UploadServiceDeliveryFile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\ServiceDeliveryFile\UploadServiceDeliveryFile.aspx.vb">
+      <DependentUpon>UploadServiceDeliveryFile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Dom\ServiceDeliveryFile\ViewServiceDeliveryFile.aspx.designer.vb">
+      <DependentUpon>ViewServiceDeliveryFile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Dom\ServiceDeliveryFile\ViewServiceDeliveryFile.aspx.vb">
+      <DependentUpon>ViewServiceDeliveryFile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\InPlaceSelectors\CareWorkerSelectorManualInvoice.aspx.designer.vb">
+      <DependentUpon>CareWorkerSelectorManualInvoice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\InPlaceSelectors\CareWorkerSelectorManualInvoice.aspx.vb">
+      <DependentUpon>CareWorkerSelectorManualInvoice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\InPlaceSelectors\Clients.aspx.designer.vb">
+      <DependentUpon>Clients.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\InPlaceSelectors\Clients.aspx.vb">
+      <DependentUpon>Clients.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\InPlaceSelectors\Contracts.aspx.designer.vb">
+      <DependentUpon>Contracts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\InPlaceSelectors\Contracts.aspx.vb">
+      <DependentUpon>Contracts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\InPlaceSelectors\DcrContractSelector.aspx.designer.vb">
+      <DependentUpon>DcrContractSelector.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\InPlaceSelectors\DcrContractSelector.aspx.vb">
+      <DependentUpon>DcrContractSelector.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\InPlaceSelectors\Establishments.aspx.designer.vb">
+      <DependentUpon>Establishments.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\InPlaceSelectors\Establishments.aspx.vb">
+      <DependentUpon>Establishments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\InPlaceSelectors\ExternalAccountList.ascx.designer.vb">
+      <DependentUpon>ExternalAccountList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\InPlaceSelectors\ExternalAccountList.ascx.vb">
+      <DependentUpon>ExternalAccountList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\InPlaceSelectors\ExternalAccounts.aspx.designer.vb">
+      <DependentUpon>ExternalAccounts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\InPlaceSelectors\ExternalAccounts.aspx.vb">
+      <DependentUpon>ExternalAccounts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\InPlaceSelectors\InPlaceClientSelector.ascx.designer.vb">
+      <DependentUpon>InPlaceClientSelector.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\InPlaceSelectors\InPlaceClientSelector.ascx.vb">
+      <DependentUpon>InPlaceClientSelector.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\InPlaceSelectors\InPlaceContractSelector.ascx.designer.vb">
+      <DependentUpon>InPlaceContractSelector.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\InPlaceSelectors\InPlaceContractSelector.ascx.vb">
+      <DependentUpon>InPlaceContractSelector.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\InPlaceSelectors\InPlaceDcrDomContractSelector.ascx.designer.vb">
+      <DependentUpon>InPlaceDcrDomContractSelector.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\InPlaceSelectors\InPlaceDcrDomContractSelector.ascx.vb">
+      <DependentUpon>InPlaceDcrDomContractSelector.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\InPlaceSelectors\InPlaceEstablishmentSelector.ascx.designer.vb">
+      <DependentUpon>InPlaceEstablishmentSelector.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\InPlaceSelectors\InPlaceEstablishmentSelector.ascx.vb">
+      <DependentUpon>InPlaceEstablishmentSelector.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\InPlaceSelectors\InPlaceExternalAccountSelector.ascx.designer.vb">
+      <DependentUpon>InPlaceExternalAccountSelector.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\InPlaceSelectors\InPlaceExternalAccountSelector.ascx.vb">
+      <DependentUpon>InPlaceExternalAccountSelector.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\InPlaceSelectors\InPlaceInvoiceVisitsCopier.aspx.designer.vb">
+      <DependentUpon>InPlaceInvoiceVisitsCopier.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\InPlaceSelectors\InPlaceInvoiceVisitsCopier.aspx.vb">
+      <DependentUpon>InPlaceInvoiceVisitsCopier.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Msg\AbacusMsg.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Apps\Res\OccupancyEnquiry.aspx.designer.vb">
+      <DependentUpon>OccupancyEnquiry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Res\OccupancyEnquiry.aspx.vb">
+      <DependentUpon>OccupancyEnquiry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Res\Payments\PaymentEnquiry.aspx.designer.vb">
+      <DependentUpon>PaymentEnquiry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Res\Payments\PaymentEnquiry.aspx.vb">
+      <DependentUpon>PaymentEnquiry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Res\Payments\SUPaymentEnquiry.aspx.designer.vb">
+      <DependentUpon>SUPaymentEnquiry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Res\Payments\SUPaymentEnquiry.aspx.vb">
+      <DependentUpon>SUPaymentEnquiry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Res\Payments\ViewRemittance.aspx.designer.vb">
+      <DependentUpon>ViewRemittance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Res\Payments\ViewRemittance.aspx.vb">
+      <DependentUpon>ViewRemittance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Res\Payments\ViewStatement.aspx.designer.vb">
+      <DependentUpon>ViewStatement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Res\Payments\ViewStatement.aspx.vb">
+      <DependentUpon>ViewStatement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Res\SUEnquiry.aspx.designer.vb">
+      <DependentUpon>SUEnquiry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Res\SUEnquiry.aspx.vb">
+      <DependentUpon>SUEnquiry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Res\ViewServiceUser.aspx.designer.vb">
+      <DependentUpon>ViewServiceUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Res\ViewServiceUser.aspx.vb">
+      <DependentUpon>ViewServiceUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Security\AbacusSecurity.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\CareWorkerSelector.ascx.designer.vb">
+      <DependentUpon>CareWorkerSelector.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\CareWorkerSelector.ascx.vb">
+      <DependentUpon>CareWorkerSelector.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\ClientSelector.ascx.designer.vb">
+      <DependentUpon>ClientSelector.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\ClientSelector.ascx.vb">
+      <DependentUpon>ClientSelector.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\DcrDomContractSelector.ascx.designer.vb">
+      <DependentUpon>DcrDomContractSelector.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\DcrDomContractSelector.ascx.vb">
+      <DependentUpon>DcrDomContractSelector.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\DomProformaInvoiceSelector.ascx.designer.vb">
+      <DependentUpon>DomProformaInvoiceSelector.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\DomProformaInvoiceSelector.ascx.vb">
+      <DependentUpon>DomProformaInvoiceSelector.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\DomProviderInvoiceHeaderDetails.ascx.designer.vb">
+      <DependentUpon>DomProviderInvoiceHeaderDetails.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\DomProviderInvoiceHeaderDetails.ascx.vb">
+      <DependentUpon>DomProviderInvoiceHeaderDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\DomProviderInvoiceSelector.ascx.designer.vb">
+      <DependentUpon>DomProviderInvoiceSelector.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\DomProviderInvoiceSelector.ascx.vb">
+      <DependentUpon>DomProviderInvoiceSelector.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\DurationClaimedRoundingSelector.ascx.designer.vb">
+      <DependentUpon>DurationClaimedRoundingSelector.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\DurationClaimedRoundingSelector.ascx.vb">
+      <DependentUpon>DurationClaimedRoundingSelector.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\EnterCopyInvoiceButton.ascx.designer.vb">
+      <DependentUpon>EnterCopyInvoiceButton.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\EnterCopyInvoiceButton.ascx.vb">
+      <DependentUpon>EnterCopyInvoiceButton.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\GenericServiceOrderSelector.ascx.designer.vb">
+      <DependentUpon>GenericServiceOrderSelector.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\GenericServiceOrderSelector.ascx.vb">
+      <DependentUpon>GenericServiceOrderSelector.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\InvoicedVisitsSelector.ascx.designer.vb">
+      <DependentUpon>InvoicedVisitsSelector.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\InvoicedVisitsSelector.ascx.vb">
+      <DependentUpon>InvoicedVisitsSelector.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\InvoiceHeader.ascx.designer.vb">
+      <DependentUpon>InvoiceHeader.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\InvoiceHeader.ascx.vb">
+      <DependentUpon>InvoiceHeader.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\ManualDomProformaInvoiceSelector.ascx.designer.vb">
+      <DependentUpon>ManualDomProformaInvoiceSelector.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\ManualDomProformaInvoiceSelector.ascx.vb">
+      <DependentUpon>ManualDomProformaInvoiceSelector.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\DomContractSelector.ascx.designer.vb">
+      <DependentUpon>DomContractSelector.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\DomContractSelector.ascx.vb">
+      <DependentUpon>DomContractSelector.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\EstablishmentSelector.ascx.designer.vb">
+      <DependentUpon>EstablishmentSelector.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\EstablishmentSelector.ascx.vb">
+      <DependentUpon>EstablishmentSelector.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\ManualEnterVisitGrid.ascx.designer.vb">
+      <DependentUpon>ManualEnterVisitGrid.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\ManualEnterVisitGrid.ascx.vb">
+      <DependentUpon>ManualEnterVisitGrid.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\ManualEnterVisits.ascx.designer.vb">
+      <DependentUpon>ManualEnterVisits.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\ManualEnterVisits.ascx.vb">
+      <DependentUpon>ManualEnterVisits.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\NonResidentialServiceUserPaymentHeader.ascx.designer.vb">
+      <DependentUpon>NonResidentialServiceUserPaymentHeader.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\NonResidentialServiceUserPaymentHeader.ascx.vb">
+      <DependentUpon>NonResidentialServiceUserPaymentHeader.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\OccupancySelector.ascx.designer.vb">
+      <DependentUpon>OccupancySelector.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\OccupancySelector.ascx.vb">
+      <DependentUpon>OccupancySelector.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\PaymentScheduleHeader.ascx.designer.vb">
+      <DependentUpon>PaymentScheduleHeader.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\PaymentScheduleHeader.ascx.vb">
+      <DependentUpon>PaymentScheduleHeader.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\PaymentScheduleSelector.ascx.designer.vb">
+      <DependentUpon>PaymentScheduleSelector.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\PaymentScheduleSelector.ascx.vb">
+      <DependentUpon>PaymentScheduleSelector.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\RemittanceDetailSelector.ascx.designer.vb">
+      <DependentUpon>RemittanceDetailSelector.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\RemittanceDetailSelector.ascx.vb">
+      <DependentUpon>RemittanceDetailSelector.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\RemittanceSelector.ascx.designer.vb">
+      <DependentUpon>RemittanceSelector.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\RemittanceSelector.ascx.vb">
+      <DependentUpon>RemittanceSelector.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\SelectorWizardSteps.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\ServiceDeliveryFileSelector.ascx.designer.vb">
+      <DependentUpon>ServiceDeliveryFileSelector.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\ServiceDeliveryFileSelector.ascx.vb">
+      <DependentUpon>ServiceDeliveryFileSelector.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\ServiceOrderReports.ascx.designer.vb">
+      <DependentUpon>ServiceOrderReports.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\ServiceOrderReports.ascx.vb">
+      <DependentUpon>ServiceOrderReports.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\ViewProviderInvoiceNotes.ascx.designer.vb">
+      <DependentUpon>ViewProviderInvoiceNotes.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\ViewProviderInvoiceNotes.ascx.vb">
+      <DependentUpon>ViewProviderInvoiceNotes.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\VisitAmendmentRequestSelector.ascx.designer.vb">
+      <DependentUpon>VisitAmendmentRequestSelector.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\VisitAmendmentRequestSelector.ascx.vb">
+      <DependentUpon>VisitAmendmentRequestSelector.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\UserControls\VoidPaymentDue.ascx.designer.vb">
+      <DependentUpon>VoidPaymentDue.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\UserControls\VoidPaymentDue.ascx.vb">
+      <DependentUpon>VoidPaymentDue.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\WebSvc\Clients.asmx.vb">
+      <DependentUpon>Clients.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Apps\WebSvc\Documents.asmx.vb">
+      <DependentUpon>Documents.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Apps\WebSvc\DomContract.asmx.vb">
+      <DependentUpon>DomContract.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Apps\WebSvc\DomProfomaInvoice.asmx.vb">
+      <DependentUpon>DomProfomaInvoice.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Apps\WebSvc\DomProviderInvoice.asmx.vb">
+      <DependentUpon>DomProviderInvoice.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Apps\WebSvc\DurationClaimedRounding.asmx.vb">
+      <DependentUpon>DurationClaimedRounding.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Apps\WebSvc\Establishments.asmx.vb">
+      <DependentUpon>Establishments.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Apps\WebSvc\GenericServiceOrder.asmx.vb">
+      <DependentUpon>GenericServiceOrder.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Apps\WebSvc\Occupancy.asmx.vb">
+      <DependentUpon>Occupancy.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Apps\WebSvc\PaymentSchedule.asmx.vb">
+      <DependentUpon>PaymentSchedule.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Apps\WebSvc\RequestPayments.asmx.vb">
+      <DependentUpon>RequestPayments.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Apps\WebSvc\ResPayments.asmx.vb">
+      <DependentUpon>ResPayments.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Apps\WebSvc\ResultClasses.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Apps\WebSvc\ServiceDeliveryFile.asmx.vb">
+      <DependentUpon>ServiceDeliveryFile.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Content Include="Apps\Dom\PaymentSchedules\Lister.aspx" />
+    <Content Include="Apps\Dom\PaymentSchedules\Lister.js" />
+    <Content Include="Apps\Dom\PaymentSchedules\VoidPaymentDue.aspx" />
+    <Content Include="Apps\Dom\PaymentSchedules\VoidPaymentDue.js" />
+    <Content Include="Apps\Dom\ProviderInvoice\InvoicedVisits\Lister.aspx" />
+    <Content Include="Apps\Dom\ProviderInvoice\InvoicedVisits\Lister.js" />
+    <Content Include="Apps\Dom\ProviderInvoice\VisitAmendmentRequest\Lister.aspx" />
+    <Content Include="Apps\Dom\ProviderInvoice\VisitAmendmentRequest\Lister.js" />
+    <Content Include="Apps\Dom\ServiceDeliveryFile\Lister.aspx" />
+    <Content Include="Apps\Dom\ServiceDeliveryFile\Lister.js" />
+    <Content Include="Apps\Dom\ProviderInvoiceExt\Lister.aspx" />
+    <Content Include="Apps\Dom\ProviderInvoiceExt\Lister.js" />
+    <Content Include="Apps\Res\Occupancy\Lister.aspx" />
+    <Content Include="Apps\Res\Occupancy\Lister.js" />
+    <Content Include="Apps\Res\Payments\Lister.aspx" />
+    <Content Include="Apps\Res\Payments\Lister.js" />
+    <Content Include="Apps\Res\SUPayments\Lister.aspx" />
+    <Content Include="Apps\Res\SUPayments\Lister.js" />
+    <Content Include="Apps\ServiceOrders\NonRes\ServiceOrders\Lister.aspx" />
+    <Content Include="Apps\ServiceOrders\NonRes\ServiceOrders\Lister.js" />
+    <Content Include="Apps\ServiceOrders\NonRes\ServiceOrders\ServiceOrderDialog.js" />
+    <Content Include="Apps\Res\ViewServiceUser.js" />
+    <Content Include="Apps\UserControls\NonResidentialServiceUserPaymentHeader.ascx" />
+    <Content Include="Apps\UserControls\ServiceOrderReports.js" />
+    <Content Include="Apps\UserControls\VoidPaymentDue.ascx" />
+    <Content Include="App_Code\Reports\DataSets\spxReports_DomProviderInvoicesWithNotes.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>spxReports_DomProviderInvoicesWithNotes.xsd</DependentUpon>
+    </Content>
+    <Content Include="App_Code\Reports\DataSets\spxReport_ServiceOrdersExtranet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>spxReport_ServiceOrdersExtranet.xsd</DependentUpon>
+    </Content>
+    <Content Include="App_Code\Reports\DataSets\spxReport_ServiceOrderDetailsExtranet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>spxReport_ServiceOrderDetailsExtranet.xsd</DependentUpon>
+    </Content>
+    <Content Include="App_Code\Reports\DataSets\spxReport_ServiceOrderSuspensionsExtranet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>spxReport_ServiceOrderSuspensionsExtranet.xsd</DependentUpon>
+    </Content>
+    <Content Include="App_Code\Reports\DataSets\spxReport_UnProcessedNonVisitBasedProformaInvoices.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>spxReport_UnProcessedNonVisitBasedProformaInvoices.xsd</DependentUpon>
+    </Content>
+    <Content Include="App_Code\Reports\DataSets\spxReport_DomiciliaryProviderInvoiceVisits.Designer.vb" />
+    <Content Include="App_Code\Reports\DataSets\spxReports_NonResidentialServiceUserPaymentReconciliation.Designer.vb">
+      <DependentUpon>spxReports_NonResidentialServiceUserPaymentReconciliation.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Content>
+    <Content Include="App_Code\Reports\DataSets\spxReports_NonResidentialServiceUserPaymentReconciliation.vb">
+      <DependentUpon>spxReports_NonResidentialServiceUserPaymentReconciliation.xsd</DependentUpon>
+    </Content>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.Master.designer.vb">
+      <DependentUpon>Default.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Default.Master.vb">
+      <DependentUpon>Default.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Library\HttpHandlers\GetSystemLogoHandler.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Content Include="Apps\Documents\DocumentAdd.aspx" />
+    <Content Include="Apps\Documents\DocumentAdd.js" />
+    <Content Include="Apps\Dom\Contracts\ViewDomContractRates.aspx" />
+    <Content Include="Apps\Dom\Contracts\ViewDomContractRates.js" />
+    <Content Include="Apps\Dom\Contracts\ViewDomiciliaryContract.aspx" />
+    <Content Include="Apps\Dom\Contracts\ViewDomiciliaryContract.js" />
+    <Content Include="Apps\Dom\PaymentSchedules\clientSelector.aspx" />
+    <Content Include="Apps\Dom\PaymentSchedules\clientSelector.js" />
+    <Content Include="Apps\Dom\PaymentSchedules\PaymentSchedules.aspx" />
+    <Content Include="Apps\Dom\PaymentSchedules\PaymentSchedules.js" />
+    <Content Include="Apps\Dom\PaymentSchedules\PaymentSchedulesEnquiry.aspx" />
+    <Content Include="Apps\Dom\PaymentSchedules\RequestPayment.aspx" />
+    <Content Include="Apps\Dom\PaymentSchedules\RequestPayment.js" />
+    <Content Include="Apps\Dom\PaymentSchedules\RequestPaymentComplete.aspx" />
+    <Content Include="Apps\Dom\ProformaInvoice\InvoiceBatchBreadcrumb.js" />
+    <Content Include="Apps\Dom\ProformaInvoice\ManualEnquiry.js" />
+    <Content Include="Apps\Dom\ProformaInvoice\ViewNonVisitInvoices.aspx" />
+    <Content Include="Apps\Dom\ProformaInvoice\ViewNonVisitInvoices.js" />
+    <Content Include="Apps\Dom\ProviderInvoice\ViewInvoiceLines.js" />
+    <Content Include="Apps\Dom\ServiceDeliveryFile\save16.png" />
+    <Content Include="Apps\Dom\ServiceDeliveryFile\ServiceDeliveryFilePaymentSchedule.aspx" />
+    <Content Include="Apps\Dom\ServiceDeliveryFile\UploadServiceDeliveryFileConfirmation.js" />
+    <Content Include="Apps\ServiceOrders\NonRes\ServiceOrders\List.aspx" />
+    <Content Include="Apps\UserControls\cleardot[1].gif" />
+    <Content Include="Apps\UserControls\DateRangeDSOMovementStep.js" />
+    <Content Include="Apps\UserControls\EnterCopyInvoiceButton.js" />
+    <Content Include="Apps\UserControls\GenericServiceOrderSelector.ascx" />
+    <Content Include="Apps\UserControls\GenericServiceOrderSelector.js" />
+    <Content Include="Apps\UserControls\HiddenReportStep.js" />
+    <Content Include="Apps\Dom\PaymentSchedules\UserControls\PaymentSchedulesFilter.ascx" />
+    <Content Include="Apps\Dom\PaymentSchedules\UserControls\PaymentSchedulesFilter.js" />
+    <Content Include="Apps\Dom\ProformaInvoice\CommentDialog.js" />
+    <Content Include="Apps\Dom\ProformaInvoice\InvoiceBatchBreadcrumb.ascx" />
+    <Content Include="Apps\Dom\ProformaInvoice\ManualEnterInvoice.aspx" />
+    <Content Include="Apps\Dom\ProformaInvoice\ManualEnterInvoice.js" />
+    <Content Include="Apps\Dom\ProformaInvoice\PrintInvoice.aspx" />
+    <Content Include="Apps\Dom\ProformaInvoice\ViewInvoiceBatch.js" />
+    <Content Include="Apps\Dom\ProformaInvoice\ViewInvoiceVisitComponents.aspx" />
+    <Content Include="Apps\Dom\ProformaInvoice\ViewInvoiceCostedVisits.js" />
+    <Content Include="Apps\Dom\ProformaInvoice\ViewInvoiceLines.js" />
+    <Content Include="Apps\Dom\ProformaInvoice\ViewInvoices.js" />
+    <Content Include="Apps\Dom\ProformaInvoice\InvoiceEnquiry.aspx" />
+    <Content Include="Apps\Dom\ProformaInvoice\ManualEnquiry.aspx" />
+    <Content Include="Apps\Dom\ProformaInvoice\ManualEnter.aspx" />
+    <Content Include="Apps\Dom\ProformaInvoice\ManualEnter.js" />
+    <Content Include="Apps\Dom\ProformaInvoice\ViewInvoiceBatch.aspx" />
+    <Content Include="Apps\Dom\ProformaInvoice\ViewInvoiceCostedVisits.aspx" />
+    <Content Include="Apps\Dom\ProformaInvoice\ViewInvoiceLines.aspx" />
+    <Content Include="Apps\Dom\ProformaInvoice\ViewInvoices.aspx" />
+    <Content Include="Apps\Dom\ProformaInvoice\ViewInvoiceVisitComponents.js" />
+    <Content Include="Apps\Dom\ProformaInvoice\ViewInvoiceVisitDetails.aspx" />
+    <Content Include="Apps\Dom\ProviderInvoice\DomProviderInvoiceList.aspx" />
+    <Content Include="Apps\Dom\ProviderInvoice\DomProviderInvoiceList.js" />
+    <Content Include="Apps\Dom\ProviderInvoice\InvoicedVisitsEnquiry.aspx" />
+    <Content Include="Apps\Dom\ProviderInvoice\InvoiceEnquiry.aspx" />
+    <Content Include="Apps\Dom\ProviderInvoice\ViewAmendment.aspx" />
+    <Content Include="Apps\Dom\ProviderInvoice\ViewInvoiceCostedVisits.aspx" />
+    <Content Include="Apps\Dom\ProviderInvoice\ViewInvoiceCostedVisits.js" />
+    <Content Include="Apps\Dom\ProviderInvoice\ViewInvoiceLines.aspx" />
+    <Content Include="Apps\Dom\ProviderInvoice\ViewInvoiceVisitComponents.aspx" />
+    <Content Include="Apps\Dom\ProviderInvoice\ViewInvoiceVisitDetails.aspx" />
+    <Content Include="Apps\Dom\ProviderInvoice\VisitAmendmentRequestList.aspx" />
+    <Content Include="Apps\Dom\ProviderInvoice\VisitAmendmentRequestList.js" />
+    <Content Include="Apps\Dom\ProviderInvoice\VisitAmendReqEnquiry.aspx" />
+    <Content Include="Apps\Dom\ProviderInvoice\ViewInvoicedVisit.aspx" />
+    <Content Include="Apps\Dom\ProviderInvoice\ViewStatement.aspx" />
+    <Content Include="Apps\Dom\ProviderInvoice\ViewStatement.xslt" />
+    <Content Include="Apps\Dom\ReferenceData\DurationClaimedRounding.aspx" />
+    <Content Include="Apps\Dom\ReferenceData\DurationClaimedRoundingRules.aspx" />
+    <Content Include="Apps\Dom\ReferenceData\DurationClaimedRoundingRules.js" />
+    <Content Include="Apps\Dom\ServiceDeliveryFile\FileExceptions.aspx" />
+    <Content Include="Apps\Dom\ServiceDeliveryFile\ServiceDeliveryFileEnquiry.aspx" />
+    <Content Include="Apps\Dom\ServiceDeliveryFile\ServiceDeliveryFileExceptions.xslt" />
+    <Content Include="Apps\Dom\ServiceDeliveryFile\UploadServiceDeliveryFileCompletion.aspx" />
+    <Content Include="Apps\Dom\ServiceDeliveryFile\UploadServiceDeliveryFileConfirmation.aspx" />
+    <Content Include="Apps\Dom\ServiceDeliveryFile\UploadServiceDeliveryFile.aspx" />
+    <Content Include="Apps\Dom\ServiceDeliveryFile\UploadServiceDeliveryFile.js" />
+    <Content Include="Apps\Dom\ServiceDeliveryFile\ViewServiceDeliveryFile.aspx" />
+    <Content Include="Apps\Dom\ServiceDeliveryFile\ViewServiceDeliveryFile.js" />
+    <Content Include="Apps\InPlaceSelectors\CareWorkerSelectorManualInvoice.aspx" />
+    <Content Include="Apps\InPlaceSelectors\CareWorkerSelectorManualInvoice.js" />
+    <Content Include="Apps\InPlaceSelectors\Clients.aspx" />
+    <Content Include="Apps\InPlaceSelectors\Clients.js" />
+    <Content Include="Apps\InPlaceSelectors\Contracts.aspx" />
+    <Content Include="Apps\InPlaceSelectors\Contracts.js" />
+    <Content Include="Apps\InPlaceSelectors\DcrContractSelector.js" />
+    <Content Include="Apps\InPlaceSelectors\DcrContractSelector.aspx" />
+    <Content Include="Apps\InPlaceSelectors\Establishments.aspx" />
+    <Content Include="Apps\InPlaceSelectors\Establishments.js" />
+    <Content Include="Apps\InPlaceSelectors\ExternalAccountList.ascx" />
+    <Content Include="Apps\InPlaceSelectors\ExternalAccounts.aspx" />
+    <Content Include="Apps\InPlaceSelectors\ExternalAccounts.js" />
+    <Content Include="Apps\InPlaceSelectors\ExternalAccountList.js" />
+    <Content Include="Apps\InPlaceSelectors\InPlaceClientSelector.ascx" />
+    <Content Include="Apps\InPlaceSelectors\InPlaceClientSelector.js" />
+    <Content Include="Apps\InPlaceSelectors\InPlaceContractSelector.ascx" />
+    <Content Include="Apps\InPlaceSelectors\InPlaceContractSelector.js" />
+    <Content Include="Apps\InPlaceSelectors\InPlaceDcrDomContractSelector.ascx" />
+    <Content Include="Apps\InPlaceSelectors\InPlaceDcrDomContractSelector.js" />
+    <Content Include="Apps\InPlaceSelectors\InPlaceEstablishmentSelector.ascx" />
+    <Content Include="Apps\InPlaceSelectors\InPlaceEstablishmentSelector.js" />
+    <Content Include="Apps\InPlaceSelectors\InPlaceExternalAccountSelector.ascx" />
+    <Content Include="Apps\InPlaceSelectors\InPlaceExternalAccountSelector.js" />
+    <Content Include="Apps\InPlaceSelectors\InPlaceInvoiceVisitsCopier.aspx" />
+    <Content Include="Apps\InPlaceSelectors\InPlaceInvoiceVisitsCopier.js" />
+    <Content Include="Apps\Res\OccupancyEnquiry.aspx" />
+    <Content Include="Apps\Res\Payments\PaymentEnquiry.aspx" />
+    <Content Include="Apps\Res\Payments\SUPaymentEnquiry.aspx" />
+    <Content Include="Apps\Res\Payments\ViewRemittance.aspx" />
+    <Content Include="Apps\Res\Payments\ViewRemittanceFNC.xslt" />
+    <Content Include="Apps\Res\Payments\ViewStatement.aspx" />
+    <Content Include="Apps\Res\Payments\ViewStatement.xslt" />
+    <Content Include="Apps\Res\SUEnquiry.aspx" />
+    <Content Include="Apps\Res\ViewServiceUser.aspx" />
+    <Content Include="Apps\UserControls\CareWorkerSelector.ascx" />
+    <Content Include="Apps\UserControls\CareWorkerSelector.js" />
+    <Content Include="Apps\UserControls\ClientSelector.ascx" />
+    <Content Include="Apps\UserControls\ClientSelector.js" />
+    <Content Include="Apps\UserControls\DcrDomContractSelector.ascx" />
+    <Content Include="Apps\UserControls\DcrDomContractSelector.js" />
+    <Content Include="Apps\UserControls\DomProformaInvoiceSelector.ascx" />
+    <Content Include="Apps\UserControls\DomProformaInvoiceSelector.js" />
+    <Content Include="Apps\UserControls\DomProviderInvoiceFilterStep.js" />
+    <Content Include="Apps\UserControls\DomProviderInvoiceHeaderDetails.ascx" />
+    <Content Include="Apps\UserControls\DomProviderInvoiceSelector.ascx" />
+    <Content Include="Apps\UserControls\DomProviderInvoiceSelector.js" />
+    <Content Include="Apps\UserControls\DurationClaimedRoundingSelector.ascx" />
+    <Content Include="Apps\UserControls\DurationClaimedRoundingSelector.js" />
+    <Content Include="Apps\UserControls\EnterCopyInvoiceButton.ascx" />
+    <Content Include="Apps\UserControls\InvoicedVisitsSelector.ascx" />
+    <Content Include="Apps\UserControls\InvoicedVisitsSelector.js" />
+    <Content Include="Apps\UserControls\InvoiceHeader.ascx" />
+    <Content Include="Apps\UserControls\ManualDomProformaInvoiceSelector.ascx" />
+    <Content Include="Apps\UserControls\DateRangeMovementStep.js" />
+    <Content Include="Apps\UserControls\DomContractSelector.ascx" />
+    <Content Include="Apps\UserControls\DomContractSelector.js" />
+    <Content Include="Apps\UserControls\DomProformaInvoiceBatchFilterStep.js" />
+    <Content Include="Apps\UserControls\EstablishmentSelector.ascx" />
+    <Content Include="Apps\UserControls\EstablishmentSelector.js" />
+    <Content Include="Apps\UserControls\ManualDomProformaInvoiceSelector.js" />
+    <Content Include="Apps\UserControls\ManualEnterVisitGrid.ascx" />
+    <Content Include="Apps\UserControls\ManualEnterVisits.ascx" />
+    <Content Include="Apps\UserControls\OccupancySelector.ascx" />
+    <Content Include="Apps\UserControls\OccupancySelector.js" />
+    <Content Include="Apps\UserControls\PaymentScheduleHeader.ascx" />
+    <Content Include="Apps\UserControls\PaymentScheduleSelector.ascx" />
+    <Content Include="Apps\UserControls\PaymentScheduleSelector.js" />
+    <Content Include="Apps\UserControls\RemittanceDetailSelector.ascx" />
+    <Content Include="Apps\UserControls\RemittanceDetailSelector.js" />
+    <Content Include="Apps\UserControls\RemittanceSelector.ascx" />
+    <Content Include="Apps\UserControls\RemittanceSelector.js" />
+    <Content Include="Apps\UserControls\ServiceDeliveryFileFilter.js" />
+    <Content Include="Apps\UserControls\ServiceDeliveryFileSelector.ascx" />
+    <Content Include="Apps\UserControls\ServiceDeliveryFileSelector.js" />
+    <Content Include="Apps\UserControls\ServiceOrderReports.ascx" />
+    <Content Include="Apps\UserControls\ViewProviderInvoiceNotes.ascx" />
+    <Content Include="Apps\UserControls\ViewProviderInvoiceNotes.js" />
+    <Content Include="Apps\UserControls\VisitAmendmentRequestEnquiryFilterStep.js" />
+    <Content Include="Apps\UserControls\VisitAmendmentRequestSelector.ascx" />
+    <Content Include="Apps\UserControls\VisitAmendmentRequestSelector.js" />
+    <Content Include="Apps\UserControls\WeekendingStep.js" />
+    <Content Include="Apps\WebSvc\Clients.asmx" />
+    <Content Include="Apps\WebSvc\Documents.asmx" />
+    <Content Include="Apps\WebSvc\DomContract.asmx" />
+    <Content Include="Apps\WebSvc\DomProfomaInvoice.asmx" />
+    <Content Include="Apps\WebSvc\DomProviderInvoice.asmx" />
+    <Content Include="Apps\WebSvc\DurationClaimedRounding.asmx" />
+    <Content Include="Apps\WebSvc\Establishments.asmx" />
+    <Content Include="Apps\WebSvc\GenericServiceOrder.asmx" />
+    <Content Include="Apps\WebSvc\Occupancy.asmx" />
+    <Content Include="Apps\WebSvc\PaymentSchedule.asmx" />
+    <Content Include="Apps\WebSvc\RequestPayments.asmx" />
+    <Content Include="Apps\WebSvc\ResPayments.asmx" />
+    <Content Include="Apps\WebSvc\ServiceDeliveryFile.asmx" />
+    <Content Include="bin\AbacusClasses.dll" />
+    <Content Include="bin\AbacusFunctions.dll" />
+    <Content Include="bin\AbacusInterfaces.dll" />
+    <Content Include="bin\AjaxControlToolkit.dll" />
+    <Content Include="bin\AjaxPro.2.dll" />
+    <Content Include="bin\AspManifestHelpers.dll" />
+    <Content Include="bin\Aspose.Cells.dll" />
+    <Content Include="bin\Aspose.Cells.xml" />
+    <Content Include="bin\Aspose.Pdf.Kit.dll" />
+    <Content Include="bin\Aspose.Pdf.Kit.xml" />
+    <Content Include="bin\Aspose.Words.dll" />
+    <Content Include="bin\Aspose.Words.xml" />
+    <Content Include="bin\AutoMapper.dll" />
+    <Content Include="bin\HtmlAgilityPack.dll" />
+    <Content Include="bin\Idunno.AntiCsrf.dll" />
+    <Content Include="bin\Interop.AbacusClasses.dll" />
+    <Content Include="bin\Interop.AbacusClientServer.dll" />
+    <Content Include="bin\Interop.AbacusLibrary.dll" />
+    <Content Include="bin\Ionic.Zip.dll" />
+    <Content Include="bin\Krystalware.SlickUpload.dll" />
+    <Content Include="bin\MSXML.dll" />
+    <Content Include="bin\Newtonsoft.Json.dll" />
+    <Content Include="bin\RecurrenceGenerator.dll" />
+    <Content Include="bin\Scripting.dll" />
+    <Content Include="bin\System.Web.Ajax.dll" />
+    <Content Include="bin\System.Web.Extensions.Design.dll" />
+    <Content Include="bin\System.Web.Extensions.dll" />
+    <Content Include="bin\Target.Abacus.Extranet.dll" />
+    <Content Include="bin\Target.Abacus.Extranet.pdb" />
+    <Content Include="bin\Target.Abacus.Extranet.xml" />
+    <Content Include="bin\Target.Abacus.Jobs.dll" />
+    <Content Include="bin\Target.Abacus.Jobs.pdb" />
+    <Content Include="bin\Target.Abacus.Jobs.xml" />
+    <Content Include="bin\Target.Abacus.Library.dll" />
+    <Content Include="bin\Target.Abacus.Library.pdb" />
+    <Content Include="bin\Target.Abacus.Library.xml" />
+    <Content Include="bin\Target.Library.dll" />
+    <Content Include="bin\Target.Library.pdb" />
+    <Content Include="bin\Target.Library.Web.dll" />
+    <Content Include="bin\Target.Library.Web.pdb" />
+    <Content Include="bin\Target.Library.Web.xml" />
+    <Content Include="bin\Target.Library.xml" />
+    <Content Include="bin\Target.Web.Apps.dll" />
+    <Content Include="bin\Target.Web.Apps.pdb" />
+    <Content Include="bin\Target.Web.Apps.xml" />
+    <Content Include="bin\VBA.dll" />
+    <Content Include="Default.aspx" />
+    <Content Include="Images\CompanyLogo.png" />
+    <Content Include="Images\ExtranetLogo.png" />
+    <Content Include="Images\Menu\administration.gif" />
+    <Content Include="Images\Menu\Administration_old.gif" />
+    <Content Include="Images\Menu\ContextMenuButton.gif" />
+    <Content Include="Images\Menu\Domiciliary.gif" />
+    <Content Include="Images\Menu\Home.gif" />
+    <Content Include="Images\Menu\Logout.gif" />
+    <Content Include="Images\Menu\Messaging.gif" />
+    <Content Include="Images\Menu\Payments.gif" />
+    <Content Include="Images\Menu\Residential.gif" />
+    <Content Include="Images\Menu\ServiceOrders.gif" />
+    <Content Include="Images\Menu\TopLevelMenuLeft.gif" />
+    <Content Include="Images\Menu\TopLevelMenuRight.gif" />
+    <Content Include="Setup\CopyInstallerFilesExclusions.txt" />
+    <Content Include="Setup\mEXEFunc.dll" />
+    <Content Include="Setup\mFileBagEXE.dll" />
+    <Content Include="Setup\mMSIExec.dll" />
+    <Content Include="Setup\mWinRunExec.dll" />
+    <Content Include="Setup\mXMLRun.dll" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <EmbeddedResource Include="Apps\Dom\ProviderInvoiceExt\Lister.aspx.resx">
+      <DependentUpon>Lister.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\Dom\ProviderInvoice\ViewStatement.aspx.resx">
+      <DependentUpon>ViewStatement.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\InPlaceSelectors\Clients.aspx.resx">
+      <DependentUpon>Clients.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\Reports\DomProviderInvoiceVisits.rdlc" />
+    <EmbeddedResource Include="Apps\Reports\PaymentReconciliation.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\Reports\UnProcessedNonVisitBasedProformaInvoices.rdlc" />
+    <EmbeddedResource Include="Apps\Reports\DomServiceOrderSuspension.rdlc" />
+    <EmbeddedResource Include="Apps\Reports\DomServiceOrderDetail.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\Reports\DomProviderInvoices.rdlc" />
+    <EmbeddedResource Include="Apps\Reports\DomServiceOrders.rdlc" />
+    <EmbeddedResource Include="Apps\Reports\SimpleListTemplate.rdlc" />
+    <EmbeddedResource Include="Apps\Res\OccupancyEnquiry.aspx.resx">
+      <DependentUpon>OccupancyEnquiry.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\Res\Payments\PaymentEnquiry.aspx.resx">
+      <DependentUpon>PaymentEnquiry.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\Res\Payments\SUPaymentEnquiry.aspx.resx">
+      <DependentUpon>SUPaymentEnquiry.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\Res\Payments\ViewRemittance.aspx.resx">
+      <DependentUpon>ViewRemittance.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\Res\Payments\ViewStatement.aspx.resx">
+      <DependentUpon>ViewStatement.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\Res\SUEnquiry.aspx.resx">
+      <DependentUpon>SUEnquiry.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\Res\ViewServiceUser.aspx.resx">
+      <DependentUpon>ViewServiceUser.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\UserControls\ClientSelector.ascx.resx">
+      <DependentUpon>ClientSelector.ascx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\UserControls\ManualDomProformaInvoiceSelector.ascx.resx">
+      <DependentUpon>ManualDomProformaInvoiceSelector.ascx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\UserControls\DomContractSelector.ascx.resx">
+      <DependentUpon>DomContractSelector.ascx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\UserControls\EstablishmentSelector.ascx.resx">
+      <DependentUpon>EstablishmentSelector.ascx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\UserControls\OccupancySelector.ascx.resx">
+      <DependentUpon>OccupancySelector.ascx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\UserControls\RemittanceDetailSelector.ascx.resx">
+      <DependentUpon>RemittanceDetailSelector.ascx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\UserControls\RemittanceSelector.ascx.resx">
+      <DependentUpon>RemittanceSelector.ascx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\WebSvc\Clients.asmx.resx">
+      <DependentUpon>Clients.asmx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\WebSvc\Establishments.asmx.resx">
+      <DependentUpon>Establishments.asmx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\WebSvc\Occupancy.asmx.resx">
+      <DependentUpon>Occupancy.asmx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\WebSvc\ResPayments.asmx.resx">
+      <DependentUpon>ResPayments.asmx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Default.aspx.resx">
+      <DependentUpon>Default.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="App_Code\Reports\DataSets\spxReports_NonResidentialServiceUserPaymentReconciliation.xsc">
+      <DependentUpon>spxReports_NonResidentialServiceUserPaymentReconciliation.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Reports\DataSets\spxReports_NonResidentialServiceUserPaymentReconciliation.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>spxReports_NonResidentialServiceUserPaymentReconciliation.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App_Code\Reports\DataSets\spxReports_NonResidentialServiceUserPaymentReconciliation.xss">
+      <DependentUpon>spxReports_NonResidentialServiceUserPaymentReconciliation.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Reports\DataSets\spxReports_DomProviderInvoicesWithNotes.xsc">
+      <DependentUpon>spxReports_DomProviderInvoicesWithNotes.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Reports\DataSets\spxReports_DomProviderInvoicesWithNotes.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>spxReports_DomProviderInvoicesWithNotes.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App_Code\Reports\DataSets\spxReports_DomProviderInvoicesWithNotes.xss">
+      <DependentUpon>spxReports_DomProviderInvoicesWithNotes.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Reports\DataSets\spxReport_DomiciliaryProviderInvoiceVisits.xsc">
+      <DependentUpon>spxReport_DomiciliaryProviderInvoiceVisits.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Reports\DataSets\spxReport_DomiciliaryProviderInvoiceVisits.xsd" />
+    <None Include="App_Code\Reports\DataSets\spxReport_DomiciliaryProviderInvoiceVisits.xss">
+      <DependentUpon>spxReport_DomiciliaryProviderInvoiceVisits.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Reports\DataSets\spxReport_ServiceOrderDetailsExtranet.xsc">
+      <DependentUpon>spxReport_ServiceOrderDetailsExtranet.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Reports\DataSets\spxReport_ServiceOrderDetailsExtranet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>spxReport_ServiceOrderDetailsExtranet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App_Code\Reports\DataSets\spxReport_ServiceOrderDetailsExtranet.xss">
+      <DependentUpon>spxReport_ServiceOrderDetailsExtranet.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Reports\DataSets\spxReport_ServiceOrdersExtranet.xsc">
+      <DependentUpon>spxReport_ServiceOrdersExtranet.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Reports\DataSets\spxReport_ServiceOrdersExtranet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>spxReport_ServiceOrdersExtranet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App_Code\Reports\DataSets\spxReport_ServiceOrdersExtranet.xss">
+      <DependentUpon>spxReport_ServiceOrdersExtranet.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Reports\DataSets\spxReport_ServiceOrderSuspensionsExtranet.xsc">
+      <DependentUpon>spxReport_ServiceOrderSuspensionsExtranet.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Reports\DataSets\spxReport_ServiceOrderSuspensionsExtranet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>spxReport_ServiceOrderSuspensionsExtranet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App_Code\Reports\DataSets\spxReport_ServiceOrderSuspensionsExtranet.xss">
+      <DependentUpon>spxReport_ServiceOrderSuspensionsExtranet.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Reports\DataSets\spxReport_UnProcessedNonVisitBasedProformaInvoices.xsc">
+      <DependentUpon>spxReport_UnProcessedNonVisitBasedProformaInvoices.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Reports\DataSets\spxReport_UnProcessedNonVisitBasedProformaInvoices.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>spxReport_UnProcessedNonVisitBasedProformaInvoices.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App_Code\Reports\DataSets\spxReport_UnProcessedNonVisitBasedProformaInvoices.xss">
+      <DependentUpon>spxReport_UnProcessedNonVisitBasedProformaInvoices.xsd</DependentUpon>
+    </None>
+    <None Include="bin\PostBuildEvent.bat" />
+    <None Include="bin\RegisterComDlls.bat" />
+    <None Include="bin\UnregisterComDlls.bat" />
+    <Content Include="Default.Master" />
+    <None Include="Setup\AbacusExtranet.mia" />
+    <None Include="Setup\AbacusExtranet.mia.bak" />
+    <None Include="Setup\AbacusExtranet.mia.brk" />
+    <None Include="Setup\AbacusExtranet.mia.fld" />
+    <None Include="Setup\AbacusExtranet.mpr" />
+    <None Include="Setup\AbacusExtranet.mpr.bak" />
+    <None Include="Setup\checkmsi31.mia" />
+    <None Include="Setup\checkmsxml60.mia" />
+    <None Include="Setup\checknet2sp1.mia" />
+    <None Include="Setup\checknet2sp2.mia" />
+    <None Include="Setup\checknet30.mia" />
+    <None Include="Setup\checknet351.mia" />
+    <None Include="Setup\checknet351charts.mia" />
+    <None Include="Setup\checknet3sp2.mia" />
+    <None Include="Setup\componentstree.dfm" />
+    <None Include="Setup\componentstree.dfm.miaf" />
+    <None Include="Setup\CopyInstallerFiles.bat" />
+    <None Include="Setup\destination.dfm" />
+    <None Include="Setup\destination.dfm.miaf" />
+    <None Include="Setup\dotNET.mia.brk" />
+    <None Include="Setup\finish.dfm" />
+    <None Include="Setup\finish.dfm.miaf" />
+    <None Include="Setup\instances.dfm" />
+    <None Include="Setup\instances.dfm.miaf" />
+    <None Include="Setup\licensecheck.dfm" />
+    <None Include="Setup\licensecheck.dfm.miaf" />
+    <None Include="Setup\maintenance.dfm" />
+    <None Include="Setup\maintenance.dfm.miaf" />
+    <None Include="Setup\prereq.dfm" />
+    <None Include="Setup\prereq.dfm.miaf" />
+    <None Include="Setup\progress.dfm" />
+    <None Include="Setup\progress.dfm.miaf" />
+    <None Include="Setup\progressprereq.dfm" />
+    <None Include="Setup\progressprereq.dfm.miaf" />
+    <None Include="Setup\readme.dfm" />
+    <None Include="Setup\readme.dfm.miaf" />
+    <None Include="Setup\registration.dfm" />
+    <None Include="Setup\registration.dfm.miaf" />
+    <None Include="Setup\registrationwithserial.dfm" />
+    <None Include="Setup\registrationwithserial.dfm.miaf" />
+    <None Include="Setup\setupmsi31.mia" />
+    <None Include="Setup\setupmsxml60.mia" />
+    <None Include="Setup\setupnet2sp1.mia" />
+    <None Include="Setup\setupnet2sp2.mia" />
+    <None Include="Setup\setupnet30.mia" />
+    <None Include="Setup\setupnet351.mia" />
+    <None Include="Setup\setupnet351.mia.bak" />
+    <None Include="Setup\setupnet351.mia.brk" />
+    <None Include="Setup\setupnet351.mia.fld" />
+    <None Include="Setup\setupnet351charts.mia" />
+    <None Include="Setup\setupnet3sp2.mia" />
+    <None Include="Setup\setuptype.dfm" />
+    <None Include="Setup\setuptype.dfm.miaf" />
+    <None Include="Setup\startinstallation.dfm" />
+    <None Include="Setup\startinstallation.dfm.miaf" />
+    <None Include="Setup\startmenu.dfm" />
+    <None Include="Setup\startmenu.dfm.miaf" />
+    <None Include="Setup\welcome.dfm" />
+    <None Include="Setup\welcome.dfm.miaf" />
+    <None Include="Setup\wizard.dfm" />
+    <None Include="Setup\wizard.dfm.miaf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Apps\Dom\ProviderInvoiceExt\Enquiry\" />
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>82</DevelopmentServerPort>
+          <DevelopmentServerVPath>/TargetWeb/AbacusExtranet</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup>
+    <PostBuildEvent>$(TargetDir)PostBuildEvent.bat</PostBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="spxReport_DomProviderInvoiceBatchSummary" targetNamespace="http://tempuri.org/spxReport_DomProviderInvoiceBatchSummary.xsd" xmlns:mstns="http://tempuri.org/spxReport_DomProviderInvoiceBatchSummary.xsd" xmlns="http://tempuri.org/spxReport_DomProviderInvoiceBatchSummary.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsPropertyName="AbacusBuild154Rebuild1ConnectionString" ConnectionStringObject="Data Source=MIKEVO-XP\SQL2005;Initial Catalog=AbacusBuild154Rebuild1;User ID=AbacusUser;Password=rack" IsAppSettingsProperty="false" Modifier="Assembly" Name="AbacusBuild154Rebuild1ConnectionString" ParameterPrefix="@" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="spxReport_DomProviderInvoiceBatchSummary" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="spxReport_DomProviderInvoiceBatchSummary" msprop:Generator_DataSetName="spxReport_DomProviderInvoiceBatchSummary" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Batch" msprop:Generator_UserTableName="Batch" msprop:Generator_RowDeletedName="BatchRowDeleted" msprop:Generator_RowChangedName="BatchRowChanged" msprop:Generator_RowClassName="BatchRow" msprop:Generator_RowChangingName="BatchRowChanging" msprop:Generator_RowEvArgName="BatchRowChangeEvent" msprop:Generator_RowEvHandlerName="BatchRowChangeEventHandler" msprop:Generator_TableClassName="BatchDataTable" msprop:Generator_TableVarName="tableBatch" msprop:Generator_RowDeletingName="BatchRowDeleting" msprop:Generator_TablePropName="Batch">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BatchRefFrom" msdata:ReadOnly="true" msprop:Generator_UserColumnName="BatchRefFrom" msprop:Generator_ColumnVarNameInTable="columnBatchRefFrom" msprop:Generator_ColumnPropNameInRow="BatchRefFrom" msprop:Generator_ColumnPropNameInTable="BatchRefFromColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BatchRefTo" msprop:Generator_UserColumnName="BatchRefTo" msprop:Generator_ColumnVarNameInTable="columnBatchRefTo" msprop:Generator_ColumnPropNameInRow="BatchRefTo" msprop:Generator_ColumnPropNameInTable="BatchRefToColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Created" msprop:Generator_UserColumnName="Created" msprop:Generator_ColumnVarNameInTable="columnCreated" msprop:Generator_ColumnPropNameInRow="Created" msprop:Generator_ColumnPropNameInTable="CreatedColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CreatedBy" msprop:Generator_UserColumnName="CreatedBy" msprop:Generator_ColumnVarNameInTable="columnCreatedBy" msprop:Generator_ColumnPropNameInRow="CreatedBy" msprop:Generator_ColumnPropNameInTable="CreatedByColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="InvoiceCount" msprop:Generator_UserColumnName="InvoiceCount" msprop:Generator_ColumnVarNameInTable="columnInvoiceCount" msprop:Generator_ColumnPropNameInRow="InvoiceCount" msprop:Generator_ColumnPropNameInTable="InvoiceCountColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="NetValue" msprop:Generator_UserColumnName="NetValue" msprop:Generator_ColumnVarNameInTable="columnNetValue" msprop:Generator_ColumnPropNameInRow="NetValue" msprop:Generator_ColumnPropNameInTable="NetValueColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="VAT" msprop:Generator_UserColumnName="VAT" msprop:Generator_ColumnVarNameInTable="columnVAT" msprop:Generator_ColumnPropNameInRow="VAT" msprop:Generator_ColumnPropNameInTable="VATColumn" type="xs:decimal" />
+              <xs:element name="TotalValue" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TotalValue" msprop:Generator_ColumnVarNameInTable="columnTotalValue" msprop:Generator_ColumnPropNameInRow="TotalValue" msprop:Generator_ColumnPropNameInTable="TotalValueColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Totals" msprop:Generator_UserTableName="Totals" msprop:Generator_RowDeletedName="TotalsRowDeleted" msprop:Generator_RowChangedName="TotalsRowChanged" msprop:Generator_RowClassName="TotalsRow" msprop:Generator_RowChangingName="TotalsRowChanging" msprop:Generator_RowEvArgName="TotalsRowChangeEvent" msprop:Generator_RowEvHandlerName="TotalsRowChangeEventHandler" msprop:Generator_TableClassName="TotalsDataTable" msprop:Generator_TableVarName="tableTotals" msprop:Generator_RowDeletingName="TotalsRowDeleting" msprop:Generator_TablePropName="Totals">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Creditor" msprop:Generator_UserColumnName="Creditor" msprop:Generator_ColumnVarNameInTable="columnCreditor" msprop:Generator_ColumnPropNameInRow="Creditor" msprop:Generator_ColumnPropNameInTable="CreditorColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CreditorName" msprop:Generator_UserColumnName="CreditorName" msprop:Generator_ColumnVarNameInTable="columnCreditorName" msprop:Generator_ColumnPropNameInRow="CreditorName" msprop:Generator_ColumnPropNameInTable="CreditorNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ContractNumber" msprop:Generator_UserColumnName="ContractNumber" msprop:Generator_ColumnVarNameInTable="columnContractNumber" msprop:Generator_ColumnPropNameInRow="ContractNumber" msprop:Generator_ColumnPropNameInTable="ContractNumberColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NetValue" msprop:Generator_UserColumnName="NetValue" msprop:Generator_ColumnVarNameInTable="columnNetValue" msprop:Generator_ColumnPropNameInRow="NetValue" msprop:Generator_ColumnPropNameInTable="NetValueColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="VAT" msprop:Generator_UserColumnName="VAT" msprop:Generator_ColumnVarNameInTable="columnVAT" msprop:Generator_ColumnPropNameInRow="VAT" msprop:Generator_ColumnPropNameInTable="VATColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TotalValue" msprop:Generator_UserColumnName="TotalValue" msprop:Generator_ColumnVarNameInTable="columnTotalValue" msprop:Generator_ColumnPropNameInRow="TotalValue" msprop:Generator_ColumnPropNameInTable="TotalValueColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CreditorRef" msprop:Generator_UserColumnName="CreditorRef" msprop:Generator_ColumnPropNameInRow="CreditorRef" msprop:Generator_ColumnVarNameInTable="columnCreditorRef" msprop:Generator_ColumnPropNameInTable="CreditorRefColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,168 @@
+/* Layout only stylesheet. Any colours, fonts, etc should go in Skin.css or the site-specific derivative */
+
+/* id-ed tag classes */
+#headerContainer { width: 100%; }
+/*	FireFox behaves "properly" and does not render the background colour of the header DIV as all the content within it is float-ed.
+	So, use the :after CSS2 pseudo-element to insert something to fool it. IE 6/7 do not support CSS2 but if they did, this should still work.
+*/
+#headerContainer:after { content: " "; display: block; height: 0em; clear: both; visibility: hidden; }
+/*#headerLeft { width:50%; float:left; margin:0; padding:0; }
+#headerRight { width:49.9999%; float:right; margin:0; padding:0; } */
+#pageLoading { visibility: hidden; position: absolute; right: 0px; top: 0px; padding: 0.25em 0.5em 0.25em 0.5em; }
+#subHeaderContainer { clear:both; width: 100%; height: 2.2em; border-bottom-width: 1px; }
+@media all { #timeoutWrapper { float: right; padding-top:0.5em; } }
+@media screen { #timeoutWrapper { width: 9em; } }
+#subHeaderPageTitle { float:left; padding:0.15em 0em 0em 0.5em; vertical-align: middle; }
+#textSizeContainer { float: right; vertical-align: middle; }
+#pageOverviewContainer { margin-bottom:0.75em; }
+@media all { #contentContainer { padding: 0.38em 1.75em 0.75em 1.75em; } }
+
+/*#footerContainer { clear: both; width: 100%; border-top-width: 1px; }*/
+
+/* custom, tag-specific classes */
+img.helpLinkImage { margin-top:0.24em; margin-right:0.25em; }
+div.testSystem { padding:0.2em; border-width:0.1em; float:right; }
+div.footerContent { height:2em; padding: 0.25em 0.75em 0.75em 0.75em; }
+div.timeoutVisible { display:inline; }
+fieldset.availableReports { float:left; width:35%; margin-right:1em; }
+fieldset.availableReports select { width:100%; }
+fieldset.selectedReport { float:left; width:55%; }
+div.availableReport { display:none;text-align:justify; }
+span.selectorWizardTitle { float:left; }
+
+
+/* new menu styles */
+@media screen {
+    div.menuContainer {
+        position:absolute;
+        top:1px;       /* top + height + 1px = height of top-left logo */
+        height:30px;    /* top-level menu height */
+        left:160px;     /* push left past top-left logo */
+        border-width:1px;
+        text-align:center;
+        z-index:9999;
+
+    }
+    div.menuContainer img.topLevelMenuBoundary {
+        float:left;
+    }
+    div.menuContainer ul#newNav {
+        border-top-style:solid;
+        border-top-width:1px;
+    }
+    div.menuContainer ul#newNav, 
+    div.menuContainer ul#newNav ul { 
+        list-style:none none outside;
+        padding:1px 0em 0em 0em;
+        margin:0em;
+        float:left;
+    }   
+    div.menuContainer ul#newNav li a {
+        display:inline-block;
+    }
+    div.menuContainer ul#newNav li.topLevel {
+	    float:left;
+	    height:30px;    /* top-level menu height */
+	    padding:0em;
+	    margin:0em;
+	    background-position:top left;
+	    background-repeat:no-repeat;
+    }    
+    div.menuContainer ul#newNav li.topLevel a.topLevel {
+        height:30px;    /* top-level menu height */
+        border-left-style:solid;
+        border-left-width:1px;
+        border-right-style:solid;
+        border-right-width:1px;
+    }
+    div.menuContainer ul#newNav li.topLevel:hover,
+    div.menuContainer ul#newNav li.topLevel a.topLevel:hover {
+        background-position:bottom left;
+    }
+    div.menuContainer ul#newNav li div.subnav {
+	    display:none;
+	    position:absolute;
+	    top:56px;       /* top-level menu height + border-top width for ul#newNav and ul#newNav ul styles above */
+	    text-align:left;
+	    border-top-style:solid;
+	    border-top-width:5px;
+	    border-bottom-style:solid;
+	    border-bottom-width:5px;
+	    border-left-style:solid;
+	    border-left-width:1px;
+	    border-right-style:solid;
+	    border-right-width:1px;
+    }
+    div.menuContainer ul#newNav li iframe { 
+        position:absolute;
+        display:none;
+        z-index:-1;
+    }
+    div.menuContainer ul#newNav ul.subnavContent {
+	    list-style:none none outside;
+	    margin:0em;
+        padding:0.25em 0.75em 0.75em 0.25em;
+        float:left;
+    }
+    div.menuContainer ul#newNav ul.subnavContent li {
+        height:auto;
+        margin:0.25em 0em 0em 0.50em;
+        padding:0em;
+        float:left;
+    }
+    div.menuContainer ul#newNav ul.subnavContent li dl {
+        margin:0em;
+    }
+    div.menuContainer ul#newNav ul.subnavContent li dl dt {
+        margin:0em;
+        padding:0.25em;
+    }
+    div.menuContainer ul#newNav ul.subnavContent li dl dd {
+        margin:0em;
+        padding:0.25em 0em 0em 0.50em;
+    }
+    div.menuContainer ul#newNav li:hover div.subnav { 
+        display:block;
+    }
+    
+    /* context menu */
+	ul.contextNav { 
+	    list-style:none none outside;
+	    margin:0em;
+	}
+	ul.contextNav li { 
+	    background-position:top left;
+	    background-repeat:no-repeat;
+	    height:44px;
+	    width:170px;
+	    margin:0em;
+    }
+    ul.contextNav li a { 
+        display:inline-block;
+	    white-space:nowrap;
+	    background-color:transparent;
+	    color:#ffffff;
+	    text-decoration:none;
+	    width:170px;
+	    height:40px;
+    }
+    ul.contextNav li a img {
+        margin:4px 0px 0px 4px;
+        vertical-align:top;
+    }
+    ul.contextNav li a span {
+        cursor:pointer;
+        padding:13px 0px 0px 10px;
+        display:inline-block;
+        height:27px;
+    }
+    ul.contextNav li:hover,
+    ul.contextNav li a:hover {
+        background-position:bottom left;
+    }
+}
+@media print { 
+    div.menuContainer { display:none; }
+    ul.contextNav { display:none; }
+}
+/* end of new menu styles */
